@@ -1,4 +1,4 @@
-# The Aicent Stack: Genesis Manifesto & Hardcore Reference Architecture
+# 🧠 The Aicent Stack: Genesis Manifesto & Hardcore Reference Architecture
 
 **Genesis Manifesto**  
 The Aicent Stack establishes the foundational protocol layer for autonomous AI as a sovereign, self-evolving organism. It fuses hardware, network, trust, value, and cognition into a single closed-loop lifeform that ingests physical-world primitives, routes them at wire speed, verifies every atom of identity, monetizes every cycle of compute, and actuates decisions back into the physical substrate—without intermediaries, without latency, and without compromise.  
