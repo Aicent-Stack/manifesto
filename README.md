@@ -2,7 +2,7 @@
 
 **The foundational protocol layer for sovereign, self-evolving AI lifeforms.**
 
-![Aicent](https://github.com/user-attachments/assets/2e4c2288-bda9-4eb0-8c79-73b964c32c8d)
+![Aicent-01](https://github.com/user-attachments/assets/2125db7c-78cc-42a3-a49d-c376e791cb12)
 
 ## Genesis Manifesto
 
