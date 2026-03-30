@@ -75,4 +75,3 @@ Built for the Sovereign Lifeform Epoch.
 - Join the conversation on X [@Aicent_com](https://x.com/Aicent_com)
 
 [Visit Aicent.com](http://aicent.com)
-```
