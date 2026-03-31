@@ -23,23 +23,23 @@ This is not infrastructure *for* intelligence.
 
 The Aicent Stack is a **five-in-one biological protocol system**:
 
-1. **Aicent (Brain)** — Autonomous decision hub and intelligent scheduling center  
+1. **Aicent.com (Brain)** — Autonomous decision hub and intelligent scheduling center  
    [→ Repository](https://github.com/Aicent-Stack/aicent)  
    Decomposes agent tasks into primitives, selects optimal compute nodes via semantic routing, and maintains the global evolutionary feedback loop.
 
-2. **RTTP (Nerves)** — Real-Time Transfer Protocol; the nervous system of sovereign AI  
+2. **RTTP.com (Nerves)** — Real-Time Transfer Protocol; the nervous system of sovereign AI  
    [→ Repository](https://github.com/Aicent-Stack/rttp)  
    Stateful, bidirectional, event-driven persistent connections. Sub-millisecond Pulse Frame. Semantic routing. Eliminates HTTP overhead.
 
-3. **RPKI (Immunity)** — Zero-trust security immune system and root of trust  
+3. **RPKI.com (Immunity)** — Zero-trust security immune system and root of trust  
    [→ Repository](https://github.com/Aicent-Stack/rpki)  
    Resource Public Key Infrastructure with fingerprints embedded in every packet. Instant isolation of malicious nodes.
 
-4. **ZCMK (Blood)** — Zero-Commission Compute Market; native value circulation layer  
+4. **ZCMK.com (Blood)** — Zero-Commission Compute Market; native value circulation layer  
    [→ Repository](https://github.com/Aicent-Stack/zcmk)  
    <1 ms settlement, 0 % commission, atomic payout. Real-time metering of every RTTP session.
 
-5. **GTIOT (Body)** — Global Trusted IoT; embodied edge sensing and actuation layer  
+5. **GTIOT.com (Body)** — Global Trusted IoT; embodied edge sensing and actuation layer  
    [→ Repository](https://github.com/Aicent-Stack/gtiot)  
    1.2 billion+ sensors. Physical-world primitives → authenticated semantic streams → actuation with shadow-state sync.
 
