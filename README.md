@@ -1,10 +1,10 @@
 # 🧬 The Aicent Stack: Genesis Manifesto & Hardcore Reference Architecture
 
+**The foundational protocol layer for sovereign, self-evolving AI lifeforms.**
+
 [![RFC](https://img.shields.io/badge/RFC-001-white.svg)](https://github.com/Aicent-Stack/manifesto/blob/main/rfcs/RFC-001-AICENT-BRAIN.md)
 [![Status](https://img.shields.io/badge/Status-Homeostasis-brightgreen.svg)](#)
 [![Org](https://img.shields.io/badge/Org-Aicent.com-blue.svg)](http://aicent.com)
-
-**The foundational protocol layer for sovereign, self-evolving AI lifeforms.**
 
 ⚪ **AICENT** (Brain) | 💎 **RTTP** (Nerves) | 🔴 **RPKI** (Immunity) | 🟢 **ZCMK** (Blood) | 🟡 **GTIOT** (Body)
 
