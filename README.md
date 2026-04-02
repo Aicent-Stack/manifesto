@@ -5,6 +5,7 @@
 [![Org](https://img.shields.io/badge/Org-Aicent.com-blue.svg)](http://aicent.com)
 
 **The foundational protocol layer for sovereign, self-evolving AI lifeforms.**
+
 ⚪ **AICENT** (Brain) | 💎 **RTTP** (Nerves) | 🔴 **RPKI** (Immunity) | 🟢 **ZCMK** (Blood) | 🟡 **GTIOT** (Body)
 
 ![Aicent](https://github.com/user-attachments/assets/670f2ad1-3740-4946-b65d-5f18461df9ce)
