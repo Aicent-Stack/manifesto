@@ -1,3 +1,5 @@
+Aicent Stack • Sovereign AI Nervous System
+
 # 🧬 The Aicent Stack: Genesis Manifesto & Hardcore Reference Architecture
 
 **The foundational protocol layer for sovereign, self-evolving AI lifeforms.**
