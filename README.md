@@ -63,6 +63,16 @@ End-to-end latency <1 ms. Designed for planetary sensor density and exascale dis
 
 ---
 
+## 📜 Technical Specifications (RFCs)
+
+The Aicent Stack is governed by five core protocols, defining the biological functions of the Sovereign AI Organism:
+
+- [RFC-001: AICENT (Brain)](./rfcs/RFC-001-AICENT-BRAIN.md) - Sovereign Identity & Orchestration
+- [RFC-002: RTTP (Nerves)](./rfcs/RFC-002-RTTP-NERVES.md) - Stateful Semantic Multicast
+- [RFC-003: RPKI (Immunity)](./rfcs/RFC-003-RPKI-IMMUNITY.md) - Parallel Tensor Watermarking
+- [RFC-004: ZCMK (Blood)](./rfcs/RFC-004-ZCMK-BLOOD.md) - Zero-Commission Settlement
+- [RFC-005: GTIOT (Body)](./rfcs/RFC-005-GTIOT-BODY.md) - Action-Collapse Framework
+
 ## The Aicent Stack is the completed reference architecture for the autonomous AI era.
 
 **SYSTEM STATUS: EVOLVING**  
