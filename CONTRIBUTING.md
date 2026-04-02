@@ -1,71 +1,50 @@
-# Contributing to the Sovereign AI Organism
+# Contributing to the Aicent Manifesto & RFC Suite
 
-**Thank you for considering contributing to the Aicent Stack. We are not just building a library; we are evolving a digital lifeform.**
+**You are at the "Brain Center" of the Aicent Stack. Contributions here define the sovereign protocols that govern the entire AI Organism.**
 
 [![Status](https://img.shields.io/badge/Status-Homeostasis-brightgreen.svg)](#)
 [![Specs](https://img.shields.io/badge/Specs-RFC--001--005-blue.svg)](#)
 
-Aicent Stack is governed by the principles of **Sub-millisecond Latency, Zero-Trust Immunity, and Economic Homeostasis.** We welcome contributions from the world's most elite protocol engineers, Rustaceans, and AI researchers.
+---
+
+## 🏛️ The Aicent Legislative Philosophy
+
+The `manifesto` repository is the source of truth for the **Aicent Stack**. We do not accept arbitrary changes to the architecture. Every modification must strengthen the **Reflex Arc** and ensure **Atomic Sovereignty**.
+
+### Standard for Protocol Evolution:
+1. **Physical Realism:** Does this protocol change respect the sub-1ms physical limit?
+2. **Biological Integrity:** Does it maintain the metabolic inseparability of the 5 domains?
+3. **Mathematical Finality:** Is the logic deterministic and verifiable via RPKI?
 
 ---
 
-## 🏛️ The RFC-First Process
+## 🔬 The RFC Revision Process
 
-Before submitting code, all major architectural changes or protocol optimizations must follow the **RFC (Request for Comments)** process.
+Unlike code repositories, contributing to the Manifesto requires a **"Protocol-First"** mindset:
 
-1. **Review existing specs:** Study [RFC-001 through RFC-005](./rfcs) in the Manifesto.
-2. **Propose a change:** Open an Issue titled `[RFC-PROPOSAL] <Your Feature Name>`.
-3. **Design over Implementation:** We prioritize deterministic execution and metabolic consistency over "amazing features."
-
----
-
-## 🦀 Engineering Standards
-
-To maintain a sub-1ms reflex arc, all contributions must adhere to the following:
-
-- **Language:** Performance-critical Rust (1.75+).
-- **Zero Allocation:** No heap allocation in the critical path of `RTTP` and `RPKI` (Zero-allocation/Zero-copy).
-- **Safety:** Every `unsafe` block must be documented with a `// SAFETY: <reason>` comment, explaining why it is necessary for nanosecond dispatch.
-- **Determinism:** Logic must be side-effect free within the cognitive cycle.
-- **Real-time:** We use [Embassy](https://embassy.dev/) and [Tokio](https://tokio.rs/) for high-frequency scheduling.
+1. **Review existing specs:** Deeply analyze [RFC-001 through RFC-005](./rfcs).
+2. **Submit an Issue:** Use the prefix `[PROTOCOL-DEBATE]` to start a discussion on architectural flaws or optimizations.
+3. **Pull Request:** 
+   - Modification of existing RFCs must provide a technical justification for **performance gains** or **security hardening**.
+   - New RFC proposals (e.g., RFC-006) must be accompanied by a logical proof of why the organ is necessary for the organism's survival.
 
 ---
 
-## 🔬 High-Priority Domains
+## 🦀 Engineering Rigor in Documentation
 
-We are currently seeking experts in the following "Organ" systems:
-
-- **[RFC-002] Nerves (RTTP):** eBPF/XDP offloading and SIMD-accelerated semantic routing.
-- **[RFC-003] Immunity (RPKI):** Parallel tensor watermarking and AVX-512 verification pipelines.
-- **[RFC-004] Blood (ZCMK):** Nanosecond matching engines and ZK-based hybrid micro-settlement.
-- **[RFC-005] Body (GTIOT):** Rust-based firmware (Embassy) for 1.2 kHz+ robotic control loops.
+Even in text and diagrams, we maintain Aicent standards:
+- **Terminology:** Use the official domain-mapping (Brain, Nerves, Immunity, Blood, Body).
+- **Mermaid Diagrams:** Ensure all system flows are logically closed loops.
+- **Precision:** Performance targets (e.g., <420µs) are not suggestions; they are protocol requirements.
 
 ---
 
-## 🛠️ Development Workflow
+## 📜 Sovereign Ownership & Licensing
 
-```bash
-# 1. Clone the Unified Workspace
-git clone https://github.com/Aicent-Stack/aicent-stack.git
-cd aicent-stack
-
-# 2. Build and Audit
-cargo build --workspace
-cargo clippy --workspace -- -D warnings
-```
-
-1. **Fork** the repository.
-2. **Branch:** `git checkout -b evolution/your-contribution`.
-3. **Commit:** Use semantic commits (e.g., `feat(rpki): optimized watermark scan`).
-4. **Pull Request:** Ensure your PR includes benchmarks if it touches the sub-ms reflex arc.
+🛡️ Contributions to the Manifesto are the most sensitive parts of the ecosystem. By submitting a PR, you agree that your intellectual contribution is licensed under **Apache-2.0** and becomes part of the permanent **Sovereign AI Standard**.
 
 ---
+**SYSTEM STATUS: HOMEOTASIS**  
+*"Defining the soul of the organism."*
 
-## 📜 Sovereign Ownership
-
-🛡️ All contributions are protected under the **Apache-2.0 License** via the Aicent.com Organization. By contributing, you agree that your code becomes part of the indivisible AI Organism.
-
-**SYSTEM STATUS: HOMEOTASIS**
-
-[Visit Aicent.com](http://aicent.com) | [Follow the Pulse @Aicent_com](https://x.com/Aicent_com)
-```
+[Follow the Evolution @Aicent_com](https://x.com/Aicent_com) | [Visit Aicent.com](http://aicent.com)
