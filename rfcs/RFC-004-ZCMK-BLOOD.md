@@ -1,7 +1,7 @@
 # RFC-004: ZCMK (The Blood)
 ## Real-Time Bid/Ask (RTBA) Zero-Commission Settlement Protocol
 
-**Domain:** [ZCMK.com](https://zcmk.com)
+**Domain:** [ZCMK.com](http://zcmk.com)
 **Status:** Hyper-Liquidity / Active
 **Version:** 0.1.0
 
