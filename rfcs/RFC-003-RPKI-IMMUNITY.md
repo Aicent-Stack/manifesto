@@ -16,3 +16,5 @@ RFC-003 defines the biological defense system. It ensures the integrity of every
 ### 3. Security Specification
 - 99.99% Identity Integrity via ROA-style verification.
 - Mandatory 300µs quarantine latency for any pulse failing signature validation.
+
+### Inspired by the foundational work of RFC 6480, but evolved for nanosecond AI impulse telemetry.
