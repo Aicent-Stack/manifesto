@@ -52,3 +52,20 @@ cd aicent-stack
 # 2. Build and Audit
 cargo build --workspace
 cargo clippy --workspace -- -D warnings
+```
+
+1. **Fork** the repository.
+2. **Branch:** `git checkout -b evolution/your-contribution`.
+3. **Commit:** Use semantic commits (e.g., `feat(rpki): optimized watermark scan`).
+4. **Pull Request:** Ensure your PR includes benchmarks if it touches the sub-ms reflex arc.
+
+---
+
+## 📜 Sovereign Ownership
+
+🛡️ All contributions are protected under the **Apache-2.0 License** via the Aicent.com Organization. By contributing, you agree that your code becomes part of the indivisible AI Organism.
+
+**SYSTEM STATUS: HOMEOTASIS**
+
+[Visit Aicent.com](http://aicent.com) | [Follow the Pulse @Aicent_com](https://x.com/Aicent_com)
+```
