@@ -19,6 +19,16 @@ This is not infrastructure *for* intelligence.
 - **Native Economics** — Value circulation is embedded in the transport layer; zero-commission settlement is atomic with compute usage.  
 - **Embodiment** — Edge primitives (sensing and actuation) are first-class citizens, synchronized bidirectionally with the inference core.
 
+## 📜 Technical Specifications (RFCs)
+
+The Aicent Stack is governed by five core protocols, defining the biological functions of the Sovereign AI Organism:
+
+- [RFC-001: AICENT (Brain)](./rfcs/RFC-001-AICENT-BRAIN.md) - Sovereign Identity & Orchestration
+- [RFC-002: RTTP (Nerves)](./rfcs/RFC-002-RTTP-NERVES.md) - Stateful Semantic Multicast
+- [RFC-003: RPKI (Immunity)](./rfcs/RFC-003-RPKI-IMMUNITY.md) - Parallel Tensor Watermarking
+- [RFC-004: ZCMK (Blood)](./rfcs/RFC-004-ZCMK-BLOOD.md) - Zero-Commission Settlement
+- [RFC-005: GTIOT (Body)](./rfcs/RFC-005-GTIOT-BODY.md) - Action-Collapse Framework
+
 ## Hardcore Reference Architecture
 
 The Aicent Stack is a **five-in-one biological protocol system**:
@@ -62,16 +72,6 @@ Protocol-level RPKI enforcement at connection, packet, and transaction boundarie
 End-to-end latency <1 ms. Designed for planetary sensor density and exascale distributed inference with zero central choke points.
 
 ---
-
-## 📜 Technical Specifications (RFCs)
-
-The Aicent Stack is governed by five core protocols, defining the biological functions of the Sovereign AI Organism:
-
-- [RFC-001: AICENT (Brain)](./rfcs/RFC-001-AICENT-BRAIN.md) - Sovereign Identity & Orchestration
-- [RFC-002: RTTP (Nerves)](./rfcs/RFC-002-RTTP-NERVES.md) - Stateful Semantic Multicast
-- [RFC-003: RPKI (Immunity)](./rfcs/RFC-003-RPKI-IMMUNITY.md) - Parallel Tensor Watermarking
-- [RFC-004: ZCMK (Blood)](./rfcs/RFC-004-ZCMK-BLOOD.md) - Zero-Commission Settlement
-- [RFC-005: GTIOT (Body)](./rfcs/RFC-005-GTIOT-BODY.md) - Action-Collapse Framework
 
 ## The Aicent Stack is the completed reference architecture for the autonomous AI era.
 
