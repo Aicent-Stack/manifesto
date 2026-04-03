@@ -47,7 +47,7 @@ In a **Project SWARM** implementation, RFC-006 transforms the Aicent Stack into 
 ---
 
 ### 5. Heritage & Operational Authority
-*Built upon the crossroads where global telecom once converged, RFC-006 repurposes the **Aicent.net** heritage. We are evolving the concept of "Global Roaming" into "Collective Resonance." The Hive inherits the reliability of 20+ years of planetary-scale connectivity to host the next epoch of digital civilization.*
+*RFC-006 repurposes the historical **Aicent.net** namespace, a crossroads that once defined the era of global data roaming. We are evolving this legacy of interconnectivity into a protocol of **Collective Resonance**. By deploying the Hive-Mind architecture upon these original digital coordinates, Aicent Stack honors the transition from dumb data exchange to sovereign collective intelligence, hosting the next epoch of digital civilization.*
 
 ---
 **SYSTEM STATUS: EVOLVING (HIVE-PHASE)**  
