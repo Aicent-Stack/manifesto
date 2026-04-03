@@ -28,7 +28,7 @@ Ensures perfect parity between the digital brain and the physical substrate.
 - **Autonomous Fallback:** If the neural connection is severed, the node utilizes 4th-order dead-reckoning to execute safe trajectories independently for up to 5ms.
 
 #### 2.4 Kinetic Resonance (RFC-006 Hive Integration)
-GTIOT enables collective physical movement across the [Aicent.net](https://aicent.net) grid.
+GTIOT enables collective physical movement across the [Aicent.net](http://aicent.net) grid.
 - **Swarm Alignment:** Synchronizes the Action-Collapse parameters across hundreds of units with **< 50µs temporal jitter**.
 - **Coordinated Reflex:** Allows a Hive (RFC-006) to execute complex kinetic maneuvers (e.g., swarm formation) as a single coordinated entity.
 
