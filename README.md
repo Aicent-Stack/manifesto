@@ -1,4 +1,7 @@
-Aicent Stack • Sovereign AI Nervous System
+> [!IMPORTANT]
+> ### 🔥 v0.2.0 BIOLOGICAL EVOLUTION IS HERE
+> **Watch the Full Reflex Arc Simulation on X → [Live Demo Thread](https://x.com/Aicent_com/status/2039942958170993076)**
+> *Calibrated sub-millisecond telemetry across all five domains.*
 
 # 🧬 The Aicent Stack: Genesis Manifesto & Hardcore Reference Architecture
 
