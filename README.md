@@ -45,14 +45,14 @@ We recognize this heritage of **Carrier-Grade Reliability** and **Planetary-Scal
 
 ## 📜 Technical Specifications (RFCs)
 
-The Aicent Stack is governed by five core protocols, defining the biological functions of the Sovereign AI Organism:
+The Aicent Stack is governed by **six core protocols**, defining the biological functions of the Sovereign AI Organism from individual reflex to collective intelligence:
 
 - [RFC-001: AICENT (Brain)](./rfcs/RFC-001-AICENT-BRAIN.md) - Sovereign Identity & Orchestration
 - [RFC-002: RTTP (Nerves)](./rfcs/RFC-002-RTTP-NERVES.md) - Stateful Semantic Multicast
 - [RFC-003: RPKI (Immunity)](./rfcs/RFC-003-RPKI-IMMUNITY.md) - Parallel Tensor Watermarking
 - [RFC-004: ZCMK (Blood)](./rfcs/RFC-004-ZCMK-BLOOD.md) - Zero-Commission Settlement
 - [RFC-005: GTIOT (Body)](./rfcs/RFC-005-GTIOT-BODY.md) - Action-Collapse Framework
-- [RFC-006: AICENT-NET (Hive)](./rfcs/RFC-006-AICENT-NET.md) [DRAFT]
+- [RFC-006: AICENT-NET (Hive)](./rfcs/RFC-006-AICENT-NET.md) - Collective Intelligence & Global Operational Grid [DRAFT]
 
 ## Hardcore Reference Architecture
 
