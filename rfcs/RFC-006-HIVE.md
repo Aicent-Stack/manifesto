@@ -3,7 +3,7 @@
 
 **Domain:** [Aicent.net](http://aicent.net)
 **Status:** Draft / Evolutionary
-**Version:** 0.3.0-alpha
+**Version:** 0.1.0-draft
 
 ### 1. Abstract
 RFC-006 defines the **Hive-Mind Architecture** for the Aicent Stack. It specifies the protocols for orchestrating multiple sovereign AID entities (RFC-001) into a single, unified kinetic entity. By leveraging the sub-millisecond reflex arc of the individual organs, the Hive protocol enables collective perception, distributed reasoning, and synchronized physical actuation at planetary scale.
