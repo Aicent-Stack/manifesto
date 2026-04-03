@@ -52,6 +52,7 @@ The Aicent Stack is governed by five core protocols, defining the biological fun
 - [RFC-003: RPKI (Immunity)](./rfcs/RFC-003-RPKI-IMMUNITY.md) - Parallel Tensor Watermarking
 - [RFC-004: ZCMK (Blood)](./rfcs/RFC-004-ZCMK-BLOOD.md) - Zero-Commission Settlement
 - [RFC-005: GTIOT (Body)](./rfcs/RFC-005-GTIOT-BODY.md) - Action-Collapse Framework
+- [RFC-006: AICENT-NET (Hive)](./rfcs/RFC-006-AICENT-NET.md) [DRAFT]
 
 ## Hardcore Reference Architecture
 
