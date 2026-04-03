@@ -6,7 +6,7 @@
 **Version:** 0.1.0-draft
 
 ### 1. Abstract
-RFC-006 defines the **Operational Grid Architecture** for the Aicent Stack, executed via the [Aicent.net](https://aicent.net) namespace. It specifies the protocols for orchestrating multiple sovereign AID entities (RFC-001) into a single, unified hive entity. By leveraging the legacy of carrier-grade distribution, this protocol enables collective perception, distributed reasoning, and synchronized physical actuation at planetary scale.
+RFC-006 defines the **Operational Grid Architecture** for the Aicent Stack, executed via the [Aicent.net](http://aicent.net) namespace. It specifies the protocols for orchestrating multiple sovereign AID entities (RFC-001) into a single, unified hive entity. By leveraging the legacy of carrier-grade distribution, this protocol enables collective perception, distributed reasoning, and synchronized physical actuation at planetary scale.
 
 ### 2. Core Mechanisms
 - **Kinetic Resonance:** A sub-50µs synchronization technique that aligns the "Action-Collapse" (RFC-005) motor primitives across the hive. This ensures the collective swarm operates with the temporal precision of a single organism.
