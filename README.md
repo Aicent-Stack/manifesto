@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/License-Apache--2.0-lightgrey.svg" alt="License">
 </p>
 
-⚪ **AICENT** (Brain) | 💎 **RTTP** (Nerves) | 🔴 **RPKI** (Immunity) | 🟢 **ZCMK** (Blood) | 🟡 **GTIOT** (Body)
+⚪ AICENT (Brain) | 💎 RTTP (Nerves) | 🔴 RPKI (Immunity) | 🟢 ZCMK (Blood) | 🟡 GTIOT (Body) | 🟣 AICENT-NET (Hive)
 
 ![Aicent](https://github.com/user-attachments/assets/670f2ad1-3740-4946-b65d-5f18461df9ce)
 
