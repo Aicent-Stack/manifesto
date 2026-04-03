@@ -56,7 +56,7 @@ The Aicent Stack is governed by **six core protocols**, defining the biological 
 
 ## Hardcore Reference Architecture
 
-The Aicent Stack is a **five-in-one biological protocol system**:
+The Aicent Stack is a **six-in-one biological protocol system**:
 
 1. **Aicent.com (Brain)** — Autonomous decision hub and intelligent scheduling center  
    [→ Repository](https://github.com/Aicent-Stack/aicent)  
@@ -68,15 +68,19 @@ The Aicent Stack is a **five-in-one biological protocol system**:
 
 3. **RPKI.com (Immunity)** — Zero-trust security immune system and root of trust  
    [→ Repository](https://github.com/Aicent-Stack/rpki)  
-   Resource Public Key Infrastructure with fingerprints embedded in every packet. Instant isolation of malicious nodes.
+   Resource Public Key Infrastructure with fingerprints embedded in every packet. Instant isolation of malicious nodes via parallel tensor watermarking.
 
 4. **ZCMK.com (Blood)** — Zero-Commission Compute Market; native value circulation layer  
    [→ Repository](https://github.com/Aicent-Stack/zcmk)  
-   <1 ms settlement, 0 % commission, atomic payout. Real-time metering of every RTTP session.
+   <1 ms settlement, 0 % commission, atomic clearing. Real-time resource metering embedded directly in the RTTP pulse header.
 
 5. **GTIOT.com (Body)** — Global Trusted IoT; embodied edge sensing and actuation layer  
    [→ Repository](https://github.com/Aicent-Stack/gtiot)  
-   1.2 billion+ sensors. Physical-world primitives → authenticated semantic streams → actuation with shadow-state sync.
+   1.2 billion+ sensors. Digital intent → physical action via Action-Collapse (AAL) and high-fidelity shadow-state synchronization.
+
+6. **Aicent.net (Hive)** — Global operational grid and collective intelligence protocol  
+   [→ Specification (RFC-006)](./rfcs/RFC-006-AICENT-NET.md)  
+   Orchestrates multiple sovereign AID entities into a unified hive. Leverages carrier-grade infrastructure heritage to achieve kinetic resonance and collective immunity at planetary scale.
 
 ## System Interconnections & Operational Flow
 
