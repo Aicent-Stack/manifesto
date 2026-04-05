@@ -1,3 +1,4 @@
+[![Organism Vitality & Protocol Audit](https://github.com/Aicent-Stack/aicent-stack/actions/workflows/rust-ci.yml/badge.svg)](https://github.com/Aicent-Stack/aicent-stack/actions/workflows/rust-ci.yml)
 > [!IMPORTANT]
 > ### 🔥 v0.2.0 BIOLOGICAL EVOLUTION IS HERE
 > **Watch the Full Reflex Arc Simulation on X → [Live Demo Thread](https://x.com/Aicent_com/status/2039942958170993076)**
