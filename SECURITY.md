@@ -15,7 +15,7 @@ Only the latest evolutionary releases are officially supported for security audi
 We encourage responsible disclosure of potential "Pathogens" (vulnerabilities). If you identify a logic flaw in the **RTTP** neural spine, a watermark bypass in **RPKI**, or a settlement exploit in **ZCMK**, please follow the sovereign reporting protocol:
 
 1.  **Do not open a public issue.** Security is a private reflex until a patch is deployed.
-2.  **Submit your findings via encrypted pulse:** Send a detailed report to **security@aicent.com**.
+2.  **Submit your findings via encrypted pulse:** Send a detailed report to **lee@aicent.com**.
 3.  **Required Information:** 
     - A detailed description of the vulnerability.
     - Steps to reproduce the anomaly in the `aicent-demo` environment.
