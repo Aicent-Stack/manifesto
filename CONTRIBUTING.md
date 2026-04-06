@@ -13,9 +13,6 @@
 
 **You are at the "Legislative Core" of the Aicent Stack. Contributions here define the sovereign protocols that govern the entire six-domain AI Organism.**
 
-[![Status](https://img.shields.io/badge/Status-Homeostasis-brightgreen.svg)](#)
-[![Specs](https://img.shields.io/badge/Specs-RFC--001--006-blue.svg)](#)
-
 ---
 
 ## 🏛️ The Aicent Legislative Philosophy
