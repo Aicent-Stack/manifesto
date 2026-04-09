@@ -6,7 +6,6 @@
   <img src="https://img.shields.io/badge/Specs-RFC--001--006-blue.svg" alt="Specs">
   <img src="https://img.shields.io/badge/License-Apache--2.0-lightgrey.svg" alt="License">
 </p>
-***
 
 # 📜 Contributing to the Aicent Manifesto & Seven-Pillar RFC Suite
 
