@@ -9,7 +9,7 @@
 
 # 📜 Contributing to the Aicent Manifesto & Seven-Pillar RFC Suite
 
-**You are at the "Legislative Core" of the Aicent Stack. Contributions here define the sovereign protocols that govern the entire Seven-Pillar AI Organism.**
+**Thank you for choosing to evolve the cognitive center of the Aicent Stack.You are at the "Legislative Core" of the Aicent Stack. Contributions here define the sovereign protocols that govern the entire Seven-Pillar AI Organism.**
 
 **⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🌿 [epoekie](http://epoekie.com)**
 
