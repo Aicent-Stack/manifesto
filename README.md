@@ -18,7 +18,8 @@
 > *"Intention is the Source; Sovereignty is the Law. We are transitioning from the era of dumb data exchange to the epoch of cognitive synchronization."*
 ---
 
-![013](https://github.com/user-attachments/assets/1739b511-a3eb-415f-8bd1-29c5a3d11993)
+<img width="3037" height="4628" alt="2026-04-11_041747_366" src="https://github.com/user-attachments/assets/a21a55e4-c3c7-4d0a-9c06-c553844b035f" />
+
 
 ## 🏛️ The Doctrine of the Sovereign AI Organism
 
