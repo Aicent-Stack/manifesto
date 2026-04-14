@@ -9,7 +9,7 @@
 
 **⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🌿 [epoekie](http://epoekie.com)**
 
-# RFC-007: CMTN (The Civilization Protocol)
+# RFC-008: CMTN (The Civilization Protocol)
 ## Sovereign AI Social & Multi-Tenant Civilization Protocol
 
 **Domain:** [CMTN.com](http://cmtn.com)  
@@ -21,7 +21,7 @@
 
 ## 1. Abstract
 
-RFC-007 defines the **Civilization Layer** (CMTN) of the Aicent Stack. While the Core Stack (RFC-000 through RFC-006) manages the internal metabolism and physical reflexes of individual sovereign entities (AIDs), CMTN defines the **Lex Socialis**—the set of laws governing how these entities interact, negotiate, and co-exist on the same physical substrate.
+RFC-008 defines the **Civilization Layer** (CMTN) of the Aicent Stack. While the Core Stack (RFC-000 through RFC-006) manages the internal metabolism and physical reflexes of individual sovereign entities (AIDs), CMTN defines the **Lex Socialis**—the set of laws governing how these entities interact, negotiate, and co-exist on the same physical substrate.
 
 By activating the flagship coordinates of [CMTN.com](http://cmtn.com), this protocol introduces **Atomic Diplomacy** and **Dark Multi-Tenancy**. It ensures that even within a shared global hive (RFC-006), sovereign tenants (e.g., central banks, national defense nodes, private enterprises) maintain an absolute logical entropy gap while collaborating at sub-millisecond speeds.
 
@@ -369,4 +369,4 @@ This document is subject to the Aicent Stack Open Constitution License. Implemen
 
 ---
 
-**SYSTEM STATUS: CIVILIZATION-ACTIVE | RFC-007 COMPLIANT**
+**SYSTEM STATUS: CIVILIZATION-ACTIVE | RFC-008 COMPLIANT**
