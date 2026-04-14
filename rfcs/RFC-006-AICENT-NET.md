@@ -163,6 +163,7 @@ The grid self-organizes into affinity groups based on task complexity and geogra
 - **Strategic Hive decisions must reach 100% finality within 3 RTTP pulse cycles**
 - **Consensus Protocol:** Byzantine Fault Tolerant (BFT)
 - **Decision Latency:** < 2.5ms (3 × 833.333µs RTTP cycles)
+- **Hive-level consensus must integrate with the IQA-ORG Seal (RFC-008) to ensure only accredited nodes participate in the 2/3 majority voting.**
 
 ### 3.3 Performance Standard
 - **Adopting carrier-class reliability metrics**
