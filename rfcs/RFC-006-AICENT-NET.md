@@ -14,9 +14,13 @@
 ## Global Operational Grid & Collective Intelligence Protocol
 
 **Domain:** [Aicent.net](http://aicent.net)
+
 **Status:** Proposed Standard (Active Evolution)
+
 **Version:** 1.2.0
+
 **Namespace Authority:** Independent Sovereign Infrastructure
+
 **Core Objective:** Orchestrating the Planetary Nervous System of Sovereign AI.
 
 ---
