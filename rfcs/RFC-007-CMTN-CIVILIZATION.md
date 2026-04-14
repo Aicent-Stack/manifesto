@@ -1,3 +1,14 @@
+[![Organism Vitality & Protocol Audit](https://github.com/Aicent-Stack/aicent-stack/actions/workflows/rust-ci.yml/badge.svg)](https://github.com/Aicent-Stack/aicent-stack/actions/workflows/rust-ci.yml)
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Status-Homeostasis-brightgreen.svg" alt="Status">
+  <img src="https://img.shields.io/badge/Language-Rust-orange.svg" alt="Language">
+  <img src="https://img.shields.io/badge/Specs-RFC--001--009-blue.svg" alt="Specs">
+  <img src="https://img.shields.io/badge/License-Apache--2.0-lightgrey.svg" alt="License">
+</p>
+
+**⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🌿 [epoekie](http://epoekie.com)**
+
 # RFC-007: CMTN (The Civilization Protocol)
 ## Sovereign AI Social & Multi-Tenant Civilization Protocol
 
