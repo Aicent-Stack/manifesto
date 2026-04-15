@@ -14,7 +14,7 @@
 
 **Domain:** [Aicent.net](http://aicent.net)  
 **Status:** **Proposed Standard (Active Evolution)**  
-**Version:** 1.2.1-Alpha  
+**Version:** v1.2.1-Alpha (Sovereign Resonance)  
 **Namespace Authority:** Independent Sovereign Infrastructure  
 **Core Objective:** Orchestrating the Planetary Nervous System of Sovereign AI through Kinetic Resonance.
 
