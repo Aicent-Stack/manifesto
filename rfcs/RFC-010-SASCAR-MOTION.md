@@ -13,7 +13,7 @@
 
 **Domain:** [SASCAR.com](http://sascar.com)  
 **Status:** **Imperial Standard (Active Evolution)**  
-**Version:** v0.1.1-Alpha  
+**Version:** v1.2.1-Alpha (Sovereign Resonance)  
 **Namespace Authority:** Sovereign Autonomy Center  
 **Core Objective:** Orchestrating Autonomous Physical Motion through Atomic Value Exchange and Sub-millisecond Collision Shunting.
 
