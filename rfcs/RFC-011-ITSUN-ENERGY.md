@@ -179,4 +179,4 @@ In the event of an energy-grid collapse or extreme heat drift, ITSUN triggers th
 
 ---
 
-**SYSTEM STATUS: RADIANCE-STEADY | RFC-011 v0.1.0 COMPLIANT**
+**SYSTEM STATUS: RADIANCE-STEADY | RFC-011 v1.2.1 COMPLIANT**
