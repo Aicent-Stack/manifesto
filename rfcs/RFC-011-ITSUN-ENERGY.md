@@ -13,7 +13,7 @@
 
 **Domain:** [ITSUN.com](http://itsun.com)  
 **Status:** **Imperial Standard (Active Evolution)**  
-**Version:** v0.1.0-Alpha  
+**Version:** v1.2.1-Alpha (Sovereign Resonance)  
 **Namespace Authority:** Sovereign Thermodynamic Center  
 **Core Objective:** Orchestrating Energy-Aware Compute Migration and Real-Time Thermodynamic Observability.
 
