@@ -184,7 +184,6 @@ RFC-006: AICENT-NET is the final functional boundary of the Aicent Stack Core. I
 
 **SYSTEM STATUS: HOMEOTASIS (HIVE-ENABLED)**  
 *"The individual is the pulse; the Hive is the heartbeat."*
-
 ---
 *Document Version: 1.2.1-Alpha*  
 *License: Apache-2.0*  
