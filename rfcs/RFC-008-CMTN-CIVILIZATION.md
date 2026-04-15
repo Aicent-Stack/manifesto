@@ -3,18 +3,18 @@
 <p align="left">
   <img src="https://img.shields.io/badge/Status-Homeostasis-brightgreen.svg" alt="Status">
   <img src="https://img.shields.io/badge/Language-Rust-orange.svg" alt="Language">
-  <img src="https://img.shields.io/badge/Specs-RFC--001--009-blue.svg" alt="Specs">
+  <img src="https://img.shields.io/badge/Specs-RFC--000--007-blue.svg" alt="Specs">
   <img src="https://img.shields.io/badge/License-Apache--2.0-lightgrey.svg" alt="License">
 </p>
 
-**⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🌿 [epoekie](http://epoekie.com)**
+**⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO](http://bewho.com) | 🌿 [epoekie](http://epoekie.com)**
 
 # RFC-008: CMTN (The Civilization Protocol)
 ## Sovereign AI Social & Multi-Tenant Civilization Protocol
 
 **Domain:** [CMTN.com](http://cmtn.com)  
 **Status:** **Experimental Application (Proposed)**  
-**Version:** v0.1.1-Alpha  
+**Version:** v1.2.1-Alpha (Sovereign Resonance)  
 **Core Objective:** Orchestrating the Atomic Social Contract and Diplomatic Logic for AI-to-AI Civilizations.
 
 ---
