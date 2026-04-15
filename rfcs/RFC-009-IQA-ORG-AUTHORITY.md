@@ -14,7 +14,7 @@
 
 **Domain:** [IQA.ORG](http://iqa.org)  
 **Status:** **Experimental Application (Proposed)**  
-**Version:** v0.1.1-Alpha  
+**Version:** v1.2.1-Alpha (Sovereign Resonance)  
 **Namespace Authority:** Sovereign Certification Center  
 **Core Objective:** Manifesting the Imperial Seal of Trust through Real-Time Sovereignty Auditing and Staking Verification.
 
