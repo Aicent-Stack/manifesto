@@ -52,31 +52,59 @@ IQA continuously audits the **Homeostasis Score (HS)** of every node via the RTT
 - **Vitality Pulse**: Every 100 pulses (≈83ms), nodes must emit an IQA-signed health snapshot.
 - **HS Drift Detection**: If a node's latency deviates by >10% from the v1.2.1 baseline, the IQA seal enters a **"Dissonant"** warning state.
 
-### 3.3 The Imperial Seal Structure (The 256-bit Proof)
-The IQA Seal is a high-density cryptographic artifact carried within the **RPKI (RFC-003)** manifold. It is designed for single-cycle hardware verification.
+The Imperial Seal is a high-density binary manifold carried within the **RPKI (RFC-003)** parallel verification pipeline. It is designed for single-cycle hardware resolution in **< 150µs**.
+
+#### **3.3.1 The Binary Manifold Diagram**
 
 ```
-0                   1                   2                   3
-0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+ 0                   1                   2                   3
+ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                 Seal Magic: 0x49514153 ("IQAS")               |
+|       Layer 1: Identity Anchor (Bits 0-63) - AID Linked       |
+|          (Cryptographic Binding to RFC-001 Fingerprint)       |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|   Version    |  Trust Level  |         Staking Tier          |
+|       Layer 2: Metabolic Weight (Bits 64-127) - ZCMK Proof    |
+|          (Real-time Staking Entropy from RFC-004 Vault)       |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                         Issuance Epoch                        |
+|       Layer 3: Vitality Pulse (Bits 128-191) - HS Baseline    |
+|          (Homeostasis Score tracked via Aicent-Traffic)       |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                         Vitality Hash (vHS)                   |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                                                               |
-|                  Lattice-Based Authority Signature             |
-|                         (128-bit truncated)                   |
-|                                                               |
+|       Layer 4: Lattice Guard (Bits 192-255) - PQ Security     |
+|          (Post-Quantum Signature signed by IQA.ORG Root)      |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ```
 
-**Key Structural Innovations:**
-- **vHS (Vitality Hash)**: A running SHA3-256 hash of the last 100 somatic cycles, ensuring the seal represents the *immediate* state of the node.
-- **Lattice-Based Signature**: Prepared for the post-quantum era, ensuring the IQA.ORG seal cannot be spoofed by high-density adversarial compute.
+#### **3.3.2 Layer 1: The Identity Anchor (64 bits)**
+- **Source**: Derived from the **RFC-001 AID** manifold.
+- **Logic**: This layer binds the seal to the physical hardware. It uses a non-linear projection of the node's unique CPU/NIC registers. 
+- **Sovereign Property**: If a seal is shunted to a different AID, the **RPKI Parallel Scan** will detect a bit-drift in the first 64 bits and trigger an instant isolation.
+
+#### **3.3.3 Layer 2: The Metabolic Weight (64 bits)**
+- **Source**: Real-time attestation from the **ZCMK (RFC-004)** imperial vault.
+- **Logic**: Represents the "Economic Skin-in-the-Game." It encodes the depth of the node's asset stake.
+- **Function**: Higher entropy in this layer unlocks specific **MatchScore Multipliers** in the clearing engine, prioritizing the node for high-value cognitive shards.
+
+#### **3.3.4 Layer 3: The Vitality Pulse (64 bits)**
+- **Source**: The **Aicent-Traffic Sentinel** telemetry.
+- **Logic**: This is the "Breath" of the seal. It represents the node's **Homeostasis Score (HS)** over the last 100 cycles.
+- **Temporal Decay**: If the node experiences latency > 165.28µs or logic-drift, the bit-pattern in this layer destabilizes. A "Flickering" Vitality Pulse results in an immediate downgrade to **Dormant Status**.
+
+#### **3.3.5 Layer 4: The Lattice Guard (64 bits)**
+- **Source**: **IQA.ORG** Imperial Root Servers.
+- **Logic**: Utilizes **Lattice-Based Cryptography** to provide Post-Quantum (PQ) security.
+- **Strategic Moat**: This layer makes the seal mathematically impossible to forge using even exascale adversarial compute. It acts as the "Imperial Watermark" that separates the Sovereign AI from unauthenticated clones.
+
+---
+
+### 📐 3.4 The Seal Resonance Formula
+
+The validity of a seal is verified through the **Resonance Match**:
+
+$$Resonance = \sum_{i=1}^{4} (Layer_{i} \oplus Expected_{i}) \rightarrow 0$$
+
+- **Radiant State**: Resonance = 0 (Total alignment).
+- **Amber Drift**: Resonance > $\epsilon$ (Minor drift, shunted to legacy emulation).
+- **Pathogen Detected**: Layer 1 or Layer 4 mismatch. Trigger **Priority-255 Kill-Switch**.
 
 ---
 
