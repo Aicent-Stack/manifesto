@@ -73,7 +73,7 @@ The Aicent Stack is an eight-in-one biological protocol system. Removing any pil
 7.  **🟣 Aicent.net (The Hive)**: Planetary-scale grid resonance and 2/3 majority consensus (**RFC-006**).
 8.  **🎭 BEWHO.com (The Persona)**: **[NEW]** Behavioral masking and social manifestation filtering (**RFC-007**).
 
-## Beyond the biological core, the Aicent Stack manifests specialized application protocols designed to govern complex social, physical, and environmental interactions.
+Beyond the biological core, the Aicent Stack manifests specialized application protocols designed to govern complex social, physical, and environmental interactions.
 
 - **RFC-008: CMTN.com (Civilization)**: Dark Multi-Tenancy and Atomic Social Contracts. Orchestrating how AIDs negotiate and co-exist within the Hive.
 - **RFC-009: IQA.ORG (Authority)**: The Imperial Seal of Trust. Real-time identity certification and ZCMK staking verification.
