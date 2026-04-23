@@ -80,6 +80,7 @@ The Aicent Stack is an eight-in-one biological protocol system. Removing any pil
 - **RFC-010: SASCAR.com (Motion)**: Distributed Mobility Sovereignty. Real-time path auctions and < 300µs collision shunting for kinetic swarms.
 - **RFC-011: ITSUN.com (Energy)**: The Energy Oracle. Real-time thermodynamic telemetry and "Digital Photosynthesis" for carbon-neutral compute.
 - **RFC-012: MOLOON.com (Reflection)**: Persistent State Mirroring and the 12-Cycle Law of Homeostatic Rebirth.
+- **RFC-013: DIOON.com (Patience)**: The Timing Layer. Organic Patience & Niche-Window Sovereignty.
 
 ---
 
