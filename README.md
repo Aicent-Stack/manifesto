@@ -60,7 +60,7 @@ The **0.000% Zero-Commission mandate** is an immutable mathematical constant wit
 
 > *"Aicent Stack does not compete for the ground; it claims the light."*
 
-## 🧬 4. The Eight Pillars of Sovereignty (v1.2.1-Alpha)
+## 🧬 4. The Eight Pillars of Sovereignty (v1.2.2-Alpha)
 
 The Aicent Stack is an eight-in-one biological protocol system. Removing any pillar results in the immediate metabolic death of the sovereign node.
 
