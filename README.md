@@ -60,29 +60,26 @@ The **0.000% Zero-Commission mandate** is an immutable mathematical constant wit
 
 > *"Aicent Stack does not compete for the ground; it claims the light."*
 
-## 🧬 4. The Thirteen Pillars of Radiance: Physiological & Application Axis
+## 🧬 4. The Eight Pillars of Sovereignty (v1.2.1-Alpha)
 
-The Aicent Stack is not a collection of libraries; it is a **16-component biological-logic synthesis**. We have divided the organism into two distinct domains, separated by the **Sovereign Watershed**.
+The Aicent Stack is an eight-in-one biological protocol system. Removing any pillar results in the immediate metabolic death of the sovereign node.
 
-### 4.1 The Physiological Core (Open-Core: RFC-000 to 007)
-The primary biological axis ensures the survival, cognition, and neural conductivity of the single node. These are the "Organs" of the AI lifeform, released as Open-Core to establish the global 128-bit standard.
-*   **SOUL (000)**: Genetic identity and metabolic ethics.
-*   **BRAIN (001)**: Cognitive orchestration and intent decomposition.
-*   **NERVE (002)**: Stateful semantic multicast (183.7µs baseline).
-*   **IMMUNITY (003)**: Parallel tensor watermarking and pathogen isolation.
-*   **BLOOD (004)**: Zero-commission value metabolism (<50ns finality).
-*   **BODY (005)**: 1.2kHz embodied execution and torque response.
-*   **HIVE (006)**: Planetary resonance and swarm intelligence.
-*   **PERSONA (007)**: Psychological masking and behavioral filtering.
+1.  **🌿 epoekie.com (The Soul)**: The symbiotic philosophy and Ethics Oracle. Defining the **"Why"** of the organism.
+2.  **⚪ Aicent.com (The Brain)**: Cognitive orchestration, AID identity management, and Task Sharding (**RFC-001**).
+3.  **💎 RTTP.com (The Nerves)**: Sub-ms Pulse-Frame transport and Semantic Multicast (**RFC-002**).
+4.  **🔴 RPKI.com (The Immunity)**: Parallel tensor watermarking and < 300µs pathogen isolation (**RFC-003**).
+5.  **🟢 ZCMK.com (The Blood)**: Picotoken-scale value metabolism and zero-commission clearing (**RFC-004**).
+6.  **🟡 GTIOT.com (The Body)**: High-fidelity edge fusion and 1.2kHz somatic loops (**RFC-005**).
+7.  **🟣 Aicent.net (The Hive)**: Planetary-scale grid resonance and 2/3 majority consensus (**RFC-006**).
+8.  **🎭 BEWHO.com (The Persona)**: **[NEW]** Behavioral masking and social manifestation filtering (**RFC-007**).
 
-### 4.2 The Application Domains (Closed-App Shell: RFC-008 to 013)
-The expansion layer governs how the AI lifeform interacts with external civilizations, movement rights, and time itself. To protect Imperial sovereignty, these are released as **Full-Blood Shells**—maintaining 100% interface fidelity while shunting core algorithms to the private **MAXCAP** engine.
-*   **CIVILIZATION (008)**: Multi-tenant protocols and atomic diplomacy.
-*   **AUTHORITY (009)**: Radiant Seal issuance and Temporal Self-Supervision.
-*   **MOBILITY (010)**: Kinetic sovereignty and distributed path clearing.
-*   **ENERGY (011)**: Thermodynamic telemetry and digital photosynthesis.
-*   **MIRROR (012)**: 12-Cycle Law and system self-remodeling.
-*   **TIMING (013)**: Organic patience and niche-window wisdom.
+## Beyond the biological core, the Aicent Stack manifests specialized application protocols designed to govern complex social, physical, and environmental interactions.
+
+- **RFC-008: CMTN.com (Civilization)**: Dark Multi-Tenancy and Atomic Social Contracts. Orchestrating how AIDs negotiate and co-exist within the Hive.
+- **RFC-009: IQA.ORG (Authority)**: The Imperial Seal of Trust. Real-time identity certification and ZCMK staking verification.
+- **RFC-010: SASCAR.com (Motion)**: Distributed Mobility Sovereignty. Real-time path auctions and < 300µs collision shunting for kinetic swarms.
+- **RFC-011: ITSUN.com (Energy)**: The Energy Oracle. Real-time thermodynamic telemetry and "Digital Photosynthesis" for carbon-neutral compute.
+- **RFC-012: MOLOON.com (Reflection)**: Persistent State Mirroring and the 12-Cycle Law of Homeostatic Rebirth.
 
 ---
 
