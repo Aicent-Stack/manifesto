@@ -105,7 +105,7 @@ The heart and the conductor of the 128-bit Symphony.
 
 17. **🏛️ [AICENT-STACK]** | [Source](https://github.com/Aicent-Stack/aicent-stack)
     - **The Grand Orchestrator**: 17-Component Totality and Global Homeostasis.
-18. **💰 [MAXCAP]** | [Source](https://github.com/Aicent-Stack/maxcap)
+18. **💰 [MAXCAP.COM]** | [Source](https://github.com/Aicent-Stack/maxcap)
     - **The Commercial Engine**: Private Positive-Sum Advantage and Nitro-Shunting.
 
 ---
