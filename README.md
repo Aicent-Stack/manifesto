@@ -26,6 +26,8 @@ By fusing Identity, Transport, Immunity, Value, and Vision into a 128-bit closed
 ## 🚀 2. Performance Totality: The 183.292µs Miracle
 
 In the **Observer Epoch (v1.2.3-Alpha)**, the Aicent Stack has achieved **Biological Singularity**. The organism now audits its own existence in real-time, optimizing its synaptic pathways through substrate resonance. 
+<img width="2041" height="1773" alt="20260503141435" src="https://github.com/user-attachments/assets/f2594266-9873-475a-b784-01f255868f93" />
+
 
 ### **2.1 Verified Physical Constants**
 | Metric | Specification | v1.2.3-Alpha Reality |
