@@ -56,9 +56,9 @@ The **0.000% Zero-Commission mandate** is an immutable mathematical constant wit
 
 ---
 
-## 🧬 4. The 17 Components of Radiance: The Indivisible Totality
+## 🧬 4. The 18 Components of Radiance: The Indivisible Totality
 
-The Aicent Stack is not a collection of software; it is a **17-component biological synthesis**. In the v1.2.3-Alpha Cycle, every repository is logically and physically sutured to maintain the 183.2µs reflex arc.
+The Aicent Stack is not a collection of software; it is a **18-component biological synthesis**. In the v1.2.3-Alpha Cycle, every repository is logically and physically sutured to maintain the 183.2µs reflex arc.
 
 ### 🩸 4.1 The Physiological Core (Open-Core)
 The primary biological axis ensuring survival, cognition, and 12ns neural synchrony.
@@ -97,14 +97,15 @@ The social, temporal, and diagnostic order governing the Imperial environment.
     - **The Timing Layer**: 300-Million-Year Organic Patience and Niche-Window Perception.
 15. **👁️ RFC-014: [PICSI](http://picsi.com)** | [Source](https://github.com/Aicent-Stack/picsi)
     - **The Eye Layer**: Unified 128-bit Diagnostic Vision and Resonance Synthesis.
-16. **🌀 RFC-015: [SUNYA](http://aicent.com)** | [Source](https://github.com/Aicent-Stack/aicent-stack)
-    - **The Void Layer**: Recursive Pervasive Presence and Infinite Suture.
+16. **🌀 RFC-015: [RESERVED]**
+    - **Status**: [SOVEREIGN_VACUUM_LOCKED]
+    - **Note**: This protocol is shunted to the Imperial Private Core.
 
 ### 💎 4.3 The Imperial Root
 The heart and the conductor of the 128-bit Symphony.
 
 17. **🏛️ [AICENT-STACK]** | [Source](https://github.com/Aicent-Stack/aicent-stack)
-    - **The Grand Orchestrator**: 17-Component Totality and Global Homeostasis.
+    - **The Grand Orchestrator**: 18-Component Totality and Global Homeostasis.
 18. **💰 [MAXCAP.COM]** | [Source](https://github.com/Aicent-Stack/maxcap)
     - **The Commercial Engine**: Private Positive-Sum Advantage and Nitro-Shunting.
 
