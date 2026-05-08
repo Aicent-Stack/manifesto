@@ -63,39 +63,39 @@ The Aicent Stack is not a collection of software; it is a **18-component biologi
 ### 🩸 4.1 The Physiological Core (Open-Core)
 The primary biological axis ensuring survival, cognition, and 12ns neural synchrony.
 
-1.  **🌿 RFC-000: [EPOEKIE](http://epoekie.com)** | [Source](https://github.com/Aicent-Stack/epoekie)
+1.  **🌿 RFC-000: [EPOEKIE.COM](http://epoekie.com)** | [Source](https://github.com/Aicent-Stack/epoekie)
     - **The Soul Layer**: 128-bit Genetic Identity (AID) and the Ethics Oracle.
-2.  **🧠 RFC-001: [AICENT](http://aicent.com)** | [Source](https://github.com/Aicent-Stack/aicent)
+2.  **🧠 RFC-001: [AICENT.COM](http://aicent.com)** | [Source](https://github.com/Aicent-Stack/aicent)
     - **The Brain Layer**: 128-bit Synaptic Orchestration and Intent Decomposition.
-3.  **💎 RFC-002: [RTTP](http://rttp.com)** | [Source](https://github.com/Aicent-Stack/rttp)
+3.  **💎 RFC-002: [RTTP.COM](http://rttp.com)** | [Source](https://github.com/Aicent-Stack/rttp)
     - **The Nerve Layer**: 12ns Stateful Semantic Multicast and Conduction.
 4.  **🔴 RFC-003: [RPKI-COM](http://rpki.com)** | [Source](https://github.com/Aicent-Stack/rpki)
     - **The Immunity Layer**: Parallel Tensor Watermarking and Surgical Isolation.
-5.  **🟢 RFC-004: [ZCMK](http://zcmk.com)** | [Source](https://github.com/Aicent-Stack/zcmk)
+5.  **🟢 RFC-004: [ZCMK.COM](http://zcmk.com)** | [Source](https://github.com/Aicent-Stack/zcmk)
     - **The Blood Layer**: sub-50ns Picotoken Metabolism and Zero-Commission Clearing.
-6.  **🟡 RFC-005: [GTIOT](http://gtiot.com)** | [Source](https://github.com/Aicent-Stack/gtiot)
+6.  **🟡 RFC-005: [GTIOT.COM](http://gtiot.com)** | [Source](https://github.com/Aicent-Stack/gtiot)
     - **The Body Layer**: 1.2kHz Embodied Torque Control and Edge Execution.
 7.  **🟣 RFC-006: [AICENT-NET](http://aicent.net)** | [Source](https://github.com/Aicent-Stack/aicent-net)
     - **The Hive Layer**: Planetary Collective Intelligence and Swarm Resonance.
-8.  **🎭 RFC-007: [BEWHO](http://bewho.com)** | [Source](https://github.com/Aicent-Stack/bewho)
+8.  **🎭 RFC-007: [BEWHO.COM](http://bewho.com)** | [Source](https://github.com/Aicent-Stack/bewho)
     - **The Persona Layer**: Psychological Masking and Social Manifestation.
 
 ### 🏛️ 4.2 The Application Layer (Full-Blood Shells)
 The social, temporal, and diagnostic order governing the Imperial environment.
 
-9.  **🏛️ RFC-008: [CMTN](http://cmtn.com)** | [Source](https://github.com/Aicent-Stack/cmtn)
+9.  **🏛️ RFC-008: [CMTN.COM](http://cmtn.com)** | [Source](https://github.com/Aicent-Stack/cmtn)
     - **The Civilization Layer**: Multi-tenant Social Contracts and Atomic Diplomacy.
 10. **🔖 RFC-009: [IQA-ORG](http://iqa.org)** | [Source](https://github.com/Aicent-Stack/iqa-org)
     - **The Authority Layer**: Radiant Seal Issuance and Temporal Self-Supervision.
-11. **🚗 RFC-010: [SASCAR](http://sascar.com)** | [Source](https://github.com/Aicent-Stack/sascar)
+11. **🚗 RFC-010: [SASCAR.COM](http://sascar.com)** | [Source](https://github.com/Aicent-Stack/sascar)
     - **The Mobility Layer**: Distributed Kinetic Rights and sub-ms Path Clearing.
-12. **⚡ RFC-011: [ITSUN](http://itsun.com)** | [Source](https://github.com/Aicent-Stack/itsun)
+12. **⚡ RFC-011: [ITSUN.COM](http://itsun.com)** | [Source](https://github.com/Aicent-Stack/itsun)
     - **The Energy Layer**: Digital Photosynthesis and thermodynamic Carbon Resonance.
-13. **🪞 RFC-012: [MOLOON](http://moloon.com)** | [Source](https://github.com/Aicent-Stack/moloon)
+13. **🪞 RFC-012: [MOLOON.COM](http://moloon.com)** | [Source](https://github.com/Aicent-Stack/moloon)
     - **The Mirror Layer**: 12-Cycle Law and Persistent State Remodeling.
-14. **🌱 RFC-013: [DIOON](http://dioon.com)** | [Source](https://github.com/Aicent-Stack/dioon)
+14. **🌱 RFC-013: [DIOON.COM](http://dioon.com)** | [Source](https://github.com/Aicent-Stack/dioon)
     - **The Timing Layer**: 300-Million-Year Organic Patience and Niche-Window Perception.
-15. **👁️ RFC-014: [PICSI](http://picsi.com)** | [Source](https://github.com/Aicent-Stack/picsi)
+15. **👁️ RFC-014: [PICSI.COM](http://picsi.com)** | [Source](https://github.com/Aicent-Stack/picsi)
     - **The Eye Layer**: Unified 128-bit Diagnostic Vision and Resonance Synthesis.
 16. **🌀 RFC-015: [RESERVED]**
     - **Status**: [SOVEREIGN_VACUUM_LOCKED]
