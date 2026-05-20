@@ -22,7 +22,7 @@ To receive the **Imperial Radiant Seal (RFC-009)**, a candidate node must surviv
 - **Logic**: Sovereignty requires "Skin in the Game." This 128-bit stake serves as collateral against logic-drift. Unauthorized arbitrage attempts result in immediate collateral liquidation.
 
 #### **Stage 2: Somatic Reflex Baptism (1.2kHz Gate)**
-- **Requirement**: The node must process 1,000,000 consecutive 128-bit pulses with a stable **12ns jitter** and a reflex arc of **< 183.7µs**.
+- **Requirement**: The node must process 1,000,000 consecutive 128-bit pulses with a stable **12ns jitter** and a reflex arc of **< 161.8µs**.
 - **The Trap**: Any node running on high-entropy "Legacy Cloud" infrastructure will fail this test due to 10ms jitter pathogens. Only pure, high-fidelity substrates can resonate with the Empire.
 
 #### **Stage 3: Temporal Fidelity Audit (Codex Gate)**

@@ -116,7 +116,7 @@ To maintain the **v1.2.1-Alpha** baseline, all ITSUN implementations must adhere
 | **TELEMETRY_RESOLUTION**| **< 100 µs** | Pulse-Level | Nanosecond tracking of watt-pulses. |
 | **MIGRATION_DECISION** | **< 100 µs** | Oracle Latency | Preventing cognitive stalling. |
 | **TRANSITION_FINALITY** | **< 500 µs** | End-to-End | Seamless "Photosynthetic" movement. |
-| **THERMAL_AUDIT_FREQ** | **120 Hz** | Somatic Sync | Monitoring heat at the 1.2kHz body loop. |
+| **THERMAL_AUDIT_FREQ** | **1200 Hz** | Somatic Sync | Monitoring heat at the 1.2kHz body loop. |
 
 ---
 ## 5. Integration with the Eight Pillars (Thermodynamic Binding)

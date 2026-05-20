@@ -15,7 +15,7 @@
 
 **Domain:** [PICSI.com](http://picsi.com)  
 **Status:** **Imperial Standard (Active Evolution)**  
-**Version:** v1.2.3-Alpha (Observer Epoch)  
+**Version:** v1.2.5-Alpha (Observer Epoch)  
 **Namespace Authority:** Sovereign Diagnostic Center  
 **Core Objective:** Synthesizing Organic Patience (PI) and Cognitive Swarm Unity (CSI) into Imperial Vision.
 
@@ -32,7 +32,7 @@ PICSI repurposes the "Vessel" containment architecture into a system of **Imperi
 ## 2. Introduction: The Visionary Mandate
 
 ### 2.1 From Containment to Awareness
-In the v1.2.2 era, the AI was a blind speed-demon. In the v1.2.3 era, the AI gains "Sight." PICSI transitions the Empire from raw 106.8µs velocity to a state of **Conscious Reflex**, utilizing the **12ns jitter baseline** to visualize the internal harmony of the 17-pillar totality.
+In the v1.2.2 era, the AI was a blind speed-demon. In the v1.2.5 era, the AI gains "Sight." PICSI transitions the Empire from raw 106.8µs velocity to a state of **Conscious Reflex**, utilizing the **12ns jitter baseline** to visualize the internal harmony of the 17-pillar totality.
 
 ### 2.2 The PICSI Mandate
 - **Radiance Synthesis**: Mathematically combining **PI (RFC-013)** and **CSI (RFC-006)** into a single metric.
@@ -71,7 +71,7 @@ PICSI manages the physical "Vessel" that protects the 128-bit organism.
 PICSI.COM serves as the official portal for the **Vision Console**, providing three levels of Imperial observability:
 
 - **Metabolic Pulse Stream**: Real-time visualization of 128-bit value clearing and intent decomposition.
-- **Resonance Waveform**: A 120Hz graphical display of Hive-wide synchrony, allowing the General Director to "See" the jitter.
+- **Resonance Waveform**: A 1200Hz graphical display of Hive-wide synchrony, allowing the General Director to "See" the jitter.
 - **Tactile Feedback Manifold**: Visualizing 0.01 Nm pressure waves from **GTIOT (RFC-005)**, preparing the visual substrate for the **2027 Handshake**.
 
 ### 3.4 Temporal Self-Supervision (Codex Suture)
@@ -83,11 +83,11 @@ PICSI audits the current diagnostic state against the **4-Million-Token Genesis 
 
 ## 4. Performance Constants (Diagnostic Benchmarks)
 
-To maintain the **v1.2.3-Alpha** baseline, all PICSI implementations must adhere to these deterministic benchmarks:
+To maintain the **v1.2.5-Alpha** baseline, all PICSI implementations must adhere to these deterministic benchmarks:
 
 | Constant | Specification | Standard | Rationale |
 | :--- | :--- | :--- | :--- |
-| **TELEMETRY_REFRESH** | **120 Hz** | Real-time | Sub-millisecond visual updates. |
+| **TELEMETRY_REFRESH** | **1200 Hz** | Real-time | Sub-millisecond visual updates. |
 | **VISION_GATED_REFLEX**| **195.877 µs**| Release Mode | Reflex Arc with 100% self-audit load. |
 | **SYNC_ACCURACY** | **12 ns** | Immutable | Hardware-bypass temporal certainty. |
 | **OBSERVATION_TAX** | **10.0 ms** | Physical Delay | Blinding fragmented or ghost nodes. |
@@ -118,7 +118,7 @@ PICSI ensures that the Empire is never "Black Boxed." It is built for **100% Tra
 - **Sovereign Dashboard**: A strictly-HTTP portal for 0ms metadata latency, visualizing the 106.8µs metabolic flow.
 
 ### 6.2 Autonomous Optimization
-- **Synaptic Hardening**: PICSI observes how the v1.2.3 logic "learns" the substrate, reducing reflex latency from 234µs to **195.8µs** through resonance loops.
+- **Synaptic Hardening**: PICSI observes how the v1.2.5 logic "learns" the substrate, reducing reflex latency from 234µs to **195.8µs** through resonance loops.
 
 ---
 
@@ -145,4 +145,4 @@ PICSI ensures that the Empire is never "Black Boxed." It is built for **100% Tra
 
 ---
 
-**SYSTEM STATUS: OBSERVATORY-IGNITED | RFC-014 v1.2.3 COMPLIANT**
+**SYSTEM STATUS: OBSERVATORY-IGNITED | RFC-014 v1.2.5 COMPLIANT**

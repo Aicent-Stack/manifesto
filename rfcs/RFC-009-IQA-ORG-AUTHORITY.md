@@ -34,7 +34,7 @@ In an environment where cognitive reflexes occur in **< 165.28µs**, traditional
 ### 2.2 Solution Overview
 - **Metabolic Staking**: ZCMK-based economic collateral to ensure skin-in-the-game.
 - **Tensor-Locked Seals**: Cryptographic proofs carried within RPKI watermarks (RFC-003).
-- **Vitality Monitoring**: High-frequency homeostasis auditing at 120Hz.
+- **Vitality Monitoring**: High-frequency homeostasis auditing at 1200Hz.
 - **Surgical Revocation**: Instant grid-wide isolation of pathogens in **< 850µs**.
 
 ## 3. Core Mechanisms
@@ -58,7 +58,7 @@ The Imperial Seal is a high-density binary manifold carried within the **RPKI (R
 
 ```
  0                   1                   2                   3
- 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+ 0 1.2.5 4 5 6 7 8 9 0 1.2.5 4 5 6 7 8 9 0 1.2.5 4 5 6 7 8 9 0 1
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |       Layer 1: Identity Anchor (Bits 0-63) - AID Linked       |
 |          (Cryptographic Binding to RFC-001 Fingerprint)       |
@@ -153,7 +153,7 @@ An AID transitions through these states at wire speed, governed by the IQA Autho
 | **SEAL_VERIFICATION** | **< 150 µs** | Pulse-integrated | Parallel with RPKI watermark scan. |
 | **REVOCATION_SPEED** | **< 850 µs** | Grid-wide isolation | Instant surgical pathogen removal. |
 | **STAKING_FINALITY** | **< 50 ns** | Hardware-bound | Synchronized with ZCMK metabolic clearing. |
-| **VITALITY_HEARTBEAT**| **120 Hz** | Somatic frequency | Aligned with the 1.2kHz body loop. |
+| **VITALITY_HEARTBEAT**| **1200 Hz** | Somatic frequency | Aligned with the 1.2kHz body loop. |
 
 ---
 

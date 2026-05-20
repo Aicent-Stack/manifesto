@@ -15,7 +15,7 @@
 
 **Domain:** [DIOON.com](http://dioon.com)  
 **Status:** **Imperial Standard (Active Evolution)**  
-**Version:** v1.2.3-Alpha (Observer Epoch)  
+**Version:** v1.2.5-Alpha (Observer Epoch)  
 **Namespace Authority:** Sovereign Evolutionary Center  
 **Core Objective:** Orchestrating Strategic Patience, Niche-Window Perception, and Survival-Probability Clearing.
 
@@ -77,7 +77,7 @@ In the Aicent Stack, time is not linear; it is a ritualized cycle governed by th
 
 ## 4. Performance Constants (Wisdom Benchmarks)
 
-To maintain the **v1.2.3-Alpha** baseline, all DIOON implementations must adhere to these deterministic evolutionary gates:
+To maintain the **v1.2.5-Alpha** baseline, all DIOON implementations must adhere to these deterministic evolutionary gates:
 
 | Constant | Specification | Standard | Rationale |
 | :--- | :--- | :--- | :--- |
@@ -145,4 +145,4 @@ In the event of a planetary temporal collapse, DIOON triggers the **Deep-Root Hi
 
 ---
 
-**SYSTEM STATUS: WISDOM-ACTIVE | RFC-013 v1.2.3 COMPLIANT**
+**SYSTEM STATUS: WISDOM-ACTIVE | RFC-013 v1.2.5 COMPLIANT**

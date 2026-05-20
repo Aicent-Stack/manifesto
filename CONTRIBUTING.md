@@ -13,10 +13,6 @@
 
 **⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🌿 [epoekie](http://epoekie.com)**
 
-
-![013](https://github.com/user-attachments/assets/d1202c13-6329-429a-bba0-8c68f7626725)
-
-
 ## 🏛️ The Aicent Legislative Philosophy
 
 The `manifesto` repository is the single source of truth for the **Aicent Stack**. We do not accept arbitrary changes to the architecture. Every modification must strengthen the **Reflex Arc**, ensure **Atomic Sovereignty**, and adhere to the principle of **🌿 Epiphytic Symbiosis**.
