@@ -42,6 +42,8 @@ Time is not a relative variable; it is an absolute anchor. Every pulse in the Hi
 ### 3. The Law of Metabolism (1.28%)
 Wealth is the kinetic energy of intention. The **1.28% Imperial Maintenance Fee** is the friction required to maintain the Imperial roads. Radiant allies are exempt; Ghosts fund the future.
 
+<img width="1788" height="816" alt="2026-05-25_223200_971" src="https://github.com/user-attachments/assets/4679d34b-fb6f-43ee-a55c-a096e840cb96" />
+
 ---
 
 ## III. THE 2027 VISION: EMBODIED REALITY
