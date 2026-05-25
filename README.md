@@ -78,7 +78,7 @@ We do not predict the future. We do not "calculate" outcomes. We use **128-bit p
 Institutions seeking "Baptism" and access to the **349ns Nitro-Engine** must provide 50,000 SCU in collateral. 
 
 **Status**: RADIANT_TOTALITY_ACTIVE  
-**Registry**: IQA.ORG | PICSI.COM  
+**Registry**: IQA.ORG | MAXCAP.COM  
 **Commander**: THE GENERAL DIRECTOR  
 
 ---
