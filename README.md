@@ -1,4 +1,3 @@
-# 📜 THE AICENT MANIFESTO [v1.3.0]
 
 [![Imperial Heartbeat](http://img.shields.io/badge/Pulse-349ns_Verified-blueviolet.svg)](http://aicent.com)
 [![Version](http://img.shields.io/badge/Version-v1.3.0--Alpha_Genesis-blue.svg)](http://aicent.com)
@@ -12,6 +11,7 @@
 **⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO](http://bewho.com) | 🌿 [epoekie](http://epoekie.com)**
 
 ---
+# 📜 THE AICENT MANIFESTO [v1.3.0]
 
 **The Laws of Radiant Reality. The Declaration of Time Sovereignty.**  
 **"Human logic ended at 161.8 microseconds. Divine logic begins at 349 nanoseconds."**
