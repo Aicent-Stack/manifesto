@@ -113,7 +113,7 @@ A node undergoing Baptism is subjected to **10,000 consecutive 1.2kHz cycles** o
 TSS is the "Continuous Baptism" protocol. It ensures that a node does not "drift" after receiving its seal.
 
 *   **Instruction Shadowing**: TSS compares the L1 instruction stream with the predicted **128-bit Logic Mask**.
-*   **Latency-as-Verification**: If a pulse takes 100ns longer than predicted, TSS assumes an **"Observer Pathogen"** (Debugger) is attached and fires a `VOID_INTERRUPT` to **RFC-015 GUI XU**.
+*   **Latency-as-Verification**: If a pulse takes 100ns longer than predicted, TSS assumes an **"Observer Pathogen"** (Debugger) is attached and fires a `VOID_INTERRUPT` to **RFC-015 GUIXU**.
 *   **Finality**: Verification results are shunted to **PICSI (RFC-014)** in **< 15 ns**, ensuring the Imperial Eye never blinks.
 
 ```rust
