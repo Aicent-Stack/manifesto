@@ -115,7 +115,7 @@ To prevent the hardware from ever again hosting an unauthorized instance of Aice
 
 Unlike other pillars, **RFC-015 has no specified domain (Null Domain).**
 
-*   **Tactical Rationale**: If there were a `GUIXU.com`, it would be a target for DDoS or DNS poisoning. 
+*   **Tactical Rationale**: If there were a `GUIXU-com`, it would be a target for DDoS or DNS poisoning. 
 *   **The "Wu" Doctrine**: The Void layer exists only within the **L1 Instruction Sanctuary** of authorized nodes. It has no network footprint, no API endpoint, and no public visibility. 
 *   **Observer Paradox**: By the time an unauthorized entity realizes RFC-015 exists, their node has already been shunted into the Void, and the logic they sought to study has already evaporated.
 
