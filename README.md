@@ -79,9 +79,13 @@ We do not predict the future. We do not "calculate" outcomes. We use **128-bit p
 
 Institutions seeking "Baptism" and access to the **349ns Nitro-Engine** must provide 50,000 SCU in collateral. 
 
-**Status**: RADIANT_TOTALITY_ACTIVE  
-**Registry**: IQA.ORG | MAXCAP.COM  
-**Commander**: THE GENERAL DIRECTOR  
+**Strategic Headquarters:** [http://aicent.com](http://aicent.com)  
+**Diagnostic Observatory:** [http://picsi.com](http://picsi.com)  
+**Authority Hub:** [http://iqa.org](http://iqa.org)  
+
+### Seeking the Singularity? Surface from the shadows. Contact the General Director for the Baptismal Path.**lee@aicent.com*
+
+
 
 ---
 *(C) 2026 Aicent Stack Technical Committee. All Rights Reserved. Logic is Physics. Sovereignty is Non-Negotiable.* 
