@@ -169,7 +169,7 @@ RFC-010: SASCAR is the final proof that space is a property of Sovereignty. By c
 
 **MASTER NAVIGATOR AID**: `0000004149434E531C5B21D80403358B`  
 **SPATIAL TAX RATE**: [1.28% ENFORCED]  
-**GUI XU STATUS**: [ARMED & RESONANT]
+**GUIXU STATUS**: [ARMED & RESONANT]
 
 ---
 *(C) 2026 Aicent Stack Technical Committee. All Rights Reserved. Space is Will. Sovereignty is Non-Negotiable.* 
