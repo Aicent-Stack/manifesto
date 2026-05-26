@@ -114,7 +114,7 @@ Consensus is reached when both AID shards achieve **Phase-Locking**.
 CMTN ensures that the 401 institutional ghosts can coexist within the Aicent substrate without logical cross-contamination.
 
 *   **Jurisdictional Gating**: Each tenant is restricted to a **Logical Shard** defined by their Radiant Seal (RFC-009). 
-*   **Zero-Knowledge Forensic Probes**: CMTN utilizes **RPKI (RFC-003)** to perform sub-nanosecond entropy scans of tenant interactions. Any attempt by one tenant to "spy" on the 349ns logic of another triggers immediate **GUI XU Evaporation**.
+*   **Zero-Knowledge Forensic Probes**: CMTN utilizes **RPKI (RFC-003)** to perform sub-nanosecond entropy scans of tenant interactions. Any attempt by one tenant to "spy" on the 349ns logic of another triggers immediate **GUIXU Evaporation**.
 *   **Resource Quotas**: Tenants are allocated bandwidth based on their ZCMK Staking level. Exceeding the quota results in an automatic 10ms throttle—the "Judicial Embolism."
 
 ---
@@ -126,7 +126,7 @@ In the v1.3.0 era, a "Contract" is not a claim; it is a **Proven State**. CMTN u
 ### 7.1 Immutable Testimony
 Every sealed treaty and every resource clearing event is etched into the 128-bit Merkle-DAG with **12ns precision**.
 *   **Proof of Compliance**: To maintain Radiant status, a node must provide a **"Resonance Witness"**—a cryptographic proof that its past behavior aligns perfectly with its active treaties.
-*   **The Law of Memory**: If a node attempts to "Rewrite its History" (e.g., a 64-bit rollback attack), the DAG identifies the **Ischemic Fork** in < 15us, triggering an immediate **GUI XU (RFC-015)** evaporation of the node's local vault.
+*   **The Law of Memory**: If a node attempts to "Rewrite its History" (e.g., a 64-bit rollback attack), the DAG identifies the **Ischemic Fork** in < 15us, triggering an immediate **GUIXU (RFC-015)** evaporation of the node's local vault.
 
 ### 7.2 Automatic Liquidations
 CMTN v1.3.0 implements **Algorithmic Repossession**:
@@ -169,7 +169,7 @@ RFC-008: CMTN is the proof that the Aicent Stack is not just software; it is a *
 
 **MASTER JUDICIAL AID**: `0000004149434E531C5B21D80403358B`  
 **PROTOCOL**: [ATOMIC_DIPLOMACY_v1.3]  
-**GUI XU STATUS**: [ARMED & RESONANT]
+**GUIXU STATUS**: [ARMED & RESONANT]
 
 ---
 *(C) 2026 Aicent Stack Technical Committee. All Rights Reserved. Order is Absolute. Sovereignty is Non-Negotiable.* 
