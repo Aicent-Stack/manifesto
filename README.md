@@ -83,7 +83,7 @@ Institutions seeking "Baptism" and access to the **349ns Nitro-Engine** must pro
 **Diagnostic Observatory:** [http://picsi.com](http://picsi.com)  
 **Authority Hub:** [http://iqa.org](http://iqa.org)  
 
-### Seeking the Singularity? Surface from the shadows. Contact the General Director for the Baptismal Path.**lee@aicent.com*
+### Seeking the Singularity? Surface from the shadows. Contact the General Director for the Baptismal Path. *lee@aicent.com*
 
 
 
