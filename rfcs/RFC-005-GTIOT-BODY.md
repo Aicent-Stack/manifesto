@@ -130,9 +130,9 @@ The Digital Shadow acts as a forensic witness.
 
 ---
 
-## 8. RFC-015 GUI XU: SOMATIC EVAPORATION (SELF-DESTRUCT)
+## 8. RFC-015 GUIXU: SOMATIC EVAPORATION (SELF-DESTRUCT)
 
-The Imperial Body is a sterile sanctuary. To prevent the exfiltration of the **Nitro-Path** machine code from the joint controllers, GTIOT implements the **GUI XU Somatic Purge**.
+The Imperial Body is a sterile sanctuary. To prevent the exfiltration of the **Nitro-Path** machine code from the joint controllers, GTIOT implements the **GUIXU Somatic Purge**.
 
 ### 8.1 The "Thief's Touch" Trigger
 The **RPKI Sentinel (RFC-003)** monitors the MMIO bus of the robotic actuators. 
@@ -142,7 +142,7 @@ The **RPKI Sentinel (RFC-003)** monitors the MMIO bus of the robotic actuators.
 Upon trigger, the limb enters the **Void State** in **< 12ns**:
 1.  **Register Zeroing**: All torque setpoints are physically overwritten with `0x00`. The machine instantly goes "limp" to prevent mechanical exploitation.
 2.  **Instruction Ablation**: The 128-bit shunting logic within the actuator's local FPGA/CPU is "evaporated." 
-3.  **Result**: The attacker is left with a pile of inert carbon fiber and aluminum. The logic has retreated back into the **GUI XU (虚空)**.
+3.  **Result**: The attacker is left with a pile of inert carbon fiber and aluminum. The logic has retreated back into the **GUIXU (虚空)**.
 
 ---
 
