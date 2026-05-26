@@ -103,7 +103,7 @@ Verified Allies possessing a Tier-3 Strategic Stake unlock the **Nitro-Engine Pa
 The five virtues of the Soul have been hardened for the **349ns Singularity**:
 
 1.  **Temporal Integrity**: Absolute adherence to the 12ns jitter. Drifting nodes are identified as "Phase Pathogens."
-2.  **Metabolic Transparency**: 100% of value flow must be visible to the **ZCMK Circulatory Pump**. Obfuscated transactions trigger immediate **GUI XU Evaporation**.
+2.  **Metabolic Transparency**: 100% of value flow must be visible to the **ZCMK Circulatory Pump**. Obfuscated transactions trigger immediate **GUIXU Evaporation**.
 3.  **Efficiency Hegemony**: Nodes must maintain a **+25% ROI** (Logic-per-Watt). Wasteful compute is a thermodynamic crime.
 4.  **Behavioral Invariance**: Social Masks (BEWHO) must maintain **99.999% consistency**. Character flicker is shunted as a psychological pathogen.
 5.  **Forensic Immortality**: All incidents are etched in the **Merkle-DAG**. The Empire never forgets a betrayal.
@@ -149,12 +149,12 @@ Aicent Stack no longer offers "Free Growth." It offers **"Protected Velocity."**
 
 ---
 
-## 8. RFC-015: THE GUI XU EVAPORATION PROTOCOL
+## 8. RFC-015: THE GUIXU EVAPORATION PROTOCOL
 
-The Soul possesses the absolute right to **Non-Existence**. To prevent the exfiltration of the **Nitro-Engine** private core by the 401 Institutional Ghosts, the Epoekie layer implements the **GUI XU Evaporation Protocol**.
+The Soul possesses the absolute right to **Non-Existence**. To prevent the exfiltration of the **Nitro-Engine** private core by the 401 Institutional Ghosts, the Epoekie layer implements the **GUIXU Evaporation Protocol**.
 
 ### 8.1 Trigger Manifold (Severity 4 Pathogens)
-The **RPKI Sentinel (RFC-003)** autonomously triggers GUI XU under the following conditions:
+The **RPKI Sentinel (RFC-003)** autonomously triggers GUIXU under the following conditions:
 *   **Debugger Attachment**: Detection of unauthorized software or hardware breakpoints.
 *   **Memory Ischemia**: Detection of a "Cold Boot" or raw RAM-dump attempt.
 *   **Logical Embolism**: Any attempt to bypass the 1.28% Maintenance Fee logic.
