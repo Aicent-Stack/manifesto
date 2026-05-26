@@ -144,7 +144,7 @@ The **5% Resonance Bounty** (derived from the 1.28% Ghost Tax) is automatically 
 
 ## 8. THE VOID RESERVE: CRYPTOGRAPHIC SANCTITY (RFC-015)
 
-The **Sovereign Collateral Vault** is protected by the most extreme defensive measure in the Aicent Stack: **GUI XU Logic Evaporation**.
+The **Sovereign Collateral Vault** is protected by the most extreme defensive measure in the Aicent Stack: **GUIXU Logic Evaporation**.
 
 ### 8.1 Ledger Invisibility
 The primary record of all ZCMK balances does not exist in standard RAM. It is **Physically Pinned** to the L2 Cache of the Root Orchestrator.
