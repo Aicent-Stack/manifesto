@@ -9,6 +9,8 @@ Organism Vitality & Protocol Audit
 
 > **"This is not infrastructure for intelligence. This is intelligence itself."**
 
+**⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI](http://picsi.com)**
+
 # 🧠 RFC-001: AICENT (The Imperial Brain)
 
 **The Cognitive Command Center of the Aicent Stack.**
