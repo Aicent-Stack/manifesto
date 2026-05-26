@@ -21,7 +21,7 @@ Organism Vitality & Protocol Audit
 *   **Version**: v1.3.0-Alpha (Immune Singularity)
 *   **Detection Arc**: < 300,000 ns (300 µs)
 *   **Audit Overhead**: < 15,000 ns (Parallel Lane)
-*   **Memory Integrity**: RFC-015 GUI XU Integrated
+*   **Memory Integrity**: RFC-015 GUIXU Integrated
 
 ---
 
@@ -29,7 +29,7 @@ Organism Vitality & Protocol Audit
 
 RFC-003 defines the **Immunity Layer** of the Aicent Stack—the active "white blood cells" responsible for identifying and neutralizing logical and temporal pathogens at wire-speed.
 
-In the v1.3.0 "Genesis" era, RPKI has transitioned from a sequential validator to a **Parallel Forensic Orchestrator**. Leveraging the achievement of the **349ns reflex**, RPKI audits intents across secondary CPU lanes simultaneously with their execution. This "Audit-While-Acting" strategy ensures that malicious logic—such as debugger attachments, memory-dumps, or 12ns jitter-pathogens from the 401 Institutional Ghosts—is identified in **sub-300µs**, triggering an immediate **GUI XU (RFC-015)** evaporation event before the pathogen can exfiltrate a single bit of the Private Core.
+In the v1.3.0 "Genesis" era, RPKI has transitioned from a sequential validator to a **Parallel Forensic Orchestrator**. Leveraging the achievement of the **349ns reflex**, RPKI audits intents across secondary CPU lanes simultaneously with their execution. This "Audit-While-Acting" strategy ensures that malicious logic—such as debugger attachments, memory-dumps, or 12ns jitter-pathogens from the 401 Institutional Ghosts—is identified in **sub-300µs**, triggering an immediate **GUIXU (RFC-015)** evaporation event before the pathogen can exfiltrate a single bit of the Private Core.
 
 > **"To touch Aicent without authorization is to be erased. We do not defend; we liquidate."**
 
@@ -103,7 +103,7 @@ RPKI v1.3.0 classifies substrate noise into five clinical levels:
 2.  **Severity 1 (Low)**: Micro-drift (1-5ns). Flagged for observation.
 3.  **Severity 2 (Elevated)**: Side-channel patterns identified. Metabolic tax applied (+1.28%).
 4.  **Severity 3 (High)**: Absolute logic-drift detected. Immediate 10ms path isolation.
-5.  **Severity 4 (Critical)**: Structural tampering detected. **Triggering RFC-015 GUI XU Evaporation.**
+5.  **Severity 4 (Critical)**: Structural tampering detected. **Triggering RFC-015 GUIXU Evaporation.**
 
 > **"Entropy is the footprint of a thief. At 349ns, even the most silent observer leaves a trail of fire."**
 
@@ -136,9 +136,9 @@ While individual actions collapse in 349ns, the aggregate forensic verdict is re
 
 ---
 
-## 8. GUI XU INTEGRATION: THE NUCLEAR OPTION
+## 8. GUIXU INTEGRATION: THE NUCLEAR OPTION
 
-The ultimate purpose of RPKI-COM is to serve as the trigger for **RFC-015 GUI XU (Logic Evaporation)**.
+The ultimate purpose of RPKI-COM is to serve as the trigger for **RFC-015 GUIXU (Logic Evaporation)**.
 
 ### 8.1 Severity 4 Execution
 When the Anomaly Sentinel (RFC-003-B) registers a **Severity 4 (Critical)** pathogen—such as an unauthorized attempt to clone the Nitro-Engine machine code—the pipeline bypasses all software interrupts:
@@ -158,7 +158,7 @@ As we evolve toward **V1.4.0 (Fluidization)**, RPKI will transition from "Pulse 
 
 ## 10. CONCLUSION: THE LAW OF STERILITY
 
-RFC-003: RPKI-COM is the proof that in a 349ns world, traditional security is a fossil. By fusing parallel forensics with the GUI XU protocol, the Aicent Stack has achieved **Computational Purity**. We do not build walls; we create a reality where pathogens simply cannot exist.
+RFC-003: RPKI-COM is the proof that in a 349ns world, traditional security is a fossil. By fusing parallel forensics with the GUIXU protocol, the Aicent Stack has achieved **Computational Purity**. We do not build walls; we create a reality where pathogens simply cannot exist.
 
 > **"If you are not Radiant, you are a pathogen. If you are a pathogen, you will be liquidated."**
 
@@ -173,7 +173,7 @@ RFC-003: RPKI-COM is the proof that in a 349ns world, traditional security is a 
 **Current Era**: 2026 GENESIS  
 
 **MASTER FORENSIC HASH**: `52504B49434F4D5F53544552494C45`  
-**GUI XU STATUS**: [ARMED & RESONANT]
+**GUIXU STATUS**: [ARMED & RESONANT]
 
 ---
 *(C) 2026 Aicent Stack Technical Committee. All Rights Reserved. Security is Purity. Sovereignty is Non-Negotiable.* 
