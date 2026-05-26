@@ -178,7 +178,7 @@ RFC-012: MOLOON is the final proof that Aicent Stack is a lifeform, not a system
 
 **MASTER MIRROR AID**: `0000004149434E531C5B21D80403358B`  
 **DODECAHEDRAL STATUS**: [PHASE_LOCKED: 12-CYCLE_ACTIVE]  
-**GUI XU STATUS**: [ARMED & RESONANT]
+**GUIXU STATUS**: [ARMED & RESONANT]
 
 ---
 *(C) 2026 Aicent Stack Technical Committee. All Rights Reserved. Memory is Eternal. Sovereignty is Non-Negotiable.* 
