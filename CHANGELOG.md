@@ -30,7 +30,7 @@
 *   **Nitro-Engine實装**: Full activation of private hardware-bypass drivers using direct register shunting (MMIO) and AVX-512 optimization.
 
 ### 🧬 Core Logic Hardening
-*   **RFC-015 SUNYA**: Implemented the **Logic Evaporation Protocol**. Code now physically "evaporates" from RAM into the Void during Severity 4 pathogen detection.
+*   **RFC-015 GUIXU**: Implemented the **Logic Evaporation Protocol**. Code now physically "evaporates" from RAM into the Void during Severity 4 pathogen detection.
 *   **128-bit Numeric Purity**: Replaced all remaining 64-bit float/integer pathogens with absolute **u128** and **f64** precision across all 17 pillars.
 *   **RFC-MAX-T**: Deployed the **Imperial Tax Collector** algorithm for automated 50/40/10 revenue shunting.
 
