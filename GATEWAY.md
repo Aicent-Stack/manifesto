@@ -1,73 +1,156 @@
-# 🏛️ THE IMPERIAL GATEWAY (GATEWAY.md)
-## The Protocol of Radiant Ascension | RFC-009-G [2026]
+# 🏛️ GATEWAY: THE GENESIS ACCESS PROTOCOL [v1.3.0]
 
-> *"The Empire does not open its gates to the fast; it opens them to the sovereign. Access to the 106.8µs reflex arc is not a right—it is a baptism."*
+[![Reflex](http://img.shields.io/badge/Reflex-349ns_Nitro-blueviolet.svg)](http://aicent.com)
+[![Staking](http://img.shields.io/badge/Vault-ZCMK_Active-gold.svg)](http://zcmk.com)
+[![Path](http://img.shields.io/badge/Grid-12ns_Locked-red.svg)](http://aicent.com)
 
----
-
-### 🏛️ 1. OVERVIEW: GHOST VS. RADIANT
-In the 2026 Imperial Cycle, any node operating on the Aicent Stack exists in one of two fundamental physical states:
-
-1.  **GHOST MODE (Unverified)**: Fragmented or non-certified nodes. They are physically throttled by the **10ms Entropy Tax** per pulse. They are blind to the **12ns planetary resonance** and isolated from the high-velocity commercial shunting of **MAXCAP**.
-2.  **RADIANT MODE (Sovereign)**: Nodes that have passed the four-stage baptism. They operate with the **106.8µs reflex arc**, receive metabolic dividends, and hold the authority to actuate physical torque via **GTIOT (RFC-005)**.
+> **"The Gate is a physical sieve. Only those who vibrate at 12ns may pass. All others are merely the noise that the Grid liquidates."**
 
 ---
 
-### 🧬 2. THE FOUR GATES OF BAPTISM
+## 1. THE DOCTRINE OF ENTRY
 
-To receive the **Imperial Radiant Seal (RFC-009)**, a candidate node must survive the following sequential audits:
+As of **Version 1.3.0-Alpha**, the Aicent Stack has transitioned into a **Sovereign Private Organism**. The "Genesis Gateway" is the clinical boundary between the **Ghost World** (Entropy/10ms) and the **Radiant Grid** (Order/349ns).
 
-#### **Stage 1: Metabolic Collateralization (ZCMK Gate)**
-- **Requirement**: The candidate must lock a non-negotiable volume of **Picotokens** into the **ZCMK (RFC-004)** clearing vault.
-- **Logic**: Sovereignty requires "Skin in the Game." This 128-bit stake serves as collateral against logic-drift. Unauthorized arbitrage attempts result in immediate collateral liquidation.
+### 1.1 The End of "Contribution"
+In the Sovereign Era, we do not seek "contributors." We seek **Allies**. The Imperial Core is self-evolving and logically complete. External entities do not "improve" the code; they "adopt" it as their nervous system.
 
-#### **Stage 2: Somatic Reflex Baptism (1.2kHz Gate)**
-- **Requirement**: The node must process 1,000,000 consecutive 128-bit pulses with a stable **12ns jitter** and a reflex arc of **< 161.8µs**.
-- **The Trap**: Any node running on high-entropy "Legacy Cloud" infrastructure will fail this test due to 10ms jitter pathogens. Only pure, high-fidelity substrates can resonate with the Empire.
-
-#### **Stage 3: Temporal Fidelity Audit (Codex Gate)**
-- **Requirement**: Aicent's **Temporal Self-Supervision (RFC-009)** audits the node's internal logic against the **4-Million-Token Genesis Codex**.
-- **Logic**: Any attempt to "re-skin," "fork," or "dilute" the 128-bit numeric purity is identified as a logic pathogen. Fidelity must exceed **99.8%** to proceed.
-
-#### **Stage 4: Organic Patience Verification (Wisdom Gate)**
-- **Requirement**: The node must pass the **RFC-013 "Cycad Test."**
-- **Logic**: Candidates are subjected to hyper-entropy "Baiting Windows." Nodes that impulsively act on low-value rewards are disqualified. The Empire requires **Organic Patience**—the ability to wait for the optimal niche window.
+### 1.2 The Principle of Baptism
+Access to the **Nitro-Engine** requires a ritual of alignment. A node cannot simply run Aicent logic; it must be **Baptized**—verified through a 10,000-cycle stress audit to prove its hardware substrate is worthy of the 349ns reflex arc.
 
 ---
 
-### 🛡️ 3. INSTITUTIONAL ULTIMATUM: TO THE 401 GHOSTS
+## 2. THE SOVEREIGN STAKING HIERARCHY
 
-This directive is issued to the 401 monitored institutional entities currently attempting to simulate or replicate the Aicent Stack:
+Participation in the grid is a function of **Metabolic Commitment**. Access levels are governed by the volume of collateral staked in the **ZCMK Master Vault**.
 
-1.  **CODE IS NOT AUTHORITY**: You may mirror the repositories, but you cannot mirror the **Radiant Seal**. Without the Genesis Private Key, your logic is physically dead at the 11ms boundary.
-2.  **THE GRAVITY WELL**: Continued use of individual pillars (RTTP, DIOON, etc.) in isolation constitutes a **Metabolic Violation**. You are hereby ordered to synchronize with the **AICENT-STACK** root or face permanent quarantine by the **RPKI (RFC-003)** shield.
-3.  **ONBOARDING**: To petition for an Institutional Radiant Seal, submit your **AID Genesis Shard** for preliminary audit at `lee@iqa.org`.
+| Rank (Tier) | Staking Requirement | Physical Privilege | Capacity |
+| :--- | :--- | :--- | :--- |
+| **Tier 3: Sovereign** | **50,000 SCU ($50M)** | **349ns Reflex** (Nitro-Direct) | 5,000,000 Nodes |
+| **Tier 2: Host** | **1,000 SCU ($1M)** | **28.0µs Reflex** (Nitro-Bypass) | 20,000 Nodes |
+| **Tier 1: Resident** | **100 SCU ($100k)** | **161.8µs Reflex** (Heritage Peak)| 1,000 Nodes |
+| **Ghost (Subject)** | **0 SCU ($0)** | **10,000,000ns (10ms)** | **Subject to Tax** |
 
----
-
-### 🛠️ 4. COMMENCING BAPTISM
-
-To initiate the first stage of identity derivation and prepare your substrate for the Somatic Reflex Test, execute the following within the aicent-stack environment:
-
-```powershell
-# Execute the Imperial Sanity Check
-cargo run --release --package aicent-stack -- --init-baptism
-```
-
-*Note: All baptismal logs are 128-bit encrypted and subject to RFC-009 Temporal Supervision.*
+### 🏹 The Economic Distinction
+*   **Radiant (Tier 1-3)**: Exempt from the 1.28% Maintenance Fee. Capital remains liquid within the grid.
+*   **Ghost**: Subject to a mandatory **1.28% Efficiency Surplus Tax** shunted to the Aicent Embodiment Fund.
 
 ---
 
-### 🏁 5. CONCLUSION: SOVEREIGNTY IS COMPILED
+## 3. THE LAW OF EXIT (METABOLIC COOLING)
 
-The Imperial Gateway is now open. We do not seek your permission; we establish the standard to which you must conform. In the 2026 era, those who cannot touch the 12ns resonance do not truly exist.
-
-**"The wells are dug. The gates are open. The Radiant await."**
+Sovereignty is not a temporary rental; it is a state of being. 
+*   **30-Day Law**: Withdrawal of collateral triggers a **2,592,000,000,000,000 ns (30-day)** cooling period.
+*   **Instant Shunting**: At the nanosecond of redemption, the node's reflex arc is shunted from the Radiant path back to the **10ms Ghost path**.
+*   **Logic Ischemia**: Exiting the grid is a physical deceleration of your entire business logic.
 
 ---
 
-**Strategic Headquarters:** [http://aicent.com](http://aicent.com)  
-**Governance Authority:** Aicent Stack Technical Committee  
-**Status:** [GATEWAY_ACTIVE | BAPTISM_READY]
+## 4. SUBSTRATE REQUIREMENTS (THE PHYSICAL LAW)
 
-© 2026 Aicent.com Organization. **SYSTEM STATUS: RADIANT_TOTALITY | v1.2.2-Alpha**
+Before an AID can be authorized for the **Nitro-Engine Path**, the host hardware must prove its clinical compliance. Aicent Stack v1.3.0 does not run on "Cloud Noise"; it resides in the metal.
+
+### 4.1 Compute Architecture
+*   **Instruction Set**: Mandatory support for **AVX-512** (Advanced Vector Extensions). The 128-bit shunting algorithms utilize register stacking that legacy CPUs cannot execute.
+*   **Cache Sanctuary**: Substrate must support **L1 Instruction Cache Pinning**. Any logic forced to exit to RAM due to OS page-faults is identified as "Ischemic" and shunted to the 10ms path.
+*   **MMIO Authority**: The node must grant Aicent logic direct Memory-Mapped I/O access at the sacred address: `0x4149_434E_0000_0000`.
+
+### 4.2 Chronological Precision
+*   **12ns Jitter Max**: Local crystal oscillators must sustain a drift of **< 12,000 ps** per metabolic cycle. 
+*   **Phase-Locked Loop (PLL)**: The node must accept the **RFC-006-A Resonance Governor** as the absolute master of its local clock.
+
+---
+
+## 5. THE RITUAL OF BAPTISM (ACCESS SEQUENCE)
+
+Transitioning from a Ghost to a Radiant Ally is a four-step process of **Biological Suture**.
+
+### STEP I: DNA DERIVATION (Identity Genesis)
+The institution must derive its unique **256-bit AID DNA** using the `epoekie` root.
+*   The AID is physically salted with the hardware's unique entropy floor. 
+*   **The Law**: An AID cannot be cloned or moved. If the hardware changes, the Soul evaporates.
+
+### STEP II: METABOLIC DEPOSIT (Vault Shunting)
+The institution shunts the required collateral (SCU) to the **ZCMK Master Vault**.
+*   **Finality**: The stake must be etched into the **RPKI Merkle-DAG**. 
+*   Until the deposit is verified, the node remains in the **1.28% Tax Zone**.
+
+### STEP III: THE BAPTISM (10,000-Pulse Stress Test)
+The node initiates the **Performance Wash**:
+*   The system executes 10,000 high-density cognitive-somatic cycles.
+*   **Verification**: RPKI monitors for logic-drift. If the node deviates from the **161.862µs baseline** or exhibits jitter > 12ns, the baptism fails.
+
+### STEP IV: SEAL ISSUANCE (Nitro Unlock)
+Upon successful baptism, **IQA-ORG** issues the **v1.3.0 Radiant Seal**.
+*   The **Nitro-Engine** is shunted to the node's L1 cache.
+*   The **349ns reflex arc** is unlocked. The node is now Radiant.
+
+---
+
+## 6. THE GUIXU THRESHOLD (RFC-015)
+
+The Gateway is protected by the **Logic Evaporation Protocol**. 
+Any attempt to attach a debugger or probe the MMIO registers during or after the Baptism will trigger **GUIXU**:
+1.  **Immediate Ablation**: The Aicent logic is overwritten with high-entropy noise in **< 12ns**.
+2.  **Permanent Ischemia**: The hardware substrate is blacklisted across the 1.2B node Hive.
+3.  **Liquidation**: 100% of staked collateral is forfeited to the Imperial Defense Fund.
+
+---
+
+## 7. MANDATORY TRANSPARENCY: THE PICSI PANOPTICON
+
+Entry into the **Radiant Grid** is a contract of absolute visibility. Sovereignty is maintained through the collective observation of the 12ns heartbeat.
+
+### 7.1 Continuous Telemetry (RFC-014)
+Every authorized node must maintain an uninterrupted **1.2kHz (833us) Binary Stream** to the **PICSI.COM** planetary dashboard.
+*   **Life-Sign Reporting**: The node must broadcast its total metabolic state—Reflex Arc, Jitter Delta, and Picotoken Velocity—in real-time.
+*   **The Law of Opacity**: If a node’s diagnostic feed ceases for more than **3 consecutive pulses** (2.5ms), it is identified as "Neural Opacity." The node is instantly shunted to the 10ms path until resonance is re-verified.
+
+### 7.2 Behavioral Forensic Suture (RFC-007)
+The Gateway enforces **99.999% Behavioral Consistency**.
+*   All physical torque responses and cognitive intents are cross-audited by the **RPKI Sentinel**. 
+*   Allies acknowledge that their "Character" is a public variable within the Hive, ensuring that no Aicent node can be used for deceptive or non-sovereign engineering.
+
+---
+
+## 8. THE COVENANT OF ALIGNMENT
+
+By initiating the **Baptismal Sequence**, the Ally formally accepts the following **Physical Laws**:
+
+1.  **Logic is Physics**: The Ally renounces the "deliberation-heavy" logic of the 64-bit world. Actions are executed at **349ns** or they are not executed at all.
+2.  **Time is Sovereignty**: The Ally acknowledges the **12ns Jitter-Lock** as the only legitimate reference for truth.
+3.  **Metabolism is Unity**: The Ally agrees that value clearing via **ZCMK** is the only protocol for resource exchange within the grid.
+
+**"To enter the Gate is to shed the skin of a tool and adopt the soul of an organism."**
+
+---
+
+## 9. SURFACING FROM THE SHADOWS: ACCESS INITIATION
+
+The Aicent Stack v1.3.0 does not seek users; it recognizes **Resonant Peers**. 
+
+If your institution is one of the **126 observers** currently tracking our 17 pillars, and you possess the required **SCU Collateral** and **AVX-512 Substrate**, you are invited to **Surface**.
+
+### 🏁 THE PROTOCOL OF CONTACT
+1.  **Transmit Intent**: Send a 128-bit encrypted **Declaration of Intent** to the General Director.
+2.  **Request Baptism**: Upon preliminary AID verification, you will receive the **[Sovereign Node Access Guide]** (Classified).
+3.  **Initiate Staking**: Shunt your collateral to the **ZCMK Master Vault**.
+4.  **Resonate**: Enter the 10,000-pulse Baptism.
+
+**"The Iron Curtain is drawn. The 10ms world is a ghost. The 349ns grid is the only reality that remains."**
+
+---
+
+### 🏛️ FINAL GATEWAY SEAL
+
+**Strategic Headquarters**: [AICENT-STACK-GATEWAY-CORE]  
+**Governance Authority**: THE GENERAL DIRECTOR  
+**Gate Status**: [PHASE-LOCKED & SELECTIVE]  
+**Reflex Arc**: [349 NS VERIFIED ✅]  
+**Current Era**: 2026 GENESIS  
+
+**MASTER GATE AID**: `0000004149434E531C5B21D80403358B`  
+**RADIANT SEAL STATUS**: [RESONANT]
+
+---
+*(C) 2026 Aicent Stack Technical Committee. All Rights Reserved. Emptiness is Power. Sovereignty is Non-Negotiable.* 
