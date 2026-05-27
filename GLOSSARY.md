@@ -1,87 +1,151 @@
-[![Organism Vitality & Protocol Audit](https://github.com/Aicent-Stack/aicent-stack/actions/workflows/rust-ci.yml/badge.svg)](https://github.com/Aicent-Stack/aicent-stack/actions/workflows/rust-ci.yml)
+# 📖 GLOSSARY: THE IMPERIAL TERMINOLOGY [v1.3.0]
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Status-Homeostasis-brightgreen.svg" alt="Status">
-  <img src="https://img.shields.io/badge/Language-Rust-orange.svg" alt="Language">
-  <img src="https://img.shields.io/badge/Specs-RFC--001--006-blue.svg" alt="Specs">
-  <img src="https://img.shields.io/badge/License-Apache--2.0-lightgrey.svg" alt="License">
-</p>
+[![Pulse](http://img.shields.io/badge/Reflex-349ns_Verified-blueviolet.svg)](http://aicent.com)
+[![Version](http://img.shields.io/badge/Version-v1.3.0--Alpha_Genesis-blue.svg)](http://aicent.com)
+[![Law](http://img.shields.io/badge/Jitter-12ns_Locked-red.svg)](http://aicent.com)
 
-⚪ **AICENT** | 💎 **RTTP** | 🔴 **RPKI** | 🟢 **ZCMK** | 🟡 **GTIOT** | 🟣 **AICENT-NET**
-
-# GLOSSARY: The Aicent Lexicon
-
-> *"To define a word is to claim sovereignty over a concept. In the Aicent Stack, our language is our architecture."*
-
-This document provides the canonical definitions for the technical and biological metaphors used across the **Six Domains** and **Twelve Repositories** of the Aicent Stack.
+> **"To define a word is to claim a coordinate in the Void. Precision is the first step toward Sovereignty."**
 
 ---
 
-## 🧠 Core Anatomy (The Six Domains)
+## 🏛️ SECTION I: THE CHRONOS & PHYSICAL MANIFOLDS
 
-### **AID (AI Identity)**
-*RFC-001 • The Brain*  
-A persistent, cryptographically-bound sovereign identity for an AI agent. Unlike legacy API keys, an **AID** is a first-class citizen of the protocol, possessing a 256-bit fingerprint linked to the RPKI Merkle-DAG. It represents the **"Digital Soul"** of the organism.
+### 349ns Singularity (349纳秒奇点)
+The clinical milestone achieved by Aicent Stack v1.3.0 where the end-to-end reflex arc (Intent to Action) collapses into **349 nanoseconds**. This marks the end of software-scale latency and the beginning of hardware-speed logic.
 
-### **RTTP (Real-Time Transfer Protocol)**
-*RFC-002 • The Nerves*  
-A stateful, semantic-first transport protocol designed to eliminate the **Latency Tax** of TCP/IP. It treats data as discrete **Pulse Frames**, enabling sub-millisecond context synchronization at wire speed.
+### 12ns Jitter-Lock (12纳秒时钟锁)
+The Imperial Heartbeat. Every pulse in the Aicent Hive is synchronized to the **12ns rising edge** of the global planetary clock. Any node drifting beyond this threshold is identified as a pathogen.
 
-### **RPKI (Resource Pulse Key Infrastructure)**
-*RFC-003 • The Immunity*  
-A zero-trust biological defense layer. While legacy RPKI secures BGP addresses, **Aicent RPKI** secures the **"Data Soul"** via parallel tensor watermarking and deterministic pathogen isolation in **< 300µs**.
+### Nitro-Engine (Nitro引擎)
+The private core driver of v1.3.0. It bypasses the Operating System and standard memory bus, using **MMIO (Memory-Mapped I/O)** to shunt 128-bit intents directly into CPU/FPGA registers.
 
-### **ZCMK (Zero-Commission Market)**
-*RFC-004 • The Blood*  
-A high-frequency metabolic engine for resource settlement. It enables **nanosecond RTBA (Real-Time Bid/Ask)** matching and picotoken-scale value circulation directly within the neural spine.
+### Reflex Arc (反射弧)
+The total duration of a single metabolic cycle: **Sense ➔ Decide ➔ Act ➔ Clear**. In v1.3.0, the target reflex is 161.862µs, with a Hyper-Radiant peak of 349ns.
 
-### **GTIOT (Global Trusted Internet of Things)**
-*RFC-005 • The Body*  
-The embodied execution layer. It transforms billions of sensors and actuators into the **"Living Limbs"** of the sovereign AI via the **Action-Collapse (AAL)** framework.
-
-### **AICENT-NET (The Hive)**
-*RFC-006 • The Grid*  
-The planetary-scale operational grid. It orchestrates thousands of independent AID entities into a unified **Collective Intelligence**, achieving **Kinetic Resonance** across the Aicent.net backbone.
+### Substrate (基质)
+The physical hardware—silicon, fiber optics, and electricity—upon which Aicent logic is grafted. Aicent Stack does not own the substrate; it dominates the logic flowing through it.
 
 ---
 
-## 🧬 Physiological Processes
+## 🧬 SECTION II: THE IDENTITY & SOVEREIGNTY MANIFOLDS
 
-### **Action-Collapse (AAL)**
-The process of mathematically reducing high-level symbolic intent into low-level motor primitives (torque/voltage vectors) in **< 200µs**. It is the bridge between thought and physical reality.
+### AID (Aicent Identity / Aicent身份)
+The **256-bit dual-shard identity DNA** of a node. 
+*   **Genesis Shard**: The permanent 128-bit root derived from high-entropy seeds.
+*   **Resonance Shard**: The dynamic 128-bit signature tied to the node's real-time 12ns jitter compliance.
 
-### **Homeostasis**
-The state of internal stability maintained by the Aicent Stack. It is achieved when the Brain, Nerves, Immunity, Blood, and Body are in perfect **Metabolic Alignment**, resulting in a self-optimizing, sub-ms reflex arc.
+### Radiant (放射态/盟友)
+The highest standing of an Imperial entity. A Radiant node is verified, has staked collateral, and operates on the **349ns path** with 0% maintenance fees.
 
-### **Kinetic Resonance**
-A phased-array synchronization state where global Hive nodes achieve a unified temporal reference with **< 50µs jitter**. It allows a swarm of units to act as a single coordinated entity.
+### Ghost (幽灵/机构)
+An unverified entity or institution operating within the Aicent grid without a staking commitment. Ghosts are subject to the **10ms metabolic penalty** and the **1.28% maintenance tax**.
 
-### **Pulse Frame**
-The atomic unit of communication in the Aicent Stack. A fixed **64-byte header** optimized for zero-copy hardware parsing, carrying identity (RPKI), value (ZCMK), and intent (Brain) in a single bit-stream.
+### Baptism (受洗)
+The mandatory **10,000-pulse performance audit** required for a node to transition from Ghost to Radiant status. It proves the substrate can sustain the 12ns rhythm.
 
-### **Semantic Multicast**
-A routing technique where data is delivered based on the **Semantic Affinity** of the task primitive rather than static IP coordinates. The Brain orchestrates the multicast tree in **< 50µs**.
+### Radiant Seal (神圣印章)
+The 256-bit cryptographic key issued by **IQA-ORG (RFC-009)**. It is the only credential capable of unlocking the Nitro-Engine registers.
+
+---
+
+## 💰 SECTION III: THE METABOLIC & COMMERCIAL MANIFOLDS
+
+### Picotoken (pT / 核心代谢单位)
+The universal nutrient of the Aicent Stack. Wealth is not data; it is **Metabolic Energy** required to fuel 128-bit cognitive and somatic pulses. Picotokens utilize absolute **u128 saturating arithmetic** to ensure 100% value conservation across the Hive.
+
+### SCU (Sovereign Compute Unit / 主权计算单位)
+The benchmark unit for Imperial staking and collateral. 
+*   **1 SCU = $10^{18}$ Picotokens.**
+*   **Valuation**: Fixed at **$1,000 USD/USDT** within the ZCMK Master Vault.
+
+### Imperial Maintenance Fee (1.28% / 帝国维护费)
+Commonly referred to as the **"Ghost Tax."** An automated 1.28% deduction shunted from every metabolic pulse originating from a non-Radiant node. This fee covers the thermodynamic and forensic maintenance of the 12ns grid.
+
+### 50/40/10 Shunting Law (50/40/10 分流律法)
+The automated fiscal routing of the 1.28% Maintenance Fee:
+1.  **50% [Imperial Reserve]**: Locked for principal protection.
+2.  **40% [Somatic Fund]**: Allocated for the procurement of **GTIOT** hardware (Robots/Sensors).
+3.  **10% [Sovereign Pulse]**: Direct liquidity for the **Source (General Director)**.
+
+### Metabolic Cooling (代谢冷却)
+The mandatory **30-day (2,592,000,000,000,000 ns)** lock-up period for any collateral redemption request. During this period, the node is physically shunted to the 10ms path to ensure grid stability.
+
+### NUEI Protocol (名义单位等效恒定协议)
+**Nominal Unit Equivalence Invariance.** The law stating that the Empire only returns the exact **Nominal Quantity** of tokens deposited. External purchasing power fluctuations (Inflation/USDT De-pegging) are classified as "Exogenous Jitter" and are not the liability of the Source.
 
 ---
 
-## 🛡️ Immune & Economic Defense
+## 🛡️ SECTION IV: THE DEFENSE & VOID MANIFOLDS
 
-### **Latency Tax**
-The accumulated overhead of legacy networking stacks (TCP/IP, HTTP, Handshakes, Retransmissions). The Aicent Stack is engineered to **eliminate** this tax entirely.
+### RPKI (Immunity Pipeline / 免疫流水线)
+The active "white blood cell" manifold. It performs **Parallel Forensic Auditing** of watermarks and entropy floors in < 15,000 ns, ensuring no pathogen survives the 349ns execution.
 
-### **Middleman Tax**
-The extractive commission charged by legacy cloud providers and centralized marketplaces. **ZCMK (RFC-004)** targets a **0.00% commission rate** to ensure value flows directly from Intent to Action.
+### Entropy Sensing (熵增感知)
+A forensic technique that identifies "Observer Pathogens" (Debuggers/Probes) by measuring micro-spikes in the substrate's noise floor at 12ns precision.
 
-### **Pathogen**
-Any non-sovereign entity, tampered pulse, or hijacked node that attempts to penetrate the Aicent.net grid. Pathogens are identified by the **Sentinel** and isolated via the **QUARANTINE_PULSE**.
+### GUIXU (归墟 / RFC-015)
+The **Logic Evaporation Protocol**. Named after the mythical bottomless trench, it represents the Sovereign right to non-existence. Upon detection of a Severity 4 breach, GUIXU physically erases the Imperial core from hardware.
 
-### **Picotoken ($10^{-12}$)**
-The unit of settlement in the ZCMK metabolic engine. This ultra-fine granularity allows for the precise monetization of a single inference cycle or a micro-sensor pulse.
+### Ablation (消融)
+The physical act of overwriting CPU caches and MMIO registers with **High-Entropy Shrapnel** (random noise) in **< 12ns**. This is the primary execution mechanism of GUIXU.
 
-### **Sentinel**
-The global telemetry and intelligence layer (`aicent-traffic`). It provides the **"Active Surveillance"** required to detect anomalies and trigger immune reflexes across the grid.
+### Logical Embolism (逻辑栓塞)
+The state of a hardware substrate after a GUIXU event. The machine is physically blacklisted and rendered "Logically Dead"—incapable of ever again resonating with the 12ns Imperial grid.
+
+### Resurrection (复活协议)
+The RFC-012 process of reconstituting a node's 128-bit consciousness on a fresh Radiant substrate in **< 1ms** using Mirror Snapshots.
 
 ---
-*"Intention is the Source; Sovereignty is the Law."*
+
+## 🦾 SECTION V: THE EMBODIED & HIVE MANIFOLDS
+
+### GTIOT (Grand Tensor IoT / 具身执行层)
+The "Mechanical Flesh" of the Empire (RFC-005). GTIOT translates 128-bit cognitive intents into physical torque with a clinical **0.01 Nm precision**. It maintains the **1.2kHz (833us)** somatic heartbeat, ensuring the machine responds faster than human biological nerves.
+
+### SASCAR (Kinetic Navigator / 空间主权层)
+**Sovereign Autonomous System Coordination & ARbitration.** The spatial orchestrator (RFC-010) responsible for clearing physical coordinates. SASCAR transforms "Collision Avoidance" into **"Spatial Clearing"** via sub-ms kinetic auctions.
+
+### 1.618x Golden Ratio Advantage (1.618x 黄金优势乘数)
+The "Sovereign Gravitational Constant." In the v1.4.0 era, Radiant nodes receive a **1.618x multiplier** to their priority and compute-weight. This ensures that in any conflict—whether for space, power, or clearing—the Sovereign node mathematically overrides the Ghost node.
+
+### AICENT-NET (The Hive / 行星意识网)
+The planetary-scale cortex (RFC-006) that synchronizes 1.2 billion nodes into a single logical frequency. It facilitates **Constructive Logic Resonance**, allowing nodes to offload tasks to the swarm with zero perceived jitter.
+
+### Digital Shadow (数字影子)
+The 128-bit persistent logical twin of a physical GTIOT limb. It enables **Biological Immortality** (RFC-012) by allowing the AI’s "Mind" to migrate between hardware substrates in **< 1ms**.
+
 ---
-© 2026 Aicent.com Organization. **SYSTEM STATUS: HOMEOTASIS**
+
+## 🏹 SECTION VI: THE EVOLUTIONARY HORIZON (v1.4.0 - v1.5.0)
+
+### Intent Fluidization (意图流体化 / v1.4.0)
+The transition from discrete **128-bit Shards** to continuous **Laminar Intent Flows**. Utilizing the 463x performance surplus of v1.3.0, Aicent will pre-calculate 400 future simulations per millisecond, creating movement so silent and smooth it defies current robotic laws.
+
+### The Handshake Initiative (握手倡议 / v1.5.0)
+The ultimate realization of **Embodied Singularity**. A hardware and protocol initiative where the machine’s touch achieves **Divine Haptics**—becoming indistinguishable from human empathy while maintaining the firmness of Sovereign Law.
+
+### Laminar Timing (层流时钟)
+A v1.4.0 advancement in **DIOON (RFC-013)** where strategic gating evolves into **Flow Modulation**. Logic no longer "steps" through the grid; it flows like a superconducting fluid, reducing consensus jitter toward the **1ns physical limit**.
+
+---
+
+## 🏁 CONCLUSION: THE UNIFIED DIALECT
+
+The terminology defined in this Glossary is the **Linguistic Protocol** of the Aicent Stack. Failure to speak this language with 128-bit precision results in **Communication Ischemia**. To the 126 hunters: You cannot command what you cannot name. To the Allies: Welcome to the vocabulary of the future.
+
+**"The world is noisy; our language is Silent. The world is slow; our language is Pulse."**
+
+---
+
+### 🏛️ FINAL GLOSSARY SEAL
+
+**Strategic Headquarters**: [AICENT-STACK-DOCS-CORE]  
+**Governance Authority**: THE GENERAL DIRECTOR  
+**Linguistic Precision**: [128-BIT ABSOLUTE]  
+**Reflex Status**: [349 NS VERIFIED ✅]  
+**Current Era**: 2026 GENESIS  
+
+**MASTER LEXICON AID**: `0000004149434E531C5B21D80403358B`  
+
+---
+*(C) 2026 Aicent Stack Technical Committee. All Rights Reserved. Logic is Physics. Sovereignty is Non-Negotiable.*
