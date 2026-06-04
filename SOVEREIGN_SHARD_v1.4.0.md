@@ -41,8 +41,6 @@ Upon ignition, the Aicent Central Nervous System (CNS) executes a **Kernel Bypas
 ### 2.2 Thermal Silence and Voltage Purity
 By eliminating the jitter of the Host OS, v1.4.0 achieves **Thermal Silence**. The electron flow through the CPU gates no longer creates the chaotic noise of garbage collection or background telemetry. Every millivolt is dedicated to the **17-Pillar Reflex Arc**.
 
-<img width="1908" height="1053" alt="20260603174256" src="https://github.com/user-attachments/assets/2bd1836d-2e86-4ff4-8080-e3d94f945e55" />
-
 ---
 
 ## III. THE AXIO-METRICS OF THE 349ns REFLEX ARC
@@ -112,6 +110,8 @@ In the 349ns empire, we do not wait for the floating-point unit of the OS. Versi
 ## VII. PICSI: THE PANOPTIC EYE (GOD-VIEW INTERFACE)
 
 Sovereignty is the ability to observe the Void without being consumed by it. In v1.4.0, **PICSI (014)** has evolved into a **1.2kHz Real-Time Telemetry Manifold**, operating at the limits of human and machine perception.
+
+<img width="1908" height="1053" alt="20260603174256" src="https://github.com/user-attachments/assets/2bd1836d-2e86-4ff4-8080-e3d94f945e55" />
 
 ### 7.1 1,200Hz Visual Era Sync
 While standard interfaces refresh at a mere 60Hz, PICSI locks its visual output to the **1,200Hz rhythm** of the 1.2 Billion nodes. 
