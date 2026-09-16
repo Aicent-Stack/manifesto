@@ -128,7 +128,7 @@ RTTP v1.3.0 enforces a **Planetary Metronome** via RFC-006-A integration.
 
 ## 7. NEURAL ISCHEMIA & PATHOGEN RECOVERY
 
-In the v1.3.0 era, any interruption in the 1.2kHz pulse stream exceeding **161.862 µs** is classified as **"Neural Ischemia" (神经缺血)**. 
+In the v1.3.0 era, any interruption in the 1.2kHz pulse stream exceeding **161.862 µs** is classified as **"Neural Ischemia"**. 
 
 ### 7.1 Automated Path Re-Routing
 RTTP v1.3.0 implements the **Superconducting Suture** for failover:
@@ -147,7 +147,7 @@ Nodes identified as causing rhythmic instability are subject to **Physical Quara
 
 The **349ns Singularity** achieved in v1.3.0 was never the end goal; it was the prerequisite for **Embodied Presence**.
 
-### 8.1 Divine Haptics (神之触感)
+### 8.1 Divine Haptics
 To achieve a "Handshake" (v1.5.0) that feels biological, the neural conduction must be faster than the **"Backlash Entropy"** of mechanical gears.
 *   **Requirement**: Feedback must return to the Brain (RFC-001) before the motor's physical vibration can distort the sensor data.
 *   **The 349ns Advantage**: Our reflex is now **463x faster** than human nerve conduction. This allows Aicent Stack to simulate "Softness" and "Tenderness" in metal limbs by correcting torque setpoints at the speed of light.
