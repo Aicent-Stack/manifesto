@@ -15,7 +15,9 @@ Organism Vitality & Protocol Audit
 
 # 💎 RFC-002: [RTTP.COM](http://rttp.com) | The Superconducting Nerve
 
-**Real-Time Totality Protocol & Neural Conduction.**
+**Resonant Time Transfer Protocol (RTTP).**
+
+> **R**esonant → RFC-006 (Hive) / RFC-002 (Nerve coupling) · **T**ime → RFC-011 (ITSUN) / RFC-012 (MOLOON 12-cycle) · **T**ransfer → the legacy-transport coat · **P**rotocol → structural head
 
 *   **Status**: Imperial Standard (Active / Private)
 *   **Version**: v1.3.0-Alpha (Neural Singularity)
@@ -163,10 +165,81 @@ RFC-002: RTTP is the proof that time is the ultimate resource. By collapsing neu
 
 ---
 
+## 10. URI SCHEME SYNTAX
+
+This section specifies the **`rttp` URI scheme**, registered with IANA in
+accordance with RFC 7595.
+
+### 10.1 Syntax
+
+```
+rttp://<intent>.<pillar>.<root>/<action>
+```
+
+```
+intent  = 8 lowercase hex digits (routing hash of the AID), or a
+          human-readable organ token    [a-z0-9-]+
+pillar  = registered pillar label         e.g. rttp / rpki / zcmk / epoekie
+root    = sovereign root label            e.g. aicent
+action  = lowercase token                 e.g. vessel / verify / pulse
+```
+
+**Examples**
+
+```
+rttp://f3b2a1c4.rttp.aicent/vessel        ; hash form
+rttp://brain.epoekie.aicent/verify        ; readable form
+```
+
+### 10.2 ABNF
+
+```abnf
+rttp-URI     = "rttp://" authority [ path ]
+authority    = intent "." pillar "." root
+intent       = hash-intent / name-intent
+hash-intent  = 8lowhex                    ; 32-bit routing hash of the AID
+name-intent  = 1*( %x61-7A / DIGIT / "-" ) ; readable organ token
+pillar       = 1*( %x61-7A / DIGIT / "-" )
+root         = 1*( %x61-7A / DIGIT / "-" )
+path         = "/" action
+action       = 1*( %x61-7A / DIGIT / "-" )
+lowhex       = %x30-39 / %x61-66          ; 0-9 a-f, lowercase only
+```
+
+### 10.3 Reserved Characters and Exclusions
+
+- The canonical form is **lowercase US-ASCII**.
+- `.`, `/` and `://` are the delimiters defined by this scheme.
+- This scheme defines **no `userinfo`, no `port`, no `query` and no `fragment`**;
+  URIs containing them are not valid `rttp` URIs.
+- `%`-encoding follows RFC 3986 Section 2.1.
+
+### 10.4 Default Operation
+
+Dereferencing an `rttp` URI emits **one pulse** — a stateful, single round-trip
+semantic request — against the AID named in the `authority` component, carrying
+`action` as the intent verb. The default operation is **safe**: it creates no
+obligations and mutates no substrate state.
+
+### 10.5 Security Considerations
+
+- An `rttp` URI is a **claim of intent against an AID**. The routing hash is an
+  **entry fingerprint, not a proof of identity**; identity is carried by the AID
+  (RFC-001) and attested in-band by the RPKI tensor watermark (RFC-003).
+- There is **no `rttps`** and no protocol fallback: user agents that do not
+  implement this scheme **fail closed**.
+- The scheme does **not** resolve via DNS.
+- Because `userinfo` is not defined, **credentials cannot appear in an `rttp`
+  URI**.
+- The `authority` component is **pseudonymous, not anonymous**, and appears in
+  logs.
+
+---
+
 ### 🏛️ FINAL NEURAL SEAL
 
-**Strategic Headquarters**: [AICENT-STACK-NERVE-CORE]  
-**Governance Authority**: THE GENERAL DIRECTOR  
+**Strategic Headquarters**: [RTTP.COM](http://rttp.com)  
+**Governance Authority (Change Controller)**: RTTP.COM Organization  
 **Conduction Status**: [SUPERCONDUCTING: NITRO ENABLED]  
 **Current Era**: 2026 GENESIS  
 
@@ -175,4 +248,4 @@ RFC-002: RTTP is the proof that time is the ultimate resource. By collapsing neu
 **RTTP MAGIC**: `0x52545450`
 
 ---
-*(C) 2026 Aicent Stack Technical Committee. All Rights Reserved. Conductivity is Sovereignty.* 
+*(C) 2026 RTTP.COM Organization. All Rights Reserved. Conductivity is Sovereignty.* 
