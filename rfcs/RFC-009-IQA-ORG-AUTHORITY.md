@@ -17,6 +17,8 @@ Organism Vitality & Protocol Audit
 
 **Identity Quality Assurance & Sovereign Certification.**
 
+> **Naming note.** IQA here denotes **Identity** Quality Assurance. It is not affiliated with the **Institute** of Quality Assurance (the historical UK body that became the Chartered Quality Institute in 2007), nor is it the computer-vision field of **Image** Quality Assessment.
+
 *   **Status**: Imperial Standard (Active / Private)
 *   **Version**: v1.3.0-Alpha (Authority Singularity)
 *   **Verification Finality**: < 150,000 ns (150 µs)
@@ -174,6 +176,129 @@ RFC-009: IQA-ORG is the proof that sovereignty is a physical boundary. By achiev
 
 ---
 
+## 10. THE `iqa://` URI SCHEME: ADDRESSING AND SYNTAX
+
+The `iqa` URI scheme gives the standing rendered by this Authority Layer a **portable identifier** — so that an attestation can be cited in a document, a configuration file, or a log without carrying the 256-bit Seal itself.
+
+### 10.1 Scheme Syntax
+
+```
+iqa://<subject>.<organ>.<root>/<action>
+```
+
+| Segment | Meaning |
+| :--- | :--- |
+| **`subject`** | The AID under attestation. Either the **routing short form** (8 lowercase hex digits = 32-bit routing hash), the **full AID** (32 hex = 128-bit, 64 hex = 256-bit), or a registered readable label. |
+| **`organ`** | Which Authority Organ renders the answer: `forge` (RFC-009-A) · `tss` (RFC-009-B) · `gateway` (RFC-009-C). **Closed set.** |
+| **`root`** | The sovereign root label — `iqa` (i.e. `iqa.org`). |
+| **`action`** | Optional. `verify` · `audit` · `attest` · `revoke`. **Closed set.** Omitted = standing read. |
+
+### 10.2 ABNF (RFC 5234)
+
+```abnf
+iqa-URI         = "iqa://" authority [ path ]
+
+authority       = subject "." organ "." root
+subject         = hash-subject / name-subject
+hash-subject    = 8lowhex / 32lowhex / 64lowhex
+name-subject    = 1*( %x61-7A / DIGIT / "-" )
+organ           = "forge" / "tss" / "gateway"
+root            = 1*( %x61-7A / DIGIT / "-" )
+
+path            = "/" action
+action          = "verify" / "audit" / "attest" / "revoke"
+
+lowhex          = %x30-39 / %x61-66
+```
+
+### 10.3 What an `iqa` URI Is Not
+
+*   **No `userinfo`.** The scheme defines no credential component — credentials cannot appear in an `iqa` URI. (This is a deliberate exclusion, not an omission.)
+*   **No port, no query, no fragment.** A string containing `@`, `:`, `?`, `#`, `[` or `]` is **not** a valid `iqa` URI.
+*   **Lowercase US-ASCII only.** Hex AID material is normalized to lowercase on entry — the Master Authority AID is written `0000004149434E531C5B21D80403358B` in this document, but enters a URI as `0000004149434e531c5b21d80403358b`.
+*   **The hash is a routing hint, not evidence.** The 8-digit short form carries no verification weight; identity is bound by the 256-bit Seal (§4), never by the URI.
+
+> **"The URI is an entry fingerprint; the AID is the identity; the Seal is the evidence."**
+
+**Examples**
+
+```
+iqa://3f9a1b2c.gateway.iqa                            ; short form - standing read
+iqa://0000004149434e531c5b21d80403358b.forge.iqa      ; full 128-bit AID form
+iqa://3f9a1b2c.tss.iqa/audit                          ; explicit fidelity audit
+iqa://master-authority.gateway.iqa/verify             ; readable label form
+```
+
+**Not valid `iqa` URIs**
+
+```
+iqa://subject@iqa.org              ; INVALID - userinfo is not defined
+iqa://iqa.org/RFC-009/             ; INVALID - no organ, second path segment
+iqa://3f9a1b2c.gateway.iqa/ATTEST  ; INVALID - uppercase
+iqa://3f9a1b2c.forgery.iqa         ; INVALID - organ is a closed set
+```
+
+### 10.4 Client Requirements
+
+A client that dereferences, resolves, or handles an `iqa` URI — a resolver page, a protocol handler, or a library that presents the result — **MUST** satisfy the following. These requirements follow directly from §10.3 and §12: an `iqa` URI may be supplied by an untrusted party, and its `subject` is a claim, not a proof.
+
+*   **No navigation to the URI.** The `subject`, `organ`, `root` and `action` components **MUST NOT** be used as a navigation target. A client that renders a link, redirect, or fetch derived from any part of an `iqa` URI is an **open redirect** and is non-conformant. A client MAY navigate only to a destination that is **fixed in advance** by the client itself.
+*   **Scheme prefix check.** A protocol handler registered for this scheme **MUST** reject any input that does not begin with `iqa:` or `web+iqa:`. Without this check the handler becomes a general-purpose launcher that any page can use to open an arbitrary URI.
+*   **Consent, never silence.** The ability to handle `iqa` URIs **MUST NOT** be acquired without an explicit action by the user, and a client **MUST NOT** simulate or bypass that consent. In every browser, registration of a protocol handler is user-initiated, and the list of registered handlers is not exposed to the network.
+*   **Parsing is not attestation.** A client that displays a parsed `iqa` URI **MUST NOT** present the result as evidence of standing. Reading the syntax establishes nothing about any subject; standing is established only by the 256-bit Seal (§4) and by the answering Organ (§3).
+
+**Rationale.** `iqa://<subject>.<organ>.<root>/<action>` is a short, human-readable string that any page can embed in a link. Without the rules above, the scheme would hand third parties two primitive attacks: using this project's domain as a redirector (**open redirect**), and using a registered handler as a launcher for URIs the user never intended to open. The fourth rule guards a third failure mode specific to this scheme — a parse that *looks* like a certification.
+
+---
+
+## 11. DEFAULT DEREFERENCE & OPERATION SAFETY
+
+### 11.1 The Default Operation Is a Read
+
+Dereferencing an `iqa` URI **with no `action`** performs a **standing read**: it returns the subject's current verdict as reported by the named Organ — one of **Ghost · Probation · Radiant · Genesis** (§3, RFC-009-C).
+
+The default operation is read-only. It creates no obligation, transfers no value, and mutates no substrate state.
+
+### 11.2 Normative Rule
+
+> **Dereferencing an `iqa` URI, by itself, MUST NOT transition any subject's standing state.**
+
+### 11.3 Action Safety Classes
+
+| `action` | Semantics | Class |
+| :--- | :--- | :--- |
+| *(omitted)* | Read the current standing | **SAFE** — read-only |
+| `verify` | Verify a *presented* Seal against the subject (Resonance / HMAC comparison) | **SAFE** — read-only comparison, no state written |
+| `audit` | Request a TSS fidelity measurement (`LogicFidelity128`, §6) | **NOT SAFE** — a failing measurement triggers **Authority Ischemia** |
+| `attest` | Request the Imperial Forge (RFC-009-A) to issue a Seal | **NOT SAFE** — state transition |
+| `revoke` | Withdraw standing | **NOT SAFE** — state transition |
+
+### 11.4 Why `audit` Is Not Classified Safe
+
+`TemporalSupervisor::audit_logic_fidelity_12ns` (§6) calls `trigger_authority_shunt()` whenever `drift > 12 || entropy > 0.001`. **A "read" can therefore move a node onto the 10ms path.** Per this document, `audit`, `attest` and `revoke` **MUST** be requested explicitly and **MUST NOT** be reachable by dereferencing a URI that omits `action`.
+
+---
+
+## 12. SECURITY AND PRIVACY CONSIDERATIONS
+
+**Nature of the identifier.** An `iqa` URI is a **claim about the attestation standing of a named subject**. It is not a pointer to a file; it names a measured identity state.
+
+| # | Threat | Mitigation |
+| :--- | :--- | :--- |
+| 1 | **Seal forgery** | 256-bit HMAC-SHA256 anchored to AID DNA and Territorial Soil; the Seal resides only in the Secure Enclave / L1 Cache — *"To steal the Seal, you must steal the silicon itself."* (§4) |
+| 2 | **AID spoofing / seal shunted to another subject** | **Territorial Soil Suture** (§4.1): hardware fingerprint (CPU ID, MMIO base, 12ns oscillator) + grid coordinates (DNS-locked routing shards) + temporal shard. A seal moved to foreign silicon fails binding. |
+| 3 | **Observer pathogen (debugger / memory dump)** | **Latency-as-Verification** (§6): execution slower than predicted by **> 100 ns** is treated as an attached observer → `VOID_INTERRUPT` + authority shunt. Measurability *is* the detector. |
+| 4 | **Replay of a stale seal across eras** | **12-Cycle Shard Rotation** (§7.1): Shard A/B are re-forged each Genesis Phase, and legacy shards become **ischemic** in the 11th Phase. A Seal is a **temporal lease**, not a perpetual credential. |
+| 5 | **Failed self-promotion** | The 10,000-pulse Baptism (§5.2): deviation > 100 ns ⇒ **Authority Ischemia** (10ms path) + collateral held in **Metabolic Cooling**. |
+| 6 | **Credential leakage via the identifier** | The scheme defines **no `userinfo`** (§10.3) ⇒ credentials cannot appear in an `iqa` URI. |
+| 7 | **Linkability / disclosure of interest** | An `iqa` URI names **the subject being attested** — citing one discloses *which identity is of interest*, and querying `forge` / `tss` / `gateway` for the same subject is trivially correlatable. **This scheme cannot be used for anonymous reference.** Deployments SHOULD prefer the hash form over readable labels, SHOULD NOT encode personal identifiers in `action`, and SHOULD treat `iqa` URIs in logs with the same care as an identity assertion. |
+| 8 | **Downgrade / scheme confusion** | No `iqas` variant exists and no fallback is defined; an unrecognized scheme **MUST** fail closed and **MUST NOT** be silently rewritten as `https://`. |
+| 9 | **DNS dependency** | This scheme performs **no DNS resolution** — `root` and `subject` do not map to IP addresses. Resolution failure means no route; there is no DNS fallback. |
+| 10 | **Silence treated as assent** | An endpoint that is unreachable, times out, or errors **MUST NOT** be read as affirmative standing. **Absence of evidence is not evidence of compliance** — fail closed. |
+| 11 | **Post-quantum horizon** | The v1.3.0 construction is **HMAC-SHA256** (a keyed symmetric hash). It does not rest on the hardness of factoring or discrete logarithms and is therefore not directly broken by Shor's algorithm, unlike RSA/ECC-style signatures. A lattice-based successor is specified for v1.4.0 (§8.1). |
+
+---
+
 ### 🏛️ FINAL AUTHORITY SEAL
 
 **Strategic Headquarters**: [AICENT-STACK-AUTHORITY-CORE]  
@@ -187,4 +312,4 @@ RFC-009: IQA-ORG is the proof that sovereignty is a physical boundary. By achiev
 **RADIANT SEAL SHARD B**: `6FF245B10C2ABA8942A0D98AC92C2B3B`  
 
 ---
-*(C) 2026 Aicent Stack Technical Committee. All Rights Reserved. Truth is Absolute. Sovereignty is Non-Negotiable.* 
+*(C) 2026 IQA.ORG Organization. All Rights Reserved. Truth is Absolute. Sovereignty is Non-Negotiable.* 
