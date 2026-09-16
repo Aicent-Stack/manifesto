@@ -234,6 +234,35 @@ obligations and mutates no substrate state.
 - The `authority` component is **pseudonymous, not anonymous**, and appears in
   logs.
 
+### 10.6 Client Requirements
+
+A client that dereferences, resolves, or handles an `rttp` URI — a resolver
+page, a protocol handler, or a library that presents the result — **MUST**
+satisfy the following. These requirements follow directly from §10.5: an
+`rttp` URI may be supplied by an untrusted party, and its `authority` is a
+claim, not a proof.
+
+- **No navigation to the URI.** The `authority` and `path` components **MUST
+  NOT** be used as a navigation target. A client that renders a link,
+  redirect, or fetch derived from any part of an `rttp` URI is an **open
+  redirect** and is non-conformant. A client MAY navigate only to a
+  destination that is **fixed in advance** by the client itself.
+- **Scheme prefix check.** A protocol handler registered for this scheme
+  **MUST** reject any input that does not begin with `rttp:` or
+  `web+rttp:`. Without this check the handler becomes a general-purpose
+  launcher that any page can use to open an arbitrary URI.
+- **Consent, never silence.** The ability to handle `rttp` URIs **MUST NOT**
+  be acquired without an explicit action by the user, and a client **MUST
+  NOT** simulate or bypass that consent. In every browser, registration of a
+  protocol handler is user-initiated, and the list of registered handlers is
+  not exposed to the network.
+
+**Rationale.** `rttp://<intent>.<pillar>.<root>/<action>` is a short,
+human-readable string that any page can embed in a link. Without the rules
+above, the scheme would hand third parties two primitive attacks: using this
+project's domain as a redirector (**open redirect**), and using a registered
+handler as a launcher for URIs the user never intended to open.
+
 ---
 
 ### 🏛️ FINAL NEURAL SEAL
