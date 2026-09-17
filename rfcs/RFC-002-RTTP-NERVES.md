@@ -167,8 +167,9 @@ RFC-002: RTTP is the proof that time is the ultimate resource. By collapsing neu
 
 ## 10. URI SCHEME SYNTAX
 
-This section specifies the **`rttp` URI scheme**, registered with IANA in
-accordance with RFC 7595.
+This section specifies the **`rttp` URI scheme**. It is subject to registration
+with IANA in accordance with RFC 7595; §10.7 records its current registration
+status.
 
 ### 10.1 Syntax
 
@@ -247,9 +248,9 @@ claim, not a proof.
   redirect, or fetch derived from any part of an `rttp` URI is an **open
   redirect** and is non-conformant. A client MAY navigate only to a
   destination that is **fixed in advance** by the client itself.
-- **Scheme prefix check.** A protocol handler registered for this scheme
-  **MUST** reject any input that does not begin with `rttp:` or
-  `web+rttp:`. Without this check the handler becomes a general-purpose
+- **Scheme prefix check.** A protocol handler **MUST** reject any input whose
+  scheme is neither `rttp` nor the exact scheme name under which that handler was
+  itself registered. Without this check the handler becomes a general-purpose
   launcher that any page can use to open an arbitrary URI.
 - **Consent, never silence.** The ability to handle `rttp` URIs **MUST NOT**
   be acquired without an explicit action by the user, and a client **MUST
@@ -262,6 +263,179 @@ human-readable string that any page can embed in a link. Without the rules
 above, the scheme would hand third parties two primitive attacks: using this
 project's domain as a redirector (**open redirect**), and using a registered
 handler as a launcher for URIs the user never intended to open.
+
+### 10.7 Registration Status
+
+The `rttp` scheme is subject to registration under RFC 7595. The template is
+RFC 7595 §7.4 and the `Provisional` procedure is **First Come First Served**,
+going to IANA's protocol-parameter queue (`iana-prot-param@iana.org`). Review on
+the `uri-review@ietf.org` list is required for `Permanent` registration, **not**
+for `Provisional`.
+
+| Scheme name | Registration | Submitted | IANA ticket |
+| :--- | :--- | :--- | :--- |
+| `rttp` | Provisional — **pending** | 2026-09-16 | **#1459939** |
+
+**A ticket number is not a registration.** The Provisional procedure is First
+Come First Served, but the `rttp` request was in fact taken up by IANA's
+designated naming expert (`Expert Review`), so do not expect same-day
+publication. As of 2026-09-17 the IANA "URI Schemes" registry contains no `rttp`
+entry. Describing the scheme as "registered", "assigned" or "standardised" is
+therefore **incorrect**. The accurate description is: *submitted under RFC 7595,
+Provisional procedure, pending*.
+
+---
+
+## 11. URI → PULSE MAPPING (PulseHeader128 EXTENSION)
+
+### 11.1 Scope
+
+This section closes the commitment made in §10.4 — that dereferencing an
+`rttp` URI emits one pulse *"carrying `action` as the intent verb"*. Section
+4.1 provides no field capable of carrying `action`, so the chain from URI to
+pulse was broken at the specification level.
+
+It is closed here by allocating the 26 bytes of zero padding that follow
+`AID_ORIGIN` (offsets `0x66`–`0x7F`), and by defining the derivation of
+`ROUTE_SHARD` from the URI `authority`.
+
+**No byte of `0x00`–`0x65` is altered, and `VERSION_ID` remains `130`.**
+
+The key words MUST, MUST NOT, SHOULD and MAY are to be interpreted as
+described in RFC 2119.
+
+### 11.2 Extension Block Layout
+
+Big-endian, consistent with §4.1. 26 bytes beginning at `0x66`:
+
+| Offset | Size | Field | Notes |
+| :--- | :--- | :--- | :--- |
+| `0x66` | 1 | **`SPEC_REV`** | `0` = pre-v1.2.6 (block all-zero); `1` = this revision |
+| `0x67` | 1 | **`FLAGS`** | bit0 = `URI_ANCHORED`; all other bits **MUST** be 0 in v1.2.6 |
+| `0x68` | 1 | **`ACTION_LEN`** | Significant `ACTION` bytes; `0` = action omitted |
+| `0x69` | 16 | **`ACTION`** | §10.2 action token, lowercase ASCII, right-padded with `0x00` |
+| `0x79` | 7 | **`RESERVED`** | **MUST** be zero in v1.2.6 |
+
+**`FLAGS` bit0 — `URI_ANCHORED`.** Set when this frame's `ROUTE_SHARD` was
+derived from a URI `authority` (§11.5) rather than from a pulse sequence
+number or any other local artefact. Implementations performing inter-node
+routing **MUST** require `URI_ANCHORED = 1`. When clear, `ROUTE_SHARD`
+carries no globally routable semantics and **MAY** be used only for dispatch
+local to a single switch.
+
+### 11.3 The `ACTION` Field
+
+**Value space.** §10.2 defines `action` as `1*( %x61-7A / DIGIT / "-" )` — an
+**open** set. This section therefore defines **no verb enumeration**;
+enumerating verbs would convert an open set into a closed one.
+
+**Encoding.** The §10.2-permitted characters are written to `0x69` verbatim as
+ASCII; the length is written to `ACTION_LEN`; remaining bytes **MUST** be
+`0x00`. Maximum length is 16 bytes — a frame with `ACTION_LEN > 16` **MUST**
+be rejected.
+
+**Omission.** `ACTION_LEN = 0` means the action is omitted, i.e. the default
+operation of §10.4. `ACTION` and `URI_ANCHORED` are independent: a frame may
+carry either, both, or neither.
+
+**Unknown verbs.** §10.4 declares the **default operation** safe. Because
+`action` is an open set, a receiver will necessarily encounter verbs it does
+not recognise.
+
+> **On encountering an unrecognised `action` verb, an implementation MUST NOT
+> infer safety from the "default operation is safe" statement in §10.4.** The
+> verb **MUST** be treated as having unknown safety, and either require
+> explicit authorisation under the local security policy or be rejected.
+
+The "safe" declaration in §10.4 applies to the omitted-action form; it is not
+an endorsement of arbitrary unknown verbs. Treating every unknown verb as a
+default read would grant every future verb the safe semantics for free —
+structurally the same failure class addressed in §10.6.
+
+### 11.4 Backward Compatibility
+
+*   **Old readers.** An implementation of §4.1 that reads only `0x00`–`0x65`
+    ignores `0x66`+. As those bytes were previously zero, **such
+    implementations are compatible with no modification whatsoever.**
+*   **`SPEC_REV = 0`.** A new reader treats `ACTION` as omitted ⇒ the §10.4
+    default operation.
+*   **`SPEC_REV = 1`, `ACTION_LEN = 0`.** Valid, equivalent to omission.
+*   **`VERSION_ID` is not incremented.** Signalling the extension by raising
+    `VERSION_ID` (e.g. 130 → 131) would cause existing implementations — whose
+    verification compares the version — to reject entire frames. `SPEC_REV`
+    leaves old readers unable to "see" the new bytes.
+
+Rejection rules (**fail closed**):
+
+1. `ACTION` containing non-§10.2 characters, exceeding 16 bytes, or with
+   non-zero padding → **MUST** reject
+2. `SPEC_REV` outside the known set → **MUST** reject
+3. `SPEC_REV = 0` with a non-zero extension block → **MUST** reject
+4. `SPEC_REV = 1` with non-zero `RESERVED`, or with unknown `FLAGS` bits set
+   → **MUST** reject
+
+### 11.5 `ROUTE_SHARD` Derivation
+
+```
+canonical_authority = intent "." pillar "." root     (lowercase, US-ASCII)
+ROUTE_SHARD         = SHA-256( ASCII(canonical_authority) )[0:16]
+```
+
+The **`authority` only** — excluding the scheme, excluding `//`, and
+**excluding `/<action>`**. The first 16 bytes of SHA-256 fill `ROUTE_SHARD`
+(u128) in §4.1.
+
+| Property | Meaning |
+| :--- | :--- |
+| Deterministic | The same authority always yields the same shard |
+| Pure computation | No DNS, no registry, no network — consistent with §10.5 |
+| One-way | The authority cannot be recovered from the shard |
+| Independent of `action` | Different actions on one authority ⇒ the same shard |
+
+The last row is why §4.1 requires an independent `ACTION` field: **routing
+addresses *where*, not *what*.** Were `action` to participate in derivation,
+`rttp://x.y.z/verify` and `rttp://x.y.z/audit` would become two different
+addresses, splitting "different actions on one identity" into different
+destinations.
+
+Uppercase is **invalid input**, not a formatting difference. The phrase
+*normalized to lowercase* in §10.3 describes canonical writing; it is not
+licence for a parser to normalise and admit, which would map two distinct
+strings onto one address.
+
+### 11.6 Conformance
+
+Two independent implementations — Python (`pulse_header.py`) and JavaScript
+(`server.js`) — share no code and produce **bit-identical** output over a
+common vector set comprising every positive URI form, 13 rejection cases,
+3 deterministic frames and 1 compatibility vector. The vectors are published
+alongside the reference implementations.
+
+**Worked example.** `rttp://f3b2a1c4.rttp.aicent/vessel`, `SEQUENCE_ID = 1`,
+`TTL = 255`, `PRIORITY = 1`, `TIMESTAMP = 1760000000000000000`:
+
+```
+5254545000000000000000000000000000000082 00000000000000000000000000000001
+0000000000000000186cc6acd4b00000 ff 01 bf77b78ff6ceafc363226aa586562218
+5d42ba8b38fe10bfa702bdfe6af536ea16e20e35fbb48d84c3658d80cad2789d
+0101 06 76657373656c00000000000000000000 00000000000000
+```
+
+| Offset | Bytes | Field |
+| :--- | :--- | :--- |
+| `0x00` | `52545450` | `RTTP_MAGIC` |
+| `0x04` | `…0082` | `VERSION_ID = 130` |
+| `0x14` | `…0001` | `SEQUENCE_ID` |
+| `0x24` | `186cc6acd4b00000` | `TIMESTAMP` |
+| `0x34` | `ff` | `TTL_PULSE` |
+| `0x35` | `01` | `PRIORITY` |
+| `0x36` | `bf77b78f…562218` | `ROUTE_SHARD` (per §11.5) |
+| `0x46` | `5d42ba8b…d2789d` | `AID_ORIGIN` |
+| `0x66` | `01` | `SPEC_REV = 1` |
+| `0x67` | `01` | `FLAGS.URI_ANCHORED = 1` |
+| `0x68` | `06` | `ACTION_LEN = 6` |
+| `0x69` | `76657373656c` + 10×`00` | `ACTION = "vessel"` |
+| `0x79` | 7×`00` | `RESERVED` |
 
 ---
 
