@@ -243,11 +243,28 @@ iqa://3f9a1b2c.forgery.iqa         ; INVALID - organ is a closed set
 A client that dereferences, resolves, or handles an `iqa` URI — a resolver page, a protocol handler, or a library that presents the result — **MUST** satisfy the following. These requirements follow directly from §10.3 and §12: an `iqa` URI may be supplied by an untrusted party, and its `subject` is a claim, not a proof.
 
 *   **No navigation to the URI.** The `subject`, `organ`, `root` and `action` components **MUST NOT** be used as a navigation target. A client that renders a link, redirect, or fetch derived from any part of an `iqa` URI is an **open redirect** and is non-conformant. A client MAY navigate only to a destination that is **fixed in advance** by the client itself.
-*   **Scheme prefix check.** A protocol handler registered for this scheme **MUST** reject any input that does not begin with `iqa:` or `web+iqa:`. Without this check the handler becomes a general-purpose launcher that any page can use to open an arbitrary URI.
+*   **Scheme prefix check.** A protocol handler **MUST** reject any input whose scheme is neither `iqa` nor the exact scheme name under which that handler was itself registered. Without this check the handler becomes a general-purpose launcher that any page can use to open an arbitrary URI.
 *   **Consent, never silence.** The ability to handle `iqa` URIs **MUST NOT** be acquired without an explicit action by the user, and a client **MUST NOT** simulate or bypass that consent. In every browser, registration of a protocol handler is user-initiated, and the list of registered handlers is not exposed to the network.
 *   **Parsing is not attestation.** A client that displays a parsed `iqa` URI **MUST NOT** present the result as evidence of standing. Reading the syntax establishes nothing about any subject; standing is established only by the 256-bit Seal (§4) and by the answering Organ (§3).
 
 **Rationale.** `iqa://<subject>.<organ>.<root>/<action>` is a short, human-readable string that any page can embed in a link. Without the rules above, the scheme would hand third parties two primitive attacks: using this project's domain as a redirector (**open redirect**), and using a registered handler as a launcher for URIs the user never intended to open. The fourth rule guards a third failure mode specific to this scheme — a parse that *looks* like a certification.
+
+### 10.5 Registration Status
+
+The `iqa` scheme is subject to registration under RFC 7595. The template is
+RFC 7595 §7.4 and the `Provisional` procedure is **First Come First Served**,
+going to IANA's protocol-parameter queue (`iana-prot-param@iana.org`). Review on
+the `uri-review@ietf.org` list is required for `Permanent` registration, **not**
+for `Provisional`.
+
+| Scheme name | Registration | Submitted | IANA ticket |
+| :--- | :--- | :--- | :--- |
+| `iqa` | Provisional — **pending** | 2026-09-17 | **#1459963** |
+
+**A ticket number is not a registration.** As of 2026-09-17 the IANA "URI
+Schemes" registry contains no `iqa` entry. Describing the scheme as "registered",
+"assigned" or "standardised" is therefore **incorrect**. The accurate description
+is: *submitted under RFC 7595, Provisional procedure, pending*.
 
 ---
 
