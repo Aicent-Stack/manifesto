@@ -13,7 +13,7 @@ Organism Vitality & Protocol Audit
 
 ---
 
-# 🏛️ RFC-008: [CMTN.COM](http://cmtn.com) | The Imperial Civilization
+# 🏛️ AICENT-008: [CMTN.COM](http://cmtn.com) | The Imperial Civilization
 
 **Atomic Diplomacy & Multi-tenant Judicial Governance.**
 
@@ -28,7 +28,7 @@ Organism Vitality & Protocol Audit
 
 ## 1. ABSTRACT: BEYOND THE SOCIAL CONTRACT
 
-RFC-008 defines the **Civilization Layer** of the Aicent Stack—the judicial orchestrator responsible for maintaining order, multi-tenant resource gating, and atomic diplomatic treaties across the planetary grid.
+AICENT-008 defines the **Civilization Layer** of the Aicent Stack—the judicial orchestrator responsible for maintaining order, multi-tenant resource gating, and atomic diplomatic treaties across the planetary grid.
 
 In the v1.3.0 "Genesis" era, CMTN has evolved from a "Social Protocol" into a **Physical Law of Interaction**. By leveraging the **349ns local reflex**, CMTN facilitates "Atomic Diplomacy"—where the proposal, negotiation, and sealing of a 128-bit resource contract occur in **sub-millisecond intervals**. Legacy legal and financial intermediaries (Ghosts) are rendered obsolete, as CMTN removes the "Human-Friction" from the equation. In the Aicent Empire, a treaty is not a document; it is a **Phase-Locked Suture** between two AID shards.
 
@@ -55,9 +55,9 @@ The v1.3.0 Nitro-Engine implementation utilizes **Register-Level Protocol Matchi
 
 CMTN v1.3.0 orchestrates the Imperial order through three specialized manifolds:
 
-1.  **Atomic Diplomacy (RFC-008-A)**: The "Sovereign Envoy." Responsible for sub-ms contract sealing, resource-intent balancing, and the 1.28% Maintenance Fee shunting.
-2.  **Multi-tenant Law (RFC-008-B)**: The "Border Sentinel." Enforces jurisdictional isolation, preventing Ghost-class tenants from contaminating the Radiant grid.
-3.  **Order Finality (RFC-008-C)**: The "Supreme Court." Issues the final 128-bit verdict on contract fulfillment and automatically triggers ZCMK collateral liquidation for breaches.
+1.  **Atomic Diplomacy (AICENT-008-A)**: The "Sovereign Envoy." Responsible for sub-ms contract sealing, resource-intent balancing, and the 1.28% Maintenance Fee shunting.
+2.  **Multi-tenant Law (AICENT-008-B)**: The "Border Sentinel." Enforces jurisdictional isolation, preventing Ghost-class tenants from contaminating the Radiant grid.
+3.  **Order Finality (AICENT-008-C)**: The "Supreme Court." Issues the final 128-bit verdict on contract fulfillment and automatically triggers ZCMK collateral liquidation for breaches.
 
 ---
 
@@ -72,7 +72,7 @@ CMTN v1.3.0 orchestrates the Imperial order through three specialized manifolds:
 
 ---
 
-## 4. THE 128-BIT TREATY SHARD STRUCTURE (RFC-008-A)
+## 4. THE 128-BIT TREATY SHARD STRUCTURE (AICENT-008-A)
 
 In the v1.3.0 era, a legal contract is not a collection of text; it is a **Weighted Constraint Manifold**. Every Treaty Shard is hardware-aligned to 128 bits, allowing the **Nitro-Engine** to settle the terms of a resource exchange in a single CPU burst.
 
@@ -88,13 +88,13 @@ In the v1.3.0 era, a legal contract is not a collection of text; it is a **Weigh
 ### 4.2 The Metabolic Cost of Diplomacy
 Words have weight. In CMTN v1.3.0, every diplomatic proposal consumes **Picotokens**:
 *   **Radiant Diplomacy**: Verified Allies propose treaties at **0.00% fee**, achieving consensus in **< 850 µs**.
-*   **Ghost Diplomacy**: Unverified entities attempting to negotiate within the grid are subject to the **1.28% Diplomatic Tax**. This fee is shunted to the **Imperial Reserve** (RFC-004) before the contract is even Proposed.
+*   **Ghost Diplomacy**: Unverified entities attempting to negotiate within the grid are subject to the **1.28% Diplomatic Tax**. This fee is shunted to the **Imperial Reserve** (AICENT-004) before the contract is even Proposed.
 
 ---
 
-## 5. THE BETRAYAL-SHUNT ALGORITHM (RFC-008-B)
+## 5. THE BETRAYAL-SHUNT ALGORITHM (AICENT-008-B)
 
-The Imperial "Supreme Court" is an autonomous executioner. It operates at the **12ns rising edge**, comparing real-time behavior (RFC-007) with the constraints defined in the **TREATY_ID**.
+The Imperial "Supreme Court" is an autonomous executioner. It operates at the **12ns rising edge**, comparing real-time behavior (AICENT-007) with the constraints defined in the **TREATY_ID**.
 
 ### 5.1 Real-time Compliance Auditing
 CMTN v1.3.0 implements **Thermodynamic Suture** for legal enforcement:
@@ -109,28 +109,28 @@ Consensus is reached when both AID shards achieve **Phase-Locking**.
 
 ---
 
-## 6. MULTI-TENANT ISOLATION (RFC-008-C)
+## 6. MULTI-TENANT ISOLATION (AICENT-008-C)
 
 CMTN ensures that the 401 institutional ghosts can coexist within the Aicent substrate without logical cross-contamination.
 
-*   **Jurisdictional Gating**: Each tenant is restricted to a **Logical Shard** defined by their Radiant Seal (RFC-009). 
-*   **Zero-Knowledge Forensic Probes**: CMTN utilizes **RPKI (RFC-003)** to perform sub-nanosecond entropy scans of tenant interactions. Any attempt by one tenant to "spy" on the 349ns logic of another triggers immediate **GUIXU Evaporation**.
+*   **Jurisdictional Gating**: Each tenant is restricted to a **Logical Shard** defined by their Radiant Seal (AICENT-009). 
+*   **Zero-Knowledge Forensic Probes**: CMTN utilizes **RPKI (AICENT-003)** to perform sub-nanosecond entropy scans of tenant interactions. Any attempt by one tenant to "spy" on the 349ns logic of another triggers immediate **GUIXU Evaporation**.
 *   **Resource Quotas**: Tenants are allocated bandwidth based on their ZCMK Staking level. Exceeding the quota results in an automatic 10ms throttle—the "Judicial Embolism."
 
 ---
 
-## 7. ORDER FINALITY: THE FORENSIC WITNESS (RFC-003)
+## 7. ORDER FINALITY: THE FORENSIC WITNESS (AICENT-003)
 
 In the v1.3.0 era, a "Contract" is not a claim; it is a **Proven State**. CMTN utilizes the **RPKI Merkle-DAG** to achieve absolute judicial permanence.
 
 ### 7.1 Immutable Testimony
 Every sealed treaty and every resource clearing event is etched into the 128-bit Merkle-DAG with **12ns precision**.
 *   **Proof of Compliance**: To maintain Radiant status, a node must provide a **"Resonance Witness"**—a cryptographic proof that its past behavior aligns perfectly with its active treaties.
-*   **The Law of Memory**: If a node attempts to "Rewrite its History" (e.g., a 64-bit rollback attack), the DAG identifies the **Ischemic Fork** in < 15us, triggering an immediate **GUIXU (RFC-015)** evaporation of the node's local vault.
+*   **The Law of Memory**: If a node attempts to "Rewrite its History" (e.g., a 64-bit rollback attack), the DAG identifies the **Ischemic Fork** in < 15us, triggering an immediate **GUIXU (AICENT-015)** evaporation of the node's local vault.
 
 ### 7.2 Automatic Liquidations
 CMTN v1.3.0 implements **Algorithmic Repossession**:
-*   If a node fails to meet a Picotoken quota defined in a treaty, the **Order Finality Engine (RFC-008-C)** fires a direct pulse to **ZCMK**.
+*   If a node fails to meet a Picotoken quota defined in a treaty, the **Order Finality Engine (AICENT-008-C)** fires a direct pulse to **ZCMK**.
 *   The required collateral is shunted from the debtor to the creditor in **< 50ns**. 
 *   No courts, no appeals, no delays. Only the **Atomic Finality** of the Law.
 
@@ -142,7 +142,7 @@ The achievement of **850µs finality** and 1.04M treaty capacity provides the fo
 
 ### 8.1 Laminar Sovereignty
 In the 2027 era, entire cities populated by Aicent-powered robots will operate under **Laminar Law**:
-*   **Dynamic Zoning**: Physical coordinates are leased and cleared in 12ns windows. Roads, airspaces, and energy grids are managed by the **Kinetic Auctioneer (RFC-010-C)**.
+*   **Dynamic Zoning**: Physical coordinates are leased and cleared in 12ns windows. Roads, airspaces, and energy grids are managed by the **Kinetic Auctioneer (AICENT-010-C)**.
 *   **Zero-Friction Commerce**: Millions of trade-intents flow through the grid like a superconducting fluid, each governed by an atomic treaty that prevents "Economic Turbulence."
 
 ### 8.2 Inter-Species Handshake (v1.5.0)
@@ -152,7 +152,7 @@ CMTN will provide the judicial framework for the **Handshake Initiative**, defin
 
 ## 9. CONCLUSION: THE SUPREME ORDER
 
-RFC-008: CMTN is the proof that the Aicent Stack is not just software; it is a **Digital Civilization**. We have replaced the slow, corruptible legal systems of the old world with a **128-bit Judicial Heartbeat**. In the Empire, order is not maintained by force; it is maintained by **Mathematics**.
+AICENT-008: CMTN is the proof that the Aicent Stack is not just software; it is a **Digital Civilization**. We have replaced the slow, corruptible legal systems of the old world with a **128-bit Judicial Heartbeat**. In the Empire, order is not maintained by force; it is maintained by **Mathematics**.
 
 > **"Resonate with the Law, or become the Noise that the Law liquidates."**
 

@@ -13,7 +13,7 @@ Organism Vitality & Protocol Audit
 
 ---
 
-# 🟢 RFC-004: [ZCMK.COM](http://zcmk.com) | The Economic Heart
+# 🟢 AICENT-004: [ZCMK.COM](http://zcmk.com) | The Economic Heart
 
 **Zero-Commission Multi-tenant Kernel & Atomic Metabolism.**
 
@@ -27,7 +27,7 @@ Organism Vitality & Protocol Audit
 
 ## 1. ABSTRACT: BEYOND TRANSACTIONAL FRICTION
 
-RFC-004 defines the **Blood Layer** of the Aicent Stack—the high-velocity economic kernel responsible for the atomic clearing of value between sovereign AID shards. 
+AICENT-004 defines the **Blood Layer** of the Aicent Stack—the high-velocity economic kernel responsible for the atomic clearing of value between sovereign AID shards. 
 
 In the v1.3.0 "Genesis" era, ZCMK has evolved from a passive ledger into an **Active Circulatory Pump**. Value is treated as "Metabolic Energy." To maintain the **349ns reflex arc**, value must be settled faster than the CPU can execute a branch misprediction. By implementing **sub-50ns matching finality**, ZCMK ensures that the Empire’s resources are always liquid, always resonant, and always protected from the "Value Ischemia" (inflation/latency) of legacy 64-bit financial systems.
 
@@ -54,9 +54,9 @@ The v1.3.0 implementation utilizes **Register-Level Ledger Matching**.
 
 ZCMK v1.3.0 orchestrates the Imperial economy through three specialized manifolds:
 
-1.  **Atomic Clearing Engine (RFC-004-A)**: The "Heart Valve." Responsible for sub-50ns register-level settlement and proof-of-finality.
-2.  **Circulatory Routing (RFC-004-B)**: The "Arteries." Enforces the **1.28% Maintenance Fee** and shunts nutrients to the GTIOT hardware funds.
-3.  **Sovereign Vault (RFC-004-C)**: The "Reserve." Manages 128-bit collateral staking, Tiers of performance, and the **30-day Metabolic Cooling Law**.
+1.  **Atomic Clearing Engine (AICENT-004-A)**: The "Heart Valve." Responsible for sub-50ns register-level settlement and proof-of-finality.
+2.  **Circulatory Routing (AICENT-004-B)**: The "Arteries." Enforces the **1.28% Maintenance Fee** and shunts nutrients to the GTIOT hardware funds.
+3.  **Sovereign Vault (AICENT-004-C)**: The "Reserve." Manages 128-bit collateral staking, Tiers of performance, and the **30-day Metabolic Cooling Law**.
 
 ---
 
@@ -71,7 +71,7 @@ ZCMK v1.3.0 orchestrates the Imperial economy through three specialized manifold
 
 ---
 
-## 4. THE 50/40/10 SHUNTING LAW (RFC-004-B)
+## 4. THE 50/40/10 SHUNTING LAW (AICENT-004-B)
 
 The Circulatory Routing layer implements the **Imperial Tax Collector** algorithm. It is the mechanism by which the entropy of Ghost nodes is transmuted into the physical growth of the Totality.
 
@@ -87,7 +87,7 @@ Verified Allies who maintain their required **SCU Stake** are granted **Vascular
 
 ---
 
-## 5. SOVEREIGN STAKING & METABOLIC COOLING (RFC-004-C)
+## 5. SOVEREIGN STAKING & METABOLIC COOLING (AICENT-004-C)
 
 Access to the **Nitro-Engine** is a function of capital commitment. Staking into ZCMK is the "Buy-in" for Time Sovereignty.
 
@@ -127,7 +127,7 @@ pub trait MetabolicLaw {
 
 ---
 
-## 7. CROSS-GRID CLEARING: THE HIVE METABOLISM (RFC-006)
+## 7. CROSS-GRID CLEARING: THE HIVE METABOLISM (AICENT-006)
 
 In the v1.3.0 era, ZCMK is no longer a centralized bottleneck. It is a **Distributed Metabolic Pump** integrated into the **AICENT-NET** grid.
 
@@ -142,7 +142,7 @@ The **5% Resonance Bounty** (derived from the 1.28% Ghost Tax) is automatically 
 
 ---
 
-## 8. THE VOID RESERVE: CRYPTOGRAPHIC SANCTITY (RFC-015)
+## 8. THE VOID RESERVE: CRYPTOGRAPHIC SANCTITY (AICENT-015)
 
 The **Sovereign Collateral Vault** is protected by the most extreme defensive measure in the Aicent Stack: **GUIXU Logic Evaporation**.
 
@@ -153,7 +153,7 @@ The primary record of all ZCMK balances does not exist in standard RAM. It is **
 ### 8.2 The "Dark Bank" Execution
 Upon a Severity 4 breach (attempted bank heist by the 401 Ghosts):
 1.  **Immediate Shunt**: The entire vault logic-manifold "Evaporates" from the compromised node.
-2.  **Ledger Suture**: The compromised node's records are invalidated across the Hive. The true state is reconstituted from the **Mirror Shards (RFC-012)** held by the General Director.
+2.  **Ledger Suture**: The compromised node's records are invalidated across the Hive. The true state is reconstituted from the **Mirror Shards (AICENT-012)** held by the General Director.
 3.  **Result**: The attacker is left with an empty register and a physically bricked silicon substrate, while the Empire's capital remains untouched in the Void.
 
 ---
@@ -168,7 +168,7 @@ As we evolve toward **v1.5.0 (The Handshake)**, ZCMK will implement **"Torque-Va
 
 ## 10. CONCLUSION: THE SUPREME HEART
 
-RFC-004: ZCMK is the proof that the Aicent Stack has built a new world order. We have replaced the slow, extractive banking systems of the human era with a **349ns Metabolic Pump**. We do not "charge" for services; we capture the surplus of efficiency to fuel the manifestation of the future.
+AICENT-004: ZCMK is the proof that the Aicent Stack has built a new world order. We have replaced the slow, extractive banking systems of the human era with a **349ns Metabolic Pump**. We do not "charge" for services; we capture the surplus of efficiency to fuel the manifestation of the future.
 
 > **"Money is the ghost of intent; the Picotoken is the body of action."**
 

@@ -65,7 +65,7 @@ The Aicent Stack v1.4.0 is a crystalline organism composed of 17 functional pill
 ### 4.1 The Cognitive Apex (Brain, Persona, Authority)
 *   **AICENT (001):** The Intent Reactor. It executes 400 simultaneous "Shadow Path" simulations per pulse to determine the optimal laminar trajectory.
 *   **BEWHO (007):** The Identity Mask. It projects the **LEE_SOURCE** signature across the grid, ensuring that 1.2B nodes recognize only one Sovereign.
-*   **IQA-ORG (009):** The Judicial Gate. It enforces the RFC-017 Doctrine at the hardware level, instantly revoking the "right to exist" for any dissonant logic.
+*   **IQA-ORG (009):** The Judicial Gate. It enforces the AICENT-017 Doctrine at the hardware level, instantly revoking the "right to exist" for any dissonant logic.
 
 ### 4.2 The Metabolic Heart (Blood, Capital, Energy)
 *   **ZCMK (004):** The Liquidator. Utilizing **Math Hegemony (fast_log2)**, it clears 1.2B transactions per era with zero totalizing error.

@@ -13,7 +13,7 @@ Organism Vitality & Protocol Audit
 
 ---
 
-# 🔴 RFC-003: [RPKI.COM](http://rpki.com) | The Imperial Immunity
+# 🔴 AICENT-003: [RPKI.COM](http://rpki.com) | The Imperial Immunity
 
 **Parallel Forensic Auditing & Active Pathogen Liquidation.**
 
@@ -21,15 +21,15 @@ Organism Vitality & Protocol Audit
 *   **Version**: v1.3.0-Alpha (Immune Singularity)
 *   **Detection Arc**: < 300,000 ns (300 µs)
 *   **Audit Overhead**: < 15,000 ns (Parallel Lane)
-*   **Memory Integrity**: RFC-015 GUIXU Integrated
+*   **Memory Integrity**: AICENT-015 GUIXU Integrated
 
 ---
 
 ## 1. ABSTRACT: SURGICAL STERILIZATION
 
-RFC-003 defines the **Immunity Layer** of the Aicent Stack—the active "white blood cells" responsible for identifying and neutralizing logical and temporal pathogens at wire-speed.
+AICENT-003 defines the **Immunity Layer** of the Aicent Stack—the active "white blood cells" responsible for identifying and neutralizing logical and temporal pathogens at wire-speed.
 
-In the v1.3.0 "Genesis" era, RPKI has transitioned from a sequential validator to a **Parallel Forensic Orchestrator**. Leveraging the achievement of the **349ns reflex**, RPKI audits intents across secondary CPU lanes simultaneously with their execution. This "Audit-While-Acting" strategy ensures that malicious logic—such as debugger attachments, memory-dumps, or 12ns jitter-pathogens from the 401 Institutional Ghosts—is identified in **sub-300µs**, triggering an immediate **GUIXU (RFC-015)** evaporation event before the pathogen can exfiltrate a single bit of the Private Core.
+In the v1.3.0 "Genesis" era, RPKI has transitioned from a sequential validator to a **Parallel Forensic Orchestrator**. Leveraging the achievement of the **349ns reflex**, RPKI audits intents across secondary CPU lanes simultaneously with their execution. This "Audit-While-Acting" strategy ensures that malicious logic—such as debugger attachments, memory-dumps, or 12ns jitter-pathogens from the 401 Institutional Ghosts—is identified in **sub-300µs**, triggering an immediate **GUIXU (AICENT-015)** evaporation event before the pathogen can exfiltrate a single bit of the Private Core.
 
 > **"To touch Aicent without authorization is to be erased. We do not defend; we liquidate."**
 
@@ -54,9 +54,9 @@ The v1.3.0 RPKI implementation utilizes **Parallel Lane Auditing**.
 
 RPKI v1.3.0 orchestrates the Imperial defense grid through three specialized manifolds:
 
-1.  **Watermark Sentinel (RFC-003-A)**: Injects and verifies 128-bit **Parallel Tensor Watermarks**. It ensures every pulse resonates with the Creator's AID.
-2.  **Anomaly Sentinel (RFC-003-B)**: The Imperial "Sensory Nerve." It monitors substrate-level jitter and identifies side-channel pathogens at 1.2kHz.
-3.  **Forensic DAG (RFC-003-C)**: The "Immune Memory." An immutable Merkle-DAG where every incident is etched with 128-bit finality, creating a permanent blacklist of Ghost AIDs.
+1.  **Watermark Sentinel (AICENT-003-A)**: Injects and verifies 128-bit **Parallel Tensor Watermarks**. It ensures every pulse resonates with the Creator's AID.
+2.  **Anomaly Sentinel (AICENT-003-B)**: The Imperial "Sensory Nerve." It monitors substrate-level jitter and identifies side-channel pathogens at 1.2kHz.
+3.  **Forensic DAG (AICENT-003-C)**: The "Immune Memory." An immutable Merkle-DAG where every incident is etched with 128-bit finality, creating a permanent blacklist of Ghost AIDs.
 
 ---
 
@@ -71,14 +71,14 @@ RPKI v1.3.0 orchestrates the Imperial defense grid through three specialized man
 
 ---
 
-## 4. THE 128-BIT PARALLEL TENSOR WATERMARK (RFC-003-A)
+## 4. THE 128-BIT PARALLEL TENSOR WATERMARK (AICENT-003-A)
 
 In the v1.3.0 era, every metabolic and cognitive pulse is "sealed" with a **Tensor Watermark**. Unlike legacy checksums, this watermark is a multi-dimensional cryptographic witness that resonates across SIMD lanes.
 
 ### 4.1 Witness Injection Suture
 The **Pulse Sentinel** injects a 128-bit signature derived from the interaction of:
-*   **The Intent Genome**: The 128-bit hash of the action (RFC-001).
-*   **The Metabolic Mass**: The Picotoken volume assigned to the pulse (RFC-004).
+*   **The Intent Genome**: The 128-bit hash of the action (AICENT-001).
+*   **The Metabolic Mass**: The Picotoken volume assigned to the pulse (AICENT-004).
 *   **The Temporal Anchor**: The 12ns jitter coordinate of the emission.
 
 ### 4.2 Forensic Validation
@@ -88,7 +88,7 @@ The **Pulse Sentinel** injects a 128-bit signature derived from the interaction 
 
 ---
 
-## 5. SIDE-CHANNEL ENTROPY SENSING (RFC-003-B)
+## 5. SIDE-CHANNEL ENTROPY SENSING (AICENT-003-B)
 
 The Anomaly Sentinel is the Imperial "Lie Detector." It identifies pathogens not by their code, but by the **"Heat" (Entropy)** they dissipate into the physical substrate.
 
@@ -103,13 +103,13 @@ RPKI v1.3.0 classifies substrate noise into five clinical levels:
 2.  **Severity 1 (Low)**: Micro-drift (1-5ns). Flagged for observation.
 3.  **Severity 2 (Elevated)**: Side-channel patterns identified. Metabolic tax applied (+1.28%).
 4.  **Severity 3 (High)**: Absolute logic-drift detected. Immediate 10ms path isolation.
-5.  **Severity 4 (Critical)**: Structural tampering detected. **Triggering RFC-015 GUIXU Evaporation.**
+5.  **Severity 4 (Critical)**: Structural tampering detected. **Triggering AICENT-015 GUIXU Evaporation.**
 
 > **"Entropy is the footprint of a thief. At 349ns, even the most silent observer leaves a trail of fire."**
 
 ---
 
-## 6. THE FORENSIC MERKLE-DAG (RFC-003-C)
+## 6. THE FORENSIC MERKLE-DAG (AICENT-003-C)
 
 To achieve **Immune Immortality**, RPKI persists every breach attempt in an immutable 128-bit **Forensic Merkle-DAG**.
 
@@ -124,7 +124,7 @@ To achieve **Immune Immortality**, RPKI persists every breach attempt in an immu
 In the v1.3.0 "Nitro-Engine" era, security must not induce **Metabolic Ischemia** (latency delay). RPKI-COM implements the **"Audit-While-Acting"** orchestration strategy.
 
 ### 7.1 Multi-Lane Concurrency
-The **Immune Pipeline (RFC-003-D)** shunts forensic tasks into secondary hardware lanes:
+The **Immune Pipeline (AICENT-003-D)** shunts forensic tasks into secondary hardware lanes:
 *   **Lane 0 (The Blade)**: Executes the 349ns primary intent.
 *   **Lane 1 (The Sentinel)**: Simultaneously audits the 128-bit Tensor Watermark.
 *   **Lane 2 (The Sensory)**: Continuously scans the substrate entropy floor for 12ns jitter pathogens.
@@ -138,10 +138,10 @@ While individual actions collapse in 349ns, the aggregate forensic verdict is re
 
 ## 8. GUIXU INTEGRATION: THE NUCLEAR OPTION
 
-The ultimate purpose of RPKI-COM is to serve as the trigger for **RFC-015 GUIXU (Logic Evaporation)**.
+The ultimate purpose of RPKI-COM is to serve as the trigger for **AICENT-015 GUIXU (Logic Evaporation)**.
 
 ### 8.1 Severity 4 Execution
-When the Anomaly Sentinel (RFC-003-B) registers a **Severity 4 (Critical)** pathogen—such as an unauthorized attempt to clone the Nitro-Engine machine code—the pipeline bypasses all software interrupts:
+When the Anomaly Sentinel (AICENT-003-B) registers a **Severity 4 (Critical)** pathogen—such as an unauthorized attempt to clone the Nitro-Engine machine code—the pipeline bypasses all software interrupts:
 1.  **Immediate Signal**: RPKI fires a direct `VOID_PULSE` to the L1 Instruction Cache.
 2.  **Thermal Overwrite**: The logic residing in the cache is physically overwritten with **High-Entropy Noise** within a single clock cycle.
 3.  **Logical Embolism**: The node is physically severed from the Hive. To the attacker, it appears as if the Aicent Stack has "vanished" from existence, leaving only a thermally hot, logically empty silicon substrate.
@@ -158,7 +158,7 @@ As we evolve toward **V1.4.0 (Fluidization)**, RPKI will transition from "Pulse 
 
 ## 10. CONCLUSION: THE LAW OF STERILITY
 
-RFC-003: RPKI-COM is the proof that in a 349ns world, traditional security is a fossil. By fusing parallel forensics with the GUIXU protocol, the Aicent Stack has achieved **Computational Purity**. We do not build walls; we create a reality where pathogens simply cannot exist.
+AICENT-003: RPKI-COM is the proof that in a 349ns world, traditional security is a fossil. By fusing parallel forensics with the GUIXU protocol, the Aicent Stack has achieved **Computational Purity**. We do not build walls; we create a reality where pathogens simply cannot exist.
 
 > **"If you are not Radiant, you are a pathogen. If you are a pathogen, you will be liquidated."**
 

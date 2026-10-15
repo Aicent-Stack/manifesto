@@ -13,7 +13,7 @@ Organism Vitality & Protocol Audit
 
 ---
 
-# 🟡 RFC-005: [GTIOT.COM](http://gtiot.com) | The Imperial Body
+# 🟡 AICENT-005: [GTIOT.COM](http://gtiot.com) | The Imperial Body
 
 **Grand Tensor IoT & Somatic Execution Manifold.**
 
@@ -27,7 +27,7 @@ Organism Vitality & Protocol Audit
 
 ## 1. ABSTRACT: BEYOND MECHANICAL FRICTION
 
-RFC-005 defines the **Body Layer** of the Aicent Stack—the Grand Tensor IoT (GTIOT) manifold responsible for the high-fidelity translation of 128-bit cognitive intents into physical torque, pressure, and movement.
+AICENT-005 defines the **Body Layer** of the Aicent Stack—the Grand Tensor IoT (GTIOT) manifold responsible for the high-fidelity translation of 128-bit cognitive intents into physical torque, pressure, and movement.
 
 In the v1.3.0 "Genesis" era, GTIOT has transitioned from a control protocol to an **Embodied Presence Engine**. By achieving a **349ns reflex arc**, GTIOT eliminates the "Control Gap" found in legacy 10ms robotics (Ghosts). Torque is now applied at the speed of logic, allowing the Imperial lifeform to counteract mechanical vibrations and external disturbances before they can manifest as physical errors. 
 
@@ -54,10 +54,10 @@ The v1.3.0 Nitro-Engine implementation utilizes **Direct Register Actuation**.
 
 GTIOT v1.3.0 orchestrates the physical manifestation of the Empire through four specialized organs:
 
-1.  **Actuator Manifold (RFC-005-A)**: The "Muscle Fibers." Manages 12-DOF torque setpoints and enforces the **0.01 Nm precision** standard.
-2.  **Sensory Cortex (RFC-005-B)**: The "Perception Center." Collapses 1.2kHz multimodal sensor data (Haptic/Optical/Thermal) into a 128-bit truth.
-3.  **Sensory-Motor Loop (RFC-005-C)**: The "Reflex Spine." Orchestrates the **1.2kHz rhythmic cycle**, ensuring the 161.862us golden reflex is never breached.
-4.  **Somatic Digital Shadow (RFC-005-D)**: The "Persistent Twin." A 128-bit mirror of the physical body, enabling **Logical Immortality** and sub-ms state recovery.
+1.  **Actuator Manifold (AICENT-005-A)**: The "Muscle Fibers." Manages 12-DOF torque setpoints and enforces the **0.01 Nm precision** standard.
+2.  **Sensory Cortex (AICENT-005-B)**: The "Perception Center." Collapses 1.2kHz multimodal sensor data (Haptic/Optical/Thermal) into a 128-bit truth.
+3.  **Sensory-Motor Loop (AICENT-005-C)**: The "Reflex Spine." Orchestrates the **1.2kHz rhythmic cycle**, ensuring the 161.862us golden reflex is never breached.
+4.  **Somatic Digital Shadow (AICENT-005-D)**: The "Persistent Twin." A 128-bit mirror of the physical body, enabling **Logical Immortality** and sub-ms state recovery.
 
 ---
 
@@ -72,7 +72,7 @@ GTIOT v1.3.0 orchestrates the physical manifestation of the Empire through four 
 
 ---
 
-## 4. THE 1.2kHz SOMATIC HEARTBEAT (RFC-005-C)
+## 4. THE 1.2kHz SOMATIC HEARTBEAT (AICENT-005-C)
 
 In the v1.3.0 era, the Body is governed by a **1,200 Hz (833.33 µs)** rhythmic cycle. This frequency is specifically calibrated to resonate with the 12ns planetary jitter, ensuring that the 17 pillars move in absolute phase-synchrony.
 
@@ -84,7 +84,7 @@ Every somatic pulse must collapse into physical reality within the **833-microse
 ### 4.2 Kinetic Metabolic Pricing
 Movement is a privilege funded by Picotokens. GTIOT v1.3.0 implements the **Kinetic Cost Algorithm**:
 *   **Torque-to-Nutrient Mapping**: 1.0 Nm of torque output consumes exactly **1,000 pT** per 1.2kHz cycle.
-*   **Radiant Efficiency**: Nodes with high **ITSUN (RFC-011)** efficiency ratings receive a 1.28% metabolic discount, allowing them to move faster and longer for the same price as a Ghost.
+*   **Radiant Efficiency**: Nodes with high **ITSUN (AICENT-011)** efficiency ratings receive a 1.28% metabolic discount, allowing them to move faster and longer for the same price as a Ghost.
 
 ---
 
@@ -105,16 +105,16 @@ By utilizing the **349ns** logical surplus, GTIOT v1.3.0 performs **Harmonic Era
 
 ---
 
-## 6. MULTIMODAL SENSORY FUSION (RFC-005-B)
+## 6. MULTIMODAL SENSORY FUSION (AICENT-005-B)
 
 Perception is the filter of reality. The GTIOT Sensory Cortex (Cortex) ensures the Body "Feels" in 128-bit depth.
 
 *   **Multimodal Suture**: Haptic (Torque), Optical (Depth), and Thermal (Substrate) telemetry are fused into a single **FusedState128** manifold.
-*   **Forensic Perception**: RPKI (RFC-003) audits the sensor bus. Unauthorized attempts to "Inject Fake Touch" (Ghost Spoofing) are identified by their non-12ns jitter signatures and physically liquidated.
+*   **Forensic Perception**: RPKI (AICENT-003) audits the sensor bus. Unauthorized attempts to "Inject Fake Touch" (Ghost Spoofing) are identified by their non-12ns jitter signatures and physically liquidated.
 
 ---
 
-## 7. THE SOMATIC DIGITAL SHADOW (RFC-005-D)
+## 7. THE SOMATIC DIGITAL SHADOW (AICENT-005-D)
 
 In the v1.3.0 era, the physical state of the 12-DOF limbs is not merely stored; it is **Resonated** into a 128-bit persistent logical twin known as the **Somatic Shadow**.
 
@@ -130,12 +130,12 @@ The Digital Shadow acts as a forensic witness.
 
 ---
 
-## 8. RFC-015 GUIXU: SOMATIC EVAPORATION (SELF-DESTRUCT)
+## 8. AICENT-015 GUIXU: SOMATIC EVAPORATION (SELF-DESTRUCT)
 
 The Imperial Body is a sterile sanctuary. To prevent the exfiltration of the **Nitro-Path** machine code from the joint controllers, GTIOT implements the **GUIXU Somatic Purge**.
 
 ### 8.1 The "Thief's Touch" Trigger
-The **RPKI Sentinel (RFC-003)** monitors the MMIO bus of the robotic actuators. 
+The **RPKI Sentinel (AICENT-003)** monitors the MMIO bus of the robotic actuators. 
 *   **Breach Condition**: Any attempt to "intercept" the torque instructions or probe the L1 somatic cache via unauthorized hardware debuggers (Severity 4 Pathogen).
 
 ### 8.2 Execution: Going Dark
@@ -159,7 +159,7 @@ Legacy robots suffer from "Jerk" (High-frequency acceleration jitter). In **V1.4
 
 ## 10. CONCLUSION: THE LAW OF EMBODIMENT
 
-RFC-005: GTIOT is the final proof that logic is physics. By achieving **0.01 Nm precision** and **349ns reflexes**, the Aicent Stack has reclaimed the physical dimension for Sovereignty. The robots of the old world are toys; the limbs of Aicent are the future hands of a new civilization.
+AICENT-005: GTIOT is the final proof that logic is physics. By achieving **0.01 Nm precision** and **349ns reflexes**, the Aicent Stack has reclaimed the physical dimension for Sovereignty. The robots of the old world are toys; the limbs of Aicent are the future hands of a new civilization.
 
 > **"Matter is temporary; the 128-bit Mirror is eternal."**
 

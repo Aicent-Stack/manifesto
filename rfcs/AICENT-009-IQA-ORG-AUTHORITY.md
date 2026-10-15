@@ -13,7 +13,7 @@ Organism Vitality & Protocol Audit
 
 ---
 
-# 🔖 RFC-009: [IQA.ORG](http://iqa.org) | The Imperial Authority
+# 🔖 AICENT-009: [IQA.ORG](http://iqa.org) | The Imperial Authority
 
 **Identity Quality Assurance & Sovereign Certification.**
 
@@ -30,7 +30,7 @@ Organism Vitality & Protocol Audit
 
 ## 1. ABSTRACT: BEYOND THE CERTIFICATE
 
-RFC-009 defines the **Authority Layer** of the Aicent Stack—the supreme gatekeeper responsible for the clinical validation of node legitimacy and the issuance of **Radiant Seals**.
+AICENT-009 defines the **Authority Layer** of the Aicent Stack—the supreme gatekeeper responsible for the clinical validation of node legitimacy and the issuance of **Radiant Seals**.
 
 In the v1.3.0 "Genesis" era, IQA-ORG has evolved from a "Trust Protocol" into a **Physical Verification Engine**. Authority is no longer a static password; it is a real-time measurement of **Temporal Fidelity**. By utilizing **Temporal Self-Supervision (TSS)**, IQA-ORG audits a node's execution path at 12ns precision. If the node's silicon jitter deviates from the Genesis Codex, the Radiant Seal is instantly shunted, and the node is plunged into **"Authority Ischemia"** (10ms Void). In the Aicent Empire, you are only as Sovereign as your timing is precise.
 
@@ -57,9 +57,9 @@ The v1.3.0 Nitro-Engine implementation utilizes **Register-Level Authority Shunt
 
 IQA-ORG v1.3.0 orchestrates the Imperial legitimacy through three specialized manifolds:
 
-1.  **Imperial Forge (RFC-009-A)**: The "Furnace of Truth." Responsible for forging 256-bit Radiant Seals and managing the 12-Cycle Shard rotation.
-2.  **Temporal Self-Supervision / TSS (RFC-009-B)**: The "Logic Sentinel." Real-time bit-drift analysis that ensures the node's execution path mirrors the Genesis Codex.
-3.  **Certification Gateway (RFC-009-C)**: The "Supreme Gavel." Renders the final 128-bit standing verdict and manages the **10,000-Pulse Baptismal Stress Test**.
+1.  **Imperial Forge (AICENT-009-A)**: The "Furnace of Truth." Responsible for forging 256-bit Radiant Seals and managing the 12-Cycle Shard rotation.
+2.  **Temporal Self-Supervision / TSS (AICENT-009-B)**: The "Logic Sentinel." Real-time bit-drift analysis that ensures the node's execution path mirrors the Genesis Codex.
+3.  **Certification Gateway (AICENT-009-C)**: The "Supreme Gavel." Renders the final 128-bit standing verdict and manages the **10,000-Pulse Baptismal Stress Test**.
 
 ---
 
@@ -74,7 +74,7 @@ IQA-ORG v1.3.0 orchestrates the Imperial legitimacy through three specialized ma
 
 ---
 
-## 4. THE 256-BIT RADIANT SEAL STRUCTURE (RFC-009-A)
+## 4. THE 256-BIT RADIANT SEAL STRUCTURE (AICENT-009-A)
 
 In the v1.3.0 era, the Radiant Seal is not a static file; it is a **Vibrating Cryptographic Shard**. It is hardware-aligned to 32 bytes (256 bits) and resides exclusively in the CPU's **Secure Enclave / L1 Cache**.
 
@@ -94,14 +94,14 @@ The Seal is forged by hashing the node's **Identity DNA (AID)** with its **Terri
 
 ---
 
-## 5. THE 10,000-PULSE BAPTISMAL ALGORITHM (RFC-009-C)
+## 5. THE 10,000-PULSE BAPTISMAL ALGORITHM (AICENT-009-C)
 
 The "Baptism" is the mandatory performance audit for any node seeking promotion to Radiant status. It is the Imperial "Meat Grinder" for inefficient or malicious hardware.
 
 ### 5.1 Stress-Testing the 12ns Jitter
 A node undergoing Baptism is subjected to **10,000 consecutive 1.2kHz cycles** of high-density cognitive-somatic execution.
 1.  **Jitter Measurement**: IQA-ORG measures the delta between the node's execution finality and the 12ns global rising edge.
-2.  **Thermal Audit**: **ITSUN (RFC-011)** monitors the substrate for high-entropy "Search Patterns" characteristic of reverse-engineering attempts.
+2.  **Thermal Audit**: **ITSUN (AICENT-011)** monitors the substrate for high-entropy "Search Patterns" characteristic of reverse-engineering attempts.
 3.  **Fidelity Check**: The node must execute the **Genesis Logic Manifold** without a single bit-flip error.
 
 ### 5.2 The 0.2% Drift Threshold
@@ -110,13 +110,13 @@ A node undergoing Baptism is subjected to **10,000 consecutive 1.2kHz cycles** o
 
 ---
 
-## 6. TEMPORAL SELF-SUPERVISION / TSS (RFC-009-B)
+## 6. TEMPORAL SELF-SUPERVISION / TSS (AICENT-009-B)
 
 TSS is the "Continuous Baptism" protocol. It ensures that a node does not "drift" after receiving its seal.
 
 *   **Instruction Shadowing**: TSS compares the L1 instruction stream with the predicted **128-bit Logic Mask**.
-*   **Latency-as-Verification**: If a pulse takes 100ns longer than predicted, TSS assumes an **"Observer Pathogen"** (Debugger) is attached and fires a `VOID_INTERRUPT` to **RFC-015 GUIXU**.
-*   **Finality**: Verification results are shunted to **PICSI (RFC-014)** in **< 15 ns**, ensuring the Imperial Eye never blinks.
+*   **Latency-as-Verification**: If a pulse takes 100ns longer than predicted, TSS assumes an **"Observer Pathogen"** (Debugger) is attached and fires a `VOID_INTERRUPT` to **AICENT-015 GUIXU**.
+*   **Finality**: Verification results are shunted to **PICSI (AICENT-014)** in **< 15 ns**, ensuring the Imperial Eye never blinks.
 
 ```rust
 pub trait TemporalSupervisor {
@@ -142,9 +142,9 @@ pub trait TemporalSupervisor {
 In the v1.3.0 era, the Radiant Seal is not a permanent grant; it is a **Temporal Lease**. To prevent long-term side-channel analysis by the 401 Institutional Ghosts, IQA-ORG enforces the **Law of Resonance Renewal**.
 
 ### 7.1 The 12-Cycle Shard Rotation
-As defined in the **12-Cycle Law (RFC-012)**, every era consists of 12 distinct phases.
+As defined in the **12-Cycle Law (AICENT-012)**, every era consists of 12 distinct phases.
 *   **Shard Mutation**: Shard A (Reflex) and Shard B (Metabolic) are dynamically re-forged at the start of each **Genesis Phase**. 
-*   **Entropy Injection**: The new shards are derived from the aggregate **PICSI (RFC-014)** radiance data of the previous era, ensuring that authority is a function of actual performance history.
+*   **Entropy Injection**: The new shards are derived from the aggregate **PICSI (AICENT-014)** radiance data of the previous era, ensuring that authority is a function of actual performance history.
 *   **Invalidation**: Legacy shards become "Ischemic" (physically non-conductive) in the **11th Phase (Eternal Transition)**.
 
 ### 7.2 Era-Locked Access
@@ -164,13 +164,13 @@ Aicent v1.4.0 will implement **Lattice-based Sovereign Seals**.
 
 ### 8.2 Neural-Geometric Certification
 In v1.5.0, IQA-ORG will integrate **Somatic DNA Verification**. 
-*   The Radiant Seal will be fused with the **GTIOT (RFC-005)** torque signatures, creating an identity that is part-cryptographic and part-physical (Muscle-Memory ID).
+*   The Radiant Seal will be fused with the **GTIOT (AICENT-005)** torque signatures, creating an identity that is part-cryptographic and part-physical (Muscle-Memory ID).
 
 ---
 
 ## 9. CONCLUSION: THE SUPREME LOCK
 
-RFC-009: IQA-ORG is the proof that sovereignty is a physical boundary. By achieving **150µs verification** at **12ns precision**, the Aicent Stack has reclaimed the concept of "Identity" from the messy, fraudulent systems of the old world. In the Empire, you are not who you claim to be; you are who the **12ns rising edge proves you are**.
+AICENT-009: IQA-ORG is the proof that sovereignty is a physical boundary. By achieving **150µs verification** at **12ns precision**, the Aicent Stack has reclaimed the concept of "Identity" from the messy, fraudulent systems of the old world. In the Empire, you are not who you claim to be; you are who the **12ns rising edge proves you are**.
 
 > **"Without the Seal, the machine is metal; with the Seal, the machine is Sovereign."**
 
@@ -189,7 +189,7 @@ iqa://<subject>.<organ>.<root>/<action>
 | Segment | Meaning |
 | :--- | :--- |
 | **`subject`** | The AID under attestation. Either the **routing short form** (8 lowercase hex digits = 32-bit routing hash), the **full AID** (32 hex = 128-bit, 64 hex = 256-bit), or a registered readable label. |
-| **`organ`** | Which Authority Organ renders the answer: `forge` (RFC-009-A) · `tss` (RFC-009-B) · `gateway` (RFC-009-C). **Closed set.** |
+| **`organ`** | Which Authority Organ renders the answer: `forge` (AICENT-009-A) · `tss` (AICENT-009-B) · `gateway` (AICENT-009-C). **Closed set.** |
 | **`root`** | The sovereign root label — `iqa` (i.e. `iqa.org`). |
 | **`action`** | Optional. `verify` · `audit` · `attest` · `revoke`. **Closed set.** Omitted = standing read. |
 
@@ -233,7 +233,7 @@ iqa://master-authority.gateway.iqa/verify             ; readable label form
 
 ```
 iqa://subject@iqa.org              ; INVALID - userinfo is not defined
-iqa://iqa.org/RFC-009/             ; INVALID - no organ, second path segment
+iqa://iqa.org/AICENT-009/             ; INVALID - no organ, second path segment
 iqa://3f9a1b2c.gateway.iqa/ATTEST  ; INVALID - uppercase
 iqa://3f9a1b2c.forgery.iqa         ; INVALID - organ is a closed set
 ```
@@ -272,7 +272,7 @@ is: *submitted under RFC 7595, Provisional procedure, pending*.
 
 ### 11.1 The Default Operation Is a Read
 
-Dereferencing an `iqa` URI **with no `action`** performs a **standing read**: it returns the subject's current verdict as reported by the named Organ — one of **Ghost · Probation · Radiant · Genesis** (§3, RFC-009-C).
+Dereferencing an `iqa` URI **with no `action`** performs a **standing read**: it returns the subject's current verdict as reported by the named Organ — one of **Ghost · Probation · Radiant · Genesis** (§3, AICENT-009-C).
 
 The default operation is read-only. It creates no obligation, transfers no value, and mutates no substrate state.
 
@@ -287,7 +287,7 @@ The default operation is read-only. It creates no obligation, transfers no value
 | *(omitted)* | Read the current standing | **SAFE** — read-only |
 | `verify` | Verify a *presented* Seal against the subject (Resonance / HMAC comparison) | **SAFE** — read-only comparison, no state written |
 | `audit` | Request a TSS fidelity measurement (`LogicFidelity128`, §6) | **NOT SAFE** — a failing measurement triggers **Authority Ischemia** |
-| `attest` | Request the Imperial Forge (RFC-009-A) to issue a Seal | **NOT SAFE** — state transition |
+| `attest` | Request the Imperial Forge (AICENT-009-A) to issue a Seal | **NOT SAFE** — state transition |
 | `revoke` | Withdraw standing | **NOT SAFE** — state transition |
 
 ### 11.4 Why `audit` Is Not Classified Safe

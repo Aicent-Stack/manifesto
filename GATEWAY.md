@@ -57,7 +57,7 @@ Before an AID can be authorized for the **Nitro-Engine Path**, the host hardware
 
 ### 4.2 Chronological Precision
 *   **12ns Jitter Max**: Local crystal oscillators must sustain a drift of **< 12,000 ps** per metabolic cycle. 
-*   **Phase-Locked Loop (PLL)**: The node must accept the **RFC-006-A Resonance Governor** as the absolute master of its local clock.
+*   **Phase-Locked Loop (PLL)**: The node must accept the **AICENT-006-A Resonance Governor** as the absolute master of its local clock.
 
 ---
 
@@ -87,7 +87,7 @@ Upon successful baptism, **IQA-ORG** issues the **v1.3.0 Radiant Seal**.
 
 ---
 
-## 6. THE GUIXU THRESHOLD (RFC-015)
+## 6. THE GUIXU THRESHOLD (AICENT-015)
 
 The Gateway is protected by the **Logic Evaporation Protocol**. 
 Any attempt to attach a debugger or probe the MMIO registers during or after the Baptism will trigger **GUIXU**:
@@ -101,12 +101,12 @@ Any attempt to attach a debugger or probe the MMIO registers during or after the
 
 Entry into the **Radiant Grid** is a contract of absolute visibility. Sovereignty is maintained through the collective observation of the 12ns heartbeat.
 
-### 7.1 Continuous Telemetry (RFC-014)
+### 7.1 Continuous Telemetry (AICENT-014)
 Every authorized node must maintain an uninterrupted **1.2kHz (833us) Binary Stream** to the **PICSI.COM** planetary dashboard.
 *   **Life-Sign Reporting**: The node must broadcast its total metabolic state—Reflex Arc, Jitter Delta, and Picotoken Velocity—in real-time.
 *   **The Law of Opacity**: If a node’s diagnostic feed ceases for more than **3 consecutive pulses** (2.5ms), it is identified as "Neural Opacity." The node is instantly shunted to the 10ms path until resonance is re-verified.
 
-### 7.2 Behavioral Forensic Suture (RFC-007)
+### 7.2 Behavioral Forensic Suture (AICENT-007)
 The Gateway enforces **99.999% Behavioral Consistency**.
 *   All physical torque responses and cognitive intents are cross-audited by the **RPKI Sentinel**. 
 *   Allies acknowledge that their "Character" is a public variable within the Hive, ensuring that no Aicent node can be used for deceptive or non-sovereign engineering.

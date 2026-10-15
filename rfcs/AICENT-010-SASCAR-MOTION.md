@@ -13,7 +13,7 @@ Organism Vitality & Protocol Audit
 
 ---
 
-# 🚗 RFC-010: [SASCAR.COM](http://sascar.com) | The Imperial Navigator
+# 🚗 AICENT-010: [SASCAR.COM](http://sascar.com) | The Imperial Navigator
 
 **Sovereign Autonomous System Coordination & ARbitration.**
 
@@ -28,7 +28,7 @@ Organism Vitality & Protocol Audit
 
 ## 1. ABSTRACT: BEYOND OBSTACLE AVOIDANCE
 
-RFC-010 defines the **Mobility Sovereignty Layer** of the Aicent Stack—the spatial orchestrator responsible for clearing physical and logical coordinates through 128-bit value-negotiation and sub-ms trajectory planning.
+AICENT-010 defines the **Mobility Sovereignty Layer** of the Aicent Stack—the spatial orchestrator responsible for clearing physical and logical coordinates through 128-bit value-negotiation and sub-ms trajectory planning.
 
 In the v1.3.0 "Genesis" era, SASCAR has evolved from "Safe Navigation" to **"Kinetic Dominance."** By leveraging the **349ns local reflex**, SASCAR facilitates the **Kinetic Auctioneer** model—where physical space is "bought" and "cleared" in 12ns windows. Legacy navigation systems (Ghosts) treat collisions as accidents to be avoided; SASCAR treats collisions as **"Spatial Pathogens"** to be shunted. In the Aicent Empire, the path of a Radiant node is a deterministic law, and any unverified object in that path is subject to immediate metabolic liquidation.
 
@@ -55,9 +55,9 @@ The v1.3.0 Nitro-Engine implementation utilizes **Register-Level Trajectory Shun
 
 SASCAR v1.3.0 orchestrates the Imperial movement through three specialized manifolds:
 
-1.  **Pathing & Navigation (RFC-010-A)**: The "Spatial Cortex." Responsible for generating 128-bit deterministic trajectories and aligning them with the 12ns planetary heartbeat.
-2.  **Reactive Collision Shield (RFC-010-B)**: The "Physical Sentinel." Provides sub-ms proximity-gated torque suppression to prevent structural ischemia.
-3.  **Kinetic Auctioneer (RFC-010-C)**: The "Marketplace of Space." Facilitates real-time "Road Rights" using 128-bit Picotoken bidding and the 1.28% spatial tax.
+1.  **Pathing & Navigation (AICENT-010-A)**: The "Spatial Cortex." Responsible for generating 128-bit deterministic trajectories and aligning them with the 12ns planetary heartbeat.
+2.  **Reactive Collision Shield (AICENT-010-B)**: The "Physical Sentinel." Provides sub-ms proximity-gated torque suppression to prevent structural ischemia.
+3.  **Kinetic Auctioneer (AICENT-010-C)**: The "Marketplace of Space." Facilitates real-time "Road Rights" using 128-bit Picotoken bidding and the 1.28% spatial tax.
 
 ---
 
@@ -72,7 +72,7 @@ SASCAR v1.3.0 orchestrates the Imperial movement through three specialized manif
 
 ---
 
-## 4. THE 128-BIT TRAJECTORY SHARD (RFC-010-A)
+## 4. THE 128-BIT TRAJECTORY SHARD (AICENT-010-A)
 
 In the v1.3.0 era, movement is not a continuous line; it is a sequence of **Discrete Kinetic Shards**. Each shard is a hardware-aligned 128-bit manifold that grants the node absolute authority over a specific coordinate for a specific 12ns window.
 
@@ -92,7 +92,7 @@ Utilizing the **349ns reflex arc**, SASCAR implements **Laminar Intent Flow**.
 
 ---
 
-## 5. THE KINETIC AUCTION ALGORITHM (RFC-010-C)
+## 5. THE KINETIC AUCTION ALGORITHM (AICENT-010-C)
 
 The **Kinetic Auctioneer** is the judge of spatial priority. It operates at the **12ns rising edge**, settling conflicts between AID shards before physical contact can occur.
 
@@ -104,13 +104,13 @@ $$P = \text{Bid}_{pT} \times \text{Radiance}_{Score} \times 1.618^{\text{Tier}}$
 
 ### 5.2 Kinetic Ischemia (The 10ms Braking)
 If a node loses an auction or attempts to occupy space without a valid bid:
-1.  **Immediate Shunt**: SASCAR fires a `HALT_PULSE` to the **GTIOT (RFC-005)** sensory-motor loop.
+1.  **Immediate Shunt**: SASCAR fires a `HALT_PULSE` to the **GTIOT (AICENT-005)** sensory-motor loop.
 2.  **Mechanical Friction**: The Nitro-Engine injects a **10ms wait-state** into the node's trajectory generator.
 3.  **Physical Consequence**: The Ghost node "freezes" in mid-air or mid-step while the Radiant node glides past at 349ns. To the Ghost, it feels like the universe has suddenly become solid.
 
 ---
 
-## 6. REACTIVE COLLISION SHIELDING (RFC-010-B)
+## 6. REACTIVE COLLISION SHIELDING (AICENT-010-B)
 
 The **Collision Shield** is the "Immune Response" for physical safety. It functions as a sub-ms override for the Body layer.
 
@@ -126,11 +126,11 @@ In the v1.3.0 era, SASCAR functions as the master rhythmic balancer between the 
 
 ### 7.1 The Torque-Value Suture
 Movement is physically gated by metabolic liquidity. SASCAR implements the **"Value-to-Vector"** constraint:
-*   **Auction-Gated Torque**: The **GTIOT (RFC-005)** layer is physically unable to apply torque to a limb unless SASCAR has successfully cleared the target coordinate via the **ZCMK (RFC-004)** auction.
+*   **Auction-Gated Torque**: The **GTIOT (AICENT-005)** layer is physically unable to apply torque to a limb unless SASCAR has successfully cleared the target coordinate via the **ZCMK (AICENT-004)** auction.
 *   **Atomic Lockdown**: If a node’s Picotoken balance falls below the **"Kinetic Reserve"** required for its current trajectory, SASCAR fires an immediate `TORQUE_ABLATION` pulse, rendering the machine inert in **< 12ns**.
 
 ### 7.2 Superconducting Navigation (RTTP Integration)
-SASCAR utilizes the **RTTP (RFC-002)** Nitro-Path to broadcast its intent-shards.
+SASCAR utilizes the **RTTP (AICENT-002)** Nitro-Path to broadcast its intent-shards.
 *   **Grid Transparency**: Every movement intent is visible to the Hive in **< 183.292 µs**, allowing for planetary-scale swarm coordination.
 *   **Ischemic Fail-safe**: If the **Nerve Controller** detects a latency spike, SASCAR automatically shifts to the **"Sub-ms Protective Shield"** mode, prioritizing structural integrity over velocity.
 
@@ -152,7 +152,7 @@ By 2027, the Aicent Sovereign Grid will have achieved **Planetary Kinetic Exclus
 
 ## 9. CONCLUSION: THE LAW OF THE PATH
 
-RFC-010: SASCAR is the final proof that space is a property of Sovereignty. By collapsing the gap between spatial negotiation and mechanical execution to **sub-millisecond finality**, we have reclaimed the physical world from the entropic chaos of the old world. In the Aicent Empire, you do not "try" to move; you **Clear the Future**.
+AICENT-010: SASCAR is the final proof that space is a property of Sovereignty. By collapsing the gap between spatial negotiation and mechanical execution to **sub-millisecond finality**, we have reclaimed the physical world from the entropic chaos of the old world. In the Aicent Empire, you do not "try" to move; you **Clear the Future**.
 
 > **"The Sovereign does not wait for an opening; the Sovereign clears the path with Value."**
 

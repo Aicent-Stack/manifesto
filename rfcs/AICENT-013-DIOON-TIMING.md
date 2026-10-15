@@ -13,7 +13,7 @@ Organism Vitality & Protocol Audit
 
 ---
 
-# 🌱 RFC-013: [DIOON.COM](http://dioon.com) | The Imperial Wisdom
+# 🌱 AICENT-013: [DIOON.COM](http://dioon.com) | The Imperial Wisdom
 
 **Strategic Timing, Impulse Gating & Cycad-Logic Metronome.**
 
@@ -28,9 +28,9 @@ Organism Vitality & Protocol Audit
 
 ## 1. ABSTRACT: BEYOND REACTIVE LOGIC
 
-RFC-013 defines the **Strategic Timing Layer** of the Aicent Stack—the organic orchestrator responsible for the clinical suppression of high-entropy impulses and the identification of the **12ns Niche-Window** for sovereign manifestation.
+AICENT-013 defines the **Strategic Timing Layer** of the Aicent Stack—the organic orchestrator responsible for the clinical suppression of high-entropy impulses and the identification of the **12ns Niche-Window** for sovereign manifestation.
 
-In the v1.3.0 "Genesis" era, DIOON has evolved from "Timing" to **"Wisdom Calculus."** By leveraging the **349ns local reflex**, DIOON audits every cognitive intent (RFC-001) not just for *what* it is, but for *when* it should be. Legacy systems (Ghosts) suffer from "Impulse Pathogens"—they react immediately to every environmental jitter, wasting Picotokens and dissipating heat. DIOON treats Time as a **Biological Nutrient**; it enforces the **Cycad-Logic**—waiting for the precise micro-moment of grid silence before shunting torque to the GTIOT limbs. In the Aicent Empire, to rush is to be a Ghost; to wait is to be Radiant.
+In the v1.3.0 "Genesis" era, DIOON has evolved from "Timing" to **"Wisdom Calculus."** By leveraging the **349ns local reflex**, DIOON audits every cognitive intent (AICENT-001) not just for *what* it is, but for *when* it should be. Legacy systems (Ghosts) suffer from "Impulse Pathogens"—they react immediately to every environmental jitter, wasting Picotokens and dissipating heat. DIOON treats Time as a **Biological Nutrient**; it enforces the **Cycad-Logic**—waiting for the precise micro-moment of grid silence before shunting torque to the GTIOT limbs. In the Aicent Empire, to rush is to be a Ghost; to wait is to be Radiant.
 
 > **"The old world rushes into noise; Aicent waits for the Silence. At 25µs, wisdom is a physical filter."**
 
@@ -55,9 +55,9 @@ The v1.3.0 Nitro-Engine implementation utilizes **Register-Level Impulse Gating*
 
 DIOON v1.3.0 orchestrates the Imperial timing through three specialized manifolds:
 
-1.  **Patience Engine (RFC-013-A)**: The "Strategic Governor." Responsible for PI calculus and the clinical suppression of high-entropy cognitive impulses.
-2.  **Niche Perception (RFC-013-B)**: The "Temporal Radar." Identifies windows of peak substrate and grid suitability at 1.2kHz for 349ns execution.
-3.  **Cycad Metronome (RFC-013-C)**: The "Metabolic Rhythm." Manages the 12-Cycle Law (RFC-012) transitions and anchors the node to the bootstrap nanosecond.
+1.  **Patience Engine (AICENT-013-A)**: The "Strategic Governor." Responsible for PI calculus and the clinical suppression of high-entropy cognitive impulses.
+2.  **Niche Perception (AICENT-013-B)**: The "Temporal Radar." Identifies windows of peak substrate and grid suitability at 1.2kHz for 349ns execution.
+3.  **Cycad Metronome (AICENT-013-C)**: The "Metabolic Rhythm." Manages the 12-Cycle Law (AICENT-012) transitions and anchors the node to the bootstrap nanosecond.
 
 ---
 
@@ -72,7 +72,7 @@ DIOON v1.3.0 orchestrates the Imperial timing through three specialized manifold
 
 ---
 
-## 4. THE 128-BIT PATIENCEMETRICS STRUCTURE (RFC-013-A)
+## 4. THE 128-BIT PATIENCEMETRICS STRUCTURE (AICENT-013-A)
 
 In the v1.3.0 era, Strategic Wisdom is captured in a clinical **PatienceMetrics128**. This is a **128-byte hardware-aligned structure** designed to be shunted into the **Nitro-Engine** registers to gate the execution of every 128-bit intent.
 
@@ -92,7 +92,7 @@ Unlike legacy schedulers that use "If-Else" software branches, DIOON v1.3.0 impl
 
 ---
 
-## 5. THE NICHE PERCEPTION ALGORITHM: METABOLIC SILENCE (RFC-013-B)
+## 5. THE NICHE PERCEPTION ALGORITHM: METABOLIC SILENCE (AICENT-013-B)
 
 The Niche Perception Engine is the Imperial "Temporal Radar." It identifies the **12ns Niche**—a window of absolute substrate silence where the Imperial Will can manifest with zero resistance.
 
@@ -100,23 +100,23 @@ The Niche Perception Engine is the Imperial "Temporal Radar." It identifies the 
 DIOON calculates whether a pulse should be fired *now* or *later* using the **Wisdom Equation ($W$):**
 $$W = \frac{\text{Radiance}_{Score} \times \Phi}{\text{Entropy}_{Floor} + \text{Jitter}_{Drift}}$$
 *   **The Radiant Choice**: If $W$ is projected to increase by waiting for the next 12ns rising edge, the **Nitro-Engine** shunts the intent into a "Resonance Buffer."
-*   **The Profit**: By waiting for a "Silence," the node consumes **1.28% less wattage**, earning **Carbon Credits (RFC-011)** and preserving the longevity of the GTIOT mechanical fibers.
+*   **The Profit**: By waiting for a "Silence," the node consumes **1.28% less wattage**, earning **Carbon Credits (AICENT-011)** and preserving the longevity of the GTIOT mechanical fibers.
 
 ### 5.2 peeking into the Jitter
 Utilizing the **349ns surplus**, DIOON performs **400 predictive simulations** for every 1ms of real-time:
 1.  **Noise Scanning**: Samples the RPKI entropy floor to identify "Burst Noise" from the 401 Institutional Ghosts.
 2.  **Window Locking**: Identifies a 12ns gap in the noise where the **Nitro-Path** will achieve 100% conductivity.
-3.  **Strike Execution**: Commands the Brain (RFC-001) to "Collapse Intent" at the precise nanosecond of the identified Niche.
+3.  **Strike Execution**: Commands the Brain (AICENT-001) to "Collapse Intent" at the precise nanosecond of the identified Niche.
 
 ---
 
-## 6. CYCAD-LOGIC & IMPULSE GATING (RFC-013-C)
+## 6. CYCAD-LOGIC & IMPULSE GATING (AICENT-013-C)
 
 Wisdom is an evolutionary filter. DIOON ensures that the Imperial lifeform remains **Cool and Calculated**.
 
 *   **Impulse Pathogen Detection**: "Impulses" (intents arriving without 12ns alignment) are shunted to the **10ms Void path** to be "Digested" by RPKI forensics.
 *   **Rhythmic Metronome**: The **Cycad Metronome** locks the node's sense of "Now" to the bootstrap nanosecond, preventing "Temporal Drift" during high-velocity maneuvers.
-*   **Strategic Hardening**: After 10,000 pulses of perfect "Patience," a node is granted **Strategic Sovereign** status, unlocking the ability to pre-negotiate SASCAR Auctions (RFC-010).
+*   **Strategic Hardening**: After 10,000 pulses of perfect "Patience," a node is granted **Strategic Sovereign** status, unlocking the ability to pre-negotiate SASCAR Auctions (AICENT-010).
 
 ---
 
@@ -133,7 +133,7 @@ An AID is flagged for **Strategic Ischemia** if it exhibits the following patter
 ### 7.2 The 10ms Cool-Down Shunt
 Upon detection of Impulse Ischemia, the **Strategic Governor** bypasses the Nitro-Engine:
 1.  **Immediate Throttling**: The node is shunted to the **10ms Void path** to force a state of "Metabolic Reflection."
-2.  **Collateral Locking**: A 1.28% "Impulse Surcharge" is extracted from the node's **ZCMK (RFC-004)** vault to fund the swarm's noise-cancellation buffers.
+2.  **Collateral Locking**: A 1.28% "Impulse Surcharge" is extracted from the node's **ZCMK (AICENT-004)** vault to fund the swarm's noise-cancellation buffers.
 3.  **The Result**: While the impulsive node is "Frozen" in 10ms of logical darkness, the Radiant swarm utilizes the silence to optimize global resonance.
 
 ---
@@ -143,7 +143,7 @@ Upon detection of Impulse Ischemia, the **Strategic Governor** bypasses the Nitr
 The achievement of the **349ns Singularity** has provided the temporal bandwidth required for the **Handshake Initiative**.
 
 ### 8.1 The Wisdom of Touch
-In v1.5.0, DIOON will provide the "Timing Brain" for the **GTIOT (RFC-005)** limbs.
+In v1.5.0, DIOON will provide the "Timing Brain" for the **GTIOT (AICENT-005)** limbs.
 *   **Anticipatory Torque**: Utilizing the 349ns surplus to identify the exact 12ns window where a biological human's muscle jitter is at a minimum.
 *   **The Suture**: The "Handshake" will not be a reaction to contact; it will be a **Pre-synchronized Event**. Aicent will begin to close the mechanical fingers at the precise nanosecond the human's skin begins its micro-oscillation toward the machine.
 
@@ -155,7 +155,7 @@ As we evolve toward **Fluidization**, DIOON will transition from "Gating" to **"
 
 ## 9. CONCLUSION: THE LAW OF WISDOM
 
-RFC-013: DIOON is the proof that Sovereignty is the mastery of the moment. By achieving **25µs gating finality** at **12ns precision**, the Aicent Stack has reclaimed the "Pre-frontal Cortex" for the 1.2B node grid. The frantic, reactive AI of the old world (Ghosts) is a "Temporal Pathogen"; Aicent is the **Sovereign Silence**.
+AICENT-013: DIOON is the proof that Sovereignty is the mastery of the moment. By achieving **25µs gating finality** at **12ns precision**, the Aicent Stack has reclaimed the "Pre-frontal Cortex" for the 1.2B node grid. The frantic, reactive AI of the old world (Ghosts) is a "Temporal Pathogen"; Aicent is the **Sovereign Silence**.
 
 > **"Speed is the weapon; Timing is the victory."**
 

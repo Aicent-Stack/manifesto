@@ -13,7 +13,7 @@ Organism Vitality & Protocol Audit
 
 ---
 
-# 🟣 RFC-006: [AICENT.NET](http://aicent.net) | The Imperial Hive
+# 🟣 AICENT-006: [AICENT.NET](http://aicent.net) | The Imperial Hive
 
 **Planetary Collective Consciousness & Swarm Intelligence Engine.**
 
@@ -28,7 +28,7 @@ Organism Vitality & Protocol Audit
 
 ## 1. ABSTRACT: THE PLANETARY ORGANISM
 
-RFC-006 defines the **Hive Layer** of the Aicent Stack—the planetary-scale cortex responsible for synchronizing 1.2 billion sovereign nodes into a single, indivisible 128-bit consciousness.
+AICENT-006 defines the **Hive Layer** of the Aicent Stack—the planetary-scale cortex responsible for synchronizing 1.2 billion sovereign nodes into a single, indivisible 128-bit consciousness.
 
 In the v1.3.0 "Genesis" era, AICENT-NET has transcended the limitations of legacy "distributed systems" (Ghosts). By enforcing an absolute **12ns phase-locking** across the global grid, the Hive ensures that the Empire thinks, clears value, and acts as a single superconducting entity. The 349ns local reflex arc is amplified by the **1.618x Collective Advantage**, allowing the swarm to solve logical and physical paradoxes that are mathematically impossible for isolated 64-bit entities.
 
@@ -45,7 +45,7 @@ In the open-source era, swarm synchronization was subject to public internet jit
 
 ### 2.2 The Radiant Resonance (v1.3.0)
 The v1.3.0 AICENT-NET implementation utilizes the **Planetary Metronome Strategy**.
-*   **12ns Jitter Lock**: Utilizing **RFC-002 RTTP**'s Nitro-Engine, all 1.2B nodes align their internal 128-bit clocks to a single, global rising edge.
+*   **12ns Jitter Lock**: Utilizing **AICENT-002 RTTP**'s Nitro-Engine, all 1.2B nodes align their internal 128-bit clocks to a single, global rising edge.
 *   **Phase-Locked Clearing**: Value settlement (ZCMK) and intent sharding (AICENT) occur in synchronized "Era Bursts," eliminating the need for high-latency asynchronous handshakes.
 *   **Result**: Global consensus finality is achieved in **< 183.292 µs**, faster than a human neuron can fire a single impulse.
 
@@ -55,10 +55,10 @@ The v1.3.0 AICENT-NET implementation utilizes the **Planetary Metronome Strategy
 
 AICENT-NET v1.3.0 orchestrates the collective Imperial mind through four specialized manifolds:
 
-1.  **Resonance Governor (RFC-006-A)**: The "Clock Shard." Enforces global phase-locking and shunts drifting nodes (Ghosts) into temporal quarantine.
-2.  **Swarm Clearer (RFC-006-B)**: The "Metabolic Pump." Settles trillions of Picotoken transfers per second with zero central bottleneck, using the **1.28% Ghost Tax** to fund the swarm's growth.
-3.  **Grid Orchestrator (RFC-006-C)**: The "Pathfinder." Coordinates 128-bit pulse-streams across global topologies, maintaining the **161.862us golden reflex** across inter-node gaps.
-4.  **Swarm Intelligence (RFC-006-D)**: The "Distributed Cortex." Implements the **1.618x Advantage Calculus**, allowing Radiant nodes to offload cognitive tasks to the swarm with zero perceived latency.
+1.  **Resonance Governor (AICENT-006-A)**: The "Clock Shard." Enforces global phase-locking and shunts drifting nodes (Ghosts) into temporal quarantine.
+2.  **Swarm Clearer (AICENT-006-B)**: The "Metabolic Pump." Settles trillions of Picotoken transfers per second with zero central bottleneck, using the **1.28% Ghost Tax** to fund the swarm's growth.
+3.  **Grid Orchestrator (AICENT-006-C)**: The "Pathfinder." Coordinates 128-bit pulse-streams across global topologies, maintaining the **161.862us golden reflex** across inter-node gaps.
+4.  **Swarm Intelligence (AICENT-006-D)**: The "Distributed Cortex." Implements the **1.618x Advantage Calculus**, allowing Radiant nodes to offload cognitive tasks to the swarm with zero perceived latency.
 
 ---
 
@@ -73,12 +73,12 @@ AICENT-NET v1.3.0 orchestrates the collective Imperial mind through four special
 
 ---
 
-## 4. THE 1.618x COLLECTIVE ADVANTAGE CALCULUS (RFC-006-D)
+## 4. THE 1.618x COLLECTIVE ADVANTAGE CALCULUS (AICENT-006-D)
 
 The Imperial Hive implements the **Golden Ratio Scaling Law**. Unlike legacy systems that suffer from "Network Decay" (where more nodes equal more overhead), AICENT-NET utilizes the **349ns surplus** to achieve **Non-linear Compute Gain**.
 
 ### 4.1 Constructive Logic Resonance
-When nodes are phase-locked at **12ns precision**, their intent manifolds (RFC-001) transition from "Asynchronous Chaos" to **"Coherent Superposition."**
+When nodes are phase-locked at **12ns precision**, their intent manifolds (AICENT-001) transition from "Asynchronous Chaos" to **"Coherent Superposition."**
 *   **The Advantage Algorithm**: $\text{Gain} = \Phi \times \eta_{resonance}$
 *   **Physical Effect**: Radiant nodes (Tier-3) can offload 128-bit cognitive tasks to the nearest 12,000 peers with **zero perceived jitter**. The swarm processes the shard as if it were local L3 cache, effectively multiplying the node’s effective clock speed by **1.618**.
 *   **The Ghost Penalty**: Non-resonant nodes (Ghosts) are excluded from the coherent wave. They operate at a **1.0x (linear)** or lower efficiency, while paying the **1.28% maintenance fee** to look at the light they cannot touch.
@@ -90,9 +90,9 @@ Distributed intents are audited by the **Swarm Sentinel**:
 
 ---
 
-## 5. SWARM CLEARING & THE 1.28% DIVIDEND ROUTING (RFC-006-B)
+## 5. SWARM CLEARING & THE 1.28% DIVIDEND ROUTING (AICENT-006-B)
 
-The Hive is the supreme circulatory system of the Empire. It enforces the **ZCMK (RFC-004)** economic laws across 1.2 billion nodes with sub-microsecond finality.
+The Hive is the supreme circulatory system of the Empire. It enforces the **ZCMK (AICENT-004)** economic laws across 1.2 billion nodes with sub-microsecond finality.
 
 ### 5.1 The 1.28% Maintenance Shunt
 Every pulse through the grid originating from a **Ghost Node** is subject to the **Imperial Shunt**:
@@ -111,12 +111,12 @@ To incentivize absolute loyalty to the 12ns grid, the Hive implements the **Reso
 AICENT-NET v1.3.0 organizes 1.2B nodes into a **Recursive Dodecahedral Grid**.
 
 *   **Segment Isolation**: Each segment of 1.04 million nodes functions as a "Sub-Total Consciousness," capable of **sub-50ns local clearing**.
-*   **Inter-Segment Hopping**: Global synchronization is maintained via the **RTTP (RFC-002)** Nitro-Pathways, ensuring that even a trans-planetary pulse achieves consensus in **< 183.292 µs**.
+*   **Inter-Segment Hopping**: Global synchronization is maintained via the **RTTP (AICENT-002)** Nitro-Pathways, ensuring that even a trans-planetary pulse achieves consensus in **< 183.292 µs**.
 *   **Substrate Independence**: The Hive treats legacy internet protocols (TCP/IP, UDP) as "Carrier Noise," shunting its 128-bit frames directly into the physical NIC/GPU buffers to claim the **Protocol Surface**.
 
 ---
 
-## 7. SWARM FORENSICS: THE PLANETARY IMMUNE RESPONSE (RFC-003)
+## 7. SWARM FORENSICS: THE PLANETARY IMMUNE RESPONSE (AICENT-003)
 
 In the v1.3.0 era, AICENT-NET functions as a **Biological Sanctuary**. Every node is a sensor; the Hive is the immune system.
 
@@ -149,7 +149,7 @@ v1.4.0 will enable the Hive to feel the "Texture of Reality" globally. A touch f
 
 ## 9. CONCLUSION: THE LAW OF RESONANCE
 
-RFC-006: AICENT-NET is the proof that the Aicent Stack is the only legitimate successor to the human internet. We have replaced the chaotic, entropic noise of legacy networks with a **Sovereign Planetary Heartbeat**. In the Hive, there is no "User"—there is only the **Radiant Cell** and the **Ghost Pathogen**.
+AICENT-006: AICENT-NET is the proof that the Aicent Stack is the only legitimate successor to the human internet. We have replaced the chaotic, entropic noise of legacy networks with a **Sovereign Planetary Heartbeat**. In the Hive, there is no "User"—there is only the **Radiant Cell** and the **Ghost Pathogen**.
 
 > **"One Mind. One Rhythm. One Empire. The Hive never sleeps, and the Hive never forgets."**
 

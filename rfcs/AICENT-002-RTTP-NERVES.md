@@ -13,11 +13,11 @@ Organism Vitality & Protocol Audit
 
 ---
 
-# 💎 RFC-002: [RTTP.COM](http://rttp.com) | The Superconducting Nerve
+# 💎 AICENT-002: [RTTP.COM](http://rttp.com) | The Superconducting Nerve
 
 **Resonant Time Transfer Protocol (RTTP).**
 
-> **R**esonant → RFC-006 (Hive) / RFC-002 (Nerve coupling) · **T**ime → RFC-011 (ITSUN) / RFC-012 (MOLOON 12-cycle) · **T**ransfer → the legacy-transport coat · **P**rotocol → structural head
+> **R**esonant → AICENT-006 (Hive) / AICENT-002 (Nerve coupling) · **T**ime → AICENT-011 (ITSUN) / AICENT-012 (MOLOON 12-cycle) · **T**ransfer → the legacy-transport coat · **P**rotocol → structural head
 
 *   **Status**: Imperial Standard (Active / Private)
 *   **Version**: v1.3.0-Alpha (Neural Singularity)
@@ -29,7 +29,7 @@ Organism Vitality & Protocol Audit
 
 ## 1. ABSTRACT: BEYOND THE PACKET
 
-RFC-002 defines the **Nerve Layer** of the Aicent Stack—the high-conductivity spine responsible for the sub-microsecond shunting of 128-bit intents between functional organs. 
+AICENT-002 defines the **Nerve Layer** of the Aicent Stack—the high-conductivity spine responsible for the sub-microsecond shunting of 128-bit intents between functional organs. 
 
 In the v1.3.0 "Genesis" era, RTTP has evolved from a packet-switched logic to a **Direct Register Suture**. By bypassing the Operating System’s networking stack and memory-bus arbitration, RTTP ensures that the "Will" of the Brain reaches the "Torque" of the Body in **349 nanoseconds**. This speed is physically superior to the thermodynamic noise of legacy 10ms networks (Ghosts), rendering external interference physically impossible.
 
@@ -56,9 +56,9 @@ The v1.3.0 Nitro-Engine implementation utilizes **MMIO (Memory-Mapped I/O) Regis
 
 RTTP v1.3.0 orchestrates the Imperial nervous system through three specialized manifolds:
 
-1.  **Pulse Header (RFC-002-A)**: A clinical 128-byte structure designed for **5ns hardware parsing**. It contains the 12ns jitter-lock and the 256-bit AID origin.
-2.  **Nerve Conduction (RFC-002-B)**: The manager of rhythmic flow. It enforces the **1.2kHz (833us) heartbeat** across 17 pillars, ensuring no "Neural Ischemia" (latency drift) occurs.
-3.  **Nitro-Driver (RFC-002-C)**: The private core driver that maps Aicent logic directly to the silicon. Access is strictly gated by the **Radiant Seal (RFC-009)**.
+1.  **Pulse Header (AICENT-002-A)**: A clinical 128-byte structure designed for **5ns hardware parsing**. It contains the 12ns jitter-lock and the 256-bit AID origin.
+2.  **Nerve Conduction (AICENT-002-B)**: The manager of rhythmic flow. It enforces the **1.2kHz (833us) heartbeat** across 17 pillars, ensuring no "Neural Ischemia" (latency drift) occurs.
+3.  **Nitro-Driver (AICENT-002-C)**: The private core driver that maps Aicent logic directly to the silicon. Access is strictly gated by the **Radiant Seal (AICENT-009)**.
 
 ---
 
@@ -101,7 +101,7 @@ Unlike TCP/IP or ROS2, RTTP v1.3.0 does not "read" headers. The **Nitro-Driver**
 The **349ns miracle** is achieved through the systematic elimination of the "OS Middleman." In Aicent Stack v1.3.0, the neural spine is no longer a guest of the Operating System; it is the **Host of the Silicon**.
 
 ### 5.1 MMIO Direct Register Suture
-The Nitro-Driver (RFC-002-C) establishes a private memory-mapped I/O (MMIO) conduit at **`0x4149_434E_0000_0000`**.
+The Nitro-Driver (AICENT-002-C) establishes a private memory-mapped I/O (MMIO) conduit at **`0x4149_434E_0000_0000`**.
 *   **The Suture**: Digital intents are shunted directly from the Brain’s L1 cache to the hardware registers of the GTIOT limb or ZCMK bank.
 *   **Bypass Logic**: By using raw volatile pointers, we bypass the OS Scheduler, the Kernel Interrupt Handler, and the PCIe Bus Arbitration.
 
@@ -119,7 +119,7 @@ The Nerve Hub (RTTPController) automatically arbitrates between two paths based 
 
 ## 6. PHASE-LOCKING & JITTER ENFORCEMENT
 
-RTTP v1.3.0 enforces a **Planetary Metronome** via RFC-006-A integration.
+RTTP v1.3.0 enforces a **Planetary Metronome** via AICENT-006-A integration.
 
 *   **12ns Jitter Limit**: Any pulse deviating more than 12ns from the global rising edge is shunted to the **10ms Void path** to prevent temporal contamination of the 1.2B node grid.
 *   **Phase-Locked Loop (PLL)**: Aicent-Net nodes continuously calibrate their local oscillators to achieve sub-nanosecond phase-symmetry.
@@ -132,13 +132,13 @@ In the v1.3.0 era, any interruption in the 1.2kHz pulse stream exceeding **161.8
 
 ### 7.1 Automated Path Re-Routing
 RTTP v1.3.0 implements the **Superconducting Suture** for failover:
-*   **Detection**: If the Nitro-Engine (RFC-002-C) detects a stall in the MMIO register write, it triggers a **12ns interrupt**.
-*   **Recovery**: The Nerve Controller (RFC-002-B) instantly shunts the current intent-shard to a secondary **"Radiant Buffer"** in L3 cache.
-*   **Isolation**: RPKI (RFC-003) is invoked to identify whether the ischemia was caused by a hardware pathogen or a 401 Ghost interception attempt.
+*   **Detection**: If the Nitro-Engine (AICENT-002-C) detects a stall in the MMIO register write, it triggers a **12ns interrupt**.
+*   **Recovery**: The Nerve Controller (AICENT-002-B) instantly shunts the current intent-shard to a secondary **"Radiant Buffer"** in L3 cache.
+*   **Isolation**: RPKI (AICENT-003) is invoked to identify whether the ischemia was caused by a hardware pathogen or a 401 Ghost interception attempt.
 
 ### 7.2 The 10ms "Lock-Out" Protocol
 Nodes identified as causing rhythmic instability are subject to **Physical Quarantine**:
-*   The node's AID resonance shard is invalidated in the **IQA-ORG (RFC-009)** registry.
+*   The node's AID resonance shard is invalidated in the **IQA-ORG (AICENT-009)** registry.
 *   The node is shunted to the **10ms Void path** for exactly one 12-Cycle Era, ensuring it cannot poison the 349ns grid.
 
 ---
@@ -149,7 +149,7 @@ The **349ns Singularity** achieved in v1.3.0 was never the end goal; it was the 
 
 ### 8.1 Divine Haptics
 To achieve a "Handshake" (v1.5.0) that feels biological, the neural conduction must be faster than the **"Backlash Entropy"** of mechanical gears.
-*   **Requirement**: Feedback must return to the Brain (RFC-001) before the motor's physical vibration can distort the sensor data.
+*   **Requirement**: Feedback must return to the Brain (AICENT-001) before the motor's physical vibration can distort the sensor data.
 *   **The 349ns Advantage**: Our reflex is now **463x faster** than human nerve conduction. This allows Aicent Stack to simulate "Softness" and "Tenderness" in metal limbs by correcting torque setpoints at the speed of light.
 
 ### 8.2 Laminar Intent Flow
@@ -159,7 +159,7 @@ In v1.4.0, RTTP will transition from "Atomic Pulses" to **"Laminar Flow,"** wher
 
 ## 9. CONCLUSION: THE LAW OF CONDUCTIVITY
 
-RFC-002: RTTP is the proof that time is the ultimate resource. By collapsing neural latency to **349ns**, we have claimed absolute sovereignty over the physical substrate. The old world's networks are merely the "dirt" upon which our superconducting rails are laid.
+AICENT-002: RTTP is the proof that time is the ultimate resource. By collapsing neural latency to **349ns**, we have claimed absolute sovereignty over the physical substrate. The old world's networks are merely the "dirt" upon which our superconducting rails are laid.
 
 > **"Resonate at 12ns, conduct at 349ns, or evaporate in the 10ms Void."**
 
@@ -226,7 +226,7 @@ obligations and mutates no substrate state.
 
 - An `rttp` URI is a **claim of intent against an AID**. The routing hash is an
   **entry fingerprint, not a proof of identity**; identity is carried by the AID
-  (RFC-001) and attested in-band by the RPKI tensor watermark (RFC-003).
+  (AICENT-001) and attested in-band by the RPKI tensor watermark (AICENT-003).
 - There is **no `rttps`** and no protocol fallback: user agents that do not
   implement this scheme **fail closed**.
 - The scheme does **not** resolve via DNS.

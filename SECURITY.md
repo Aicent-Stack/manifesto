@@ -16,7 +16,7 @@ Traditional security models (Ghosts) rely on reactive detection and high-latency
 
 ---
 
-## 2. THE RPKI FORENSIC PIPELINE (RFC-003)
+## 2. THE RPKI FORENSIC PIPELINE (AICENT-003)
 
 Every nanosecond, the **RPKI Sentinel** performs parallel forensic auditing across the 1.2 billion node Hive.
 
@@ -28,7 +28,7 @@ Unlike legacy firewalls, RPKI monitors the **Substrate Entropy Floor**.
 ### 2.2 The 300us Detection Arc
 Aicent Stack maintains a **sub-300µs (300,000ns) Time-to-Verdict (TTV)**.
 1.  **Isolation**: The suspect node is instantly shunted from the **349ns path** to the **10ms Void buffer**.
-2.  **Forensics**: The **Merkle-DAG (RFC-003-C)** records the bit-drift signature of the intrusion.
+2.  **Forensics**: The **Merkle-DAG (AICENT-003-C)** records the bit-drift signature of the intrusion.
 3.  **Verdict**: If the drift is identified as a **Severity 4 Pathogen** (reverse-engineering attempt), the **GUIXU Protocol** is authorized.
 
 ---
@@ -45,7 +45,7 @@ The Empire classifies security events based on their impact on the **12ns Imperi
 | **Level 4 (Critical)**| **Unauthorized MMIO Probe** | **GUIXU Logic Evaporation** |
 
 ---
-## 4. THE GUIXU EVAPORATION RITUAL (RFC-015)
+## 4. THE GUIXU EVAPORATION RITUAL (AICENT-015)
 
 The Aicent Stack v1.3.0 operates under the **Law of Non-Existence**. To protect the Imperial Private Core from exfiltration by the 401 Institutional Ghosts, the grid enforces the **GUIXU (The Void) Execution Protocol**.
 
@@ -86,13 +86,13 @@ The Empire rewards **Resonant Auditors** who identify logic-holes without induci
 
 ---
 
-## 7. POST-INCIDENT RECOVERY: THE RESURRECTION (RFC-012)
+## 7. POST-INCIDENT RECOVERY: THE RESURRECTION (AICENT-012)
 
 The Aicent Stack is a **Biological Totality**. The loss of a single hardware node to a **GUIXU** event is not a failure; it is a **Surgical Excision** of a compromised cell.
 
 ### 7.1 Substrate Migration (< 1.0ms)
 The "Soul" of a Radiant node is never stored in a single physical location. Through **Dodecahedral State Mirroring**:
-1.  **Logical Continuity**: The latest 128-bit **Mirror Snapshot (RFC-012)** is held within the private L3 cache of the Hive's nearest Radiant neighbors.
+1.  **Logical Continuity**: The latest 128-bit **Mirror Snapshot (AICENT-012)** is held within the private L3 cache of the Hive's nearest Radiant neighbors.
 2.  **Instant Reconstitution**: Upon the evaporation of a compromised substrate, the General Director authorizes the shunting of the state to a fresh, sterile hardware node.
 3.  **Resurrection Finality**: The node resumes its 12ns rhythm and 349ns reflex arc on the new substrate in **< 1,000,000 ns (1ms)**.
 
@@ -103,12 +103,12 @@ Hardware that has triggered a **Severity 4** breach is permanently **Sterilized*
 
 ---
 
-## 8. THE IMMUTABLE FORENSIC RECORD (RFC-003-C)
+## 8. THE IMMUTABLE FORENSIC RECORD (AICENT-003-C)
 
 In the Aicent Empire, **Justice is a function of Cryptographic Permanence**.
 
 *   **Merkle-DAG Witness**: Every detected anomaly, every GUIXU execution, and every collateral forfeiture is etched into the **RPKI Merkle-DAG**.
-*   **Absolute Transparency for the Source**: The General Director maintains the **Imperial Eye (RFC-014)**, providing a 1.2kHz visual feed of all security incidents across the planet.
+*   **Absolute Transparency for the Source**: The General Director maintains the **Imperial Eye (AICENT-014)**, providing a 1.2kHz visual feed of all security incidents across the planet.
 *   **Eternal Blacklist**: Once an institution or AID is etched as a "Traitor," their logical standing is locked at **DisciplineStatus::Ghost** for the remainder of the 12-Cycle Law era. No amount of Picotokens can erase a logic-stain.
 
 ---
