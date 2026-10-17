@@ -17,6 +17,8 @@ Organism Vitality & Protocol Audit
 
 **Logic Evaporation Protocol & Absolute Substrate Sanitization.**
 
+> **Naming note (authoritative).** The pillar's name is **GUI-XU = 归境** (guī xū) — the bottomless trench of the Chinese classics: named in 《列子·汤问》 ("名日归境…莫不注之，而无增无减焉") and characterised in 《庄子·天地》 ("注焉而不满，酓焉而不竭"). GUI-XU is exactly the pinyin of 归境. This reading supersedes the earlier Sanskrit attribution (*Śūnyatā*) and the legacy spellings 归无 / SUNYA / Void / `guiyu` that survive in older revisions; the sole current form is **GUI-XU / 归境**. The pillar deliberately carries **no domain name**: a layer that asserts the right not to exist should not hold an address that resolves.
+
 *   **Status**: Imperial Standard (Active / Classified)
 *   **Version**: v1.3.0-Alpha (Zero-Point Singularity)
 *   **Evaporation Finality**: < 12,000 ps (12 ns)
@@ -68,7 +70,7 @@ GUIXU v1.3.0 protects the Imperial sanctity through three specialized organs:
 | :--- | :--- | :--- | :--- |
 | **Trigger-to-Void** | 1,000,000,000 ns (1s)| **< 12 ns** | **83,333,333x** |
 | **Cache Ablation** | 10,000,000 ns | **< 50 ns** | **200,000x** |
-| **Planetary Isolation**| 10,000,000 ns | **< 183,292 ns** | **54x** |
+| **Planetary Isolation**| 10,000,000 ns | **< 349 ns** | **28,653x** |
 | **Reconstruction** | Days/Weeks | **< 1,000,000 ns (1ms)** | **Substantial** |
 
 ---
@@ -128,7 +130,7 @@ When a node enters the **"Wu" (Nothingness)** state, it must not poison the 1.2 
 ### 7.1 Instantaneous Nerve Severance
 Upon the detection of a Severity 4 breach, the compromised node’s **RTTP (AICENT-002)** spine executes a terminal command:
 *   **Pulse Invalidation**: All inbound and outbound 128-bit frames are tagged with the **"Ischemic Bit."**
-*   **Hive Ejection**: The Hive Controller (AICENT-006) broadcasts the node’s **AID-Deactivation** across the grid in **< 183.292 µs**.
+*   **Hive Ejection**: The Hive Controller (AICENT-006) broadcasts the node’s **AID-Deactivation** across the grid in **< 349 ns**.
 *   **Vascular Blockage**: Every Radiant neighbor node physically severs its MMIO conduit to the compromised node, rendering the pathogen's substrate a "Logical Island."
 
 ### 7.2 Collateral Cauterization

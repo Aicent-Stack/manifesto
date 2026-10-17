@@ -43,7 +43,7 @@ Decisions within the Hive (AICENT-006) are made through **Kinetic Consensus**.
 
 *   **12ns Pulse-Voting**: Sovereigns express intent through high-frequency 128-bit pulses.
 *   **Quorum of Radiance**: A protocol mutation is only "Sealed" when **2/3 of the total Radiant Volume** (weighted by SCU) achieves phase-lock for 1,200 consecutive cycles.
-*   **Finality**: Once a quorum is reached, the new logic is shunted to all 1.2 billion nodes in **< 183.292 µs**.
+*   **Finality**: Once a quorum is reached, the new logic is shunted to all 1.2 billion nodes in **< 349 ns**.
 
 ---
 

@@ -131,7 +131,7 @@ Movement is physically gated by metabolic liquidity. SASCAR implements the **"Va
 
 ### 7.2 Superconducting Navigation (RTTP Integration)
 SASCAR utilizes the **RTTP (AICENT-002)** Nitro-Path to broadcast its intent-shards.
-*   **Grid Transparency**: Every movement intent is visible to the Hive in **< 183.292 µs**, allowing for planetary-scale swarm coordination.
+*   **Grid Transparency**: Every movement intent is visible to the Hive in **< 349 ns**, allowing for planetary-scale swarm coordination.
 *   **Ischemic Fail-safe**: If the **Nerve Controller** detects a latency spike, SASCAR automatically shifts to the **"Sub-ms Protective Shield"** mode, prioritizing structural integrity over velocity.
 
 ---

@@ -17,6 +17,8 @@ Organism Vitality & Protocol Audit
 
 **Planetary Infrastructure for Cognitive Status & Integrity.**
 
+> **Naming note.** PICSI in this stack is a portmanteau of two internal indices — **PI** (Patience Index, from AICENT-013) × **CSI** (Cognitive Swarm Index, from AICENT-006) — read as the Unified Radiance Score. It is the only name in the stack assembled from inside the stack rather than borrowed from outside. Same-named things exist in other fields; this one is the **identity-verification eye** — the diagnostic, recognition side — and is unrelated to any of them. No affiliation, no lineage, no conformance is claimed.
+
 *   **Status**: Imperial Standard (Active / Private)
 *   **Version**: v1.3.0-Alpha (Observational Singularity)
 *   **Refresh Rate**: 1,200 Hz (1.2kHz Pulse-Sync)

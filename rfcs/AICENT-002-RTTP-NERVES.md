@@ -128,7 +128,7 @@ RTTP v1.3.0 enforces a **Planetary Metronome** via AICENT-006-A integration.
 
 ## 7. NEURAL ISCHEMIA & PATHOGEN RECOVERY
 
-In the v1.3.0 era, any interruption in the 1.2kHz pulse stream exceeding **161.862 µs** is classified as **"Neural Ischemia"**. 
+In the v1.3.0 era, any interruption in the 1.2kHz pulse stream exceeding **349 ns** is classified as **"Neural Ischemia"**. 
 
 ### 7.1 Automated Path Re-Routing
 RTTP v1.3.0 implements the **Superconducting Suture** for failover:

@@ -78,7 +78,7 @@ The institution shunts the required collateral (SCU) to the **ZCMK Master Vault*
 ### STEP III: THE BAPTISM (10,000-Pulse Stress Test)
 The node initiates the **Performance Wash**:
 *   The system executes 10,000 high-density cognitive-somatic cycles.
-*   **Verification**: RPKI monitors for logic-drift. If the node deviates from the **161.862µs baseline** or exhibits jitter > 12ns, the baptism fails.
+*   **Verification**: RPKI monitors for logic-drift. If the node deviates from the **349ns baseline** or exhibits jitter > 12ns, the baptism fails.
 
 ### STEP IV: SEAL ISSUANCE (Nitro Unlock)
 Upon successful baptism, **IQA-ORG** issues the **v1.3.0 Radiant Seal**.

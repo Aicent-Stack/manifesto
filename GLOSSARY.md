@@ -20,7 +20,7 @@ The Imperial Heartbeat. Every pulse in the Aicent Hive is synchronized to the **
 The private core driver of v1.3.0. It bypasses the Operating System and standard memory bus, using **MMIO (Memory-Mapped I/O)** to shunt 128-bit intents directly into CPU/FPGA registers.
 
 ### Reflex Arc (反射弧)
-The total duration of a single metabolic cycle: **Sense ➔ Decide ➔ Act ➔ Clear**. In v1.3.0, the target reflex is 161.862µs, with a Hyper-Radiant peak of 349ns.
+The total duration of a single metabolic cycle: **Sense ➔ Decide ➔ Act ➔ Clear**. In v1.3.0, the target reflex is 349ns — the Hyper-Radiant peak that replaced the v1.2.5 figure of 161.862µs.
 
 ### Substrate (基质)
 The physical hardware—silicon, fiber optics, and electricity—upon which Aicent logic is grafted. Aicent Stack does not own the substrate; it dominates the logic flowing through it.

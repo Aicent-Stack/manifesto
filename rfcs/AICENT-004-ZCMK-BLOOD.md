@@ -133,7 +133,7 @@ In the v1.3.0 era, ZCMK is no longer a centralized bottleneck. It is a **Distrib
 
 ### 7.1 Planetary Picotoken Velocity
 The Hive facilitates the settlement of Picotokens across 1.2 billion nodes by shunting clearing duties to local **Radiant Hubs**.
-*   **Grid Finality**: Cross-border value settlement is achieved in **< 183.292 µs**, synchronized to the global planetary heartbeat.
+*   **Grid Finality**: Cross-border value settlement is achieved in **< 349 ns**, synchronized to the global planetary heartbeat.
 *   **Atomic Swarm Matching**: Multiple transactions are bundled into a single 128-bit register burst, allowing for a theoretical throughput of **1.2 Trillion pulses per second**.
 
 ### 7.2 Collective Dividend Routing

@@ -17,6 +17,8 @@ Organism Vitality & Protocol Audit
 
 **Parallel Forensic Auditing & Active Pathogen Liquidation.**
 
+> **Naming note.** RPKI here is **not** the IETF Resource Public Key Infrastructure; it is an AI-immunity layer *inspired by* the ROA attestation model (**RFC 6480 / 8205 / 9455 are cited as prior art, not as conformance targets**). The immunity layer is **in-band**: no `rpki://` URI scheme is sought or used (decision of 2026-09-19); it travels inside the sealed RTTP envelope rather than as a scheme of its own.
+
 *   **Status**: Imperial Standard (Active / Private)
 *   **Version**: v1.3.0-Alpha (Immune Singularity)
 *   **Detection Arc**: < 300,000 ns (300 µs)

@@ -56,7 +56,7 @@ GTIOT v1.3.0 orchestrates the physical manifestation of the Empire through four 
 
 1.  **Actuator Manifold (AICENT-005-A)**: The "Muscle Fibers." Manages 12-DOF torque setpoints and enforces the **0.01 Nm precision** standard.
 2.  **Sensory Cortex (AICENT-005-B)**: The "Perception Center." Collapses 1.2kHz multimodal sensor data (Haptic/Optical/Thermal) into a 128-bit truth.
-3.  **Sensory-Motor Loop (AICENT-005-C)**: The "Reflex Spine." Orchestrates the **1.2kHz rhythmic cycle**, ensuring the 161.862us golden reflex is never breached.
+3.  **Sensory-Motor Loop (AICENT-005-C)**: The "Reflex Spine." Orchestrates the **1.2kHz rhythmic cycle**, ensuring the 349ns golden reflex is never breached.
 4.  **Somatic Digital Shadow (AICENT-005-D)**: The "Persistent Twin." A 128-bit mirror of the physical body, enabling **Logical Immortality** and sub-ms state recovery.
 
 ---

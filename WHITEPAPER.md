@@ -78,6 +78,8 @@ This is the "Blood and Heart" of the Empire. Value is not a static asset; it is 
 
 **MAXCAP (Maximum Collective Advantage Protocol)** is the private commercial core that regulates the transition between the Ghost world and the Radiant world. It is the heart that pumps the **1.28% Maintenance Fee** through the Imperial veins.
 
+> **Naming note.** MAXCAP = **MAX**imum **C**ollective **A**dvantage **P**rotocol — the letters line up one for one, as with ZCMK. It is the one component with no AICENT-0XX number: a private proprietary engine rather than a numbered pillar, holding the commercial-organ position. Same-named parties exist in other fields (a real-estate debt investor and an electronics-component maker, among others); this protocol is unrelated to them, no affiliation or conformance is claimed, and per our standing discipline they are not named or linked here.
+
 ### 6.1 The Nitro-Gating Law
 MAXCAP is the supreme arbiter of speed. It holds the "Keys to the Registers."
 *   **Radiant Path (349ns)**: Only nodes with a verified Tier-3 Stake (50,000 SCU) are authorized by MAXCAP to use the superconducting Nitro-bypass.
