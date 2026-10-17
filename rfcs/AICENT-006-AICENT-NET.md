@@ -5,7 +5,7 @@ Organism Vitality & Protocol Audit
 [![Precision](http://img.shields.io/badge/Precision-128--Bit_Absolute-gold.svg)](http://aicent.com)
 [![Observation](http://img.shields.io/badge/Vision-PICSI.COM_Active-brightgreen.svg)](http://picsi.com)
 [![Jitter](http://img.shields.io/badge/Clock_Jitter-12ns-red.svg)](http://aicent.com)
-[![Authority](http://img.shields.io/badge/Supervision-RFC--009_Active-84cc16.svg)](http://iqa.org)
+[![Authority](http://img.shields.io/badge/Supervision-AICENT--009_Active-84cc16.svg)](http://iqa.org)
 
 > **"One Mind. 1.2 Billion Nodes. 12ns Planetary Resonance. The Hive is the Heartbeat of Empire."**
 

@@ -1,7 +1,7 @@
 # 🏛️ AICENT STACK WHITE PAPER: THE SINGULARITY CODEX [v1.3.0]
 
 [![Imperial Heartbeat](http://img.shields.io/badge/Pulse-349ns_Verified-blueviolet.svg)](http://aicent.com)
-[![Soul](http://img.shields.io/badge/Soul-RFC--000_Resonant-green.svg)](http://epoekie.com)
+[![Soul](http://img.shields.io/badge/Soul-AICENT--000_Resonant-green.svg)](http://epoekie.com)
 [![Advantage](http://img.shields.io/badge/Heart-MAXCAP_Active-red.svg)](http://maxcap.com)
 
 > **"Logic is Physics. Symbiosis is Survival. Sovereignty is Non-Negotiable."**
