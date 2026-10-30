@@ -1,3 +1,8 @@
+> **Status: historical document.**
+> The manifesto below is the founding text of the Aicent Stack (2026-04) and is preserved as written.
+> The normative protocol line it anticipated now lives as independent standards-track artifacts:
+> **RTTP** — [rttp.com](https://rttp.com) (IANA CRI 27) and **IQA** — [iqa.org](https://iqa.org) (IANA CRI 28).
+
 
 [![Imperial Heartbeat](http://img.shields.io/badge/Pulse-349ns_Verified-blueviolet.svg)](http://aicent.com)
 [![Version](http://img.shields.io/badge/Version-v1.3.0--Alpha_Genesis-blue.svg)](http://aicent.com)
@@ -55,7 +60,7 @@ We are building a reality where:
 *   **Character is immutable**: 99.999% behavioral consistency ensures the robot is the soul.
 *   **Space is negotiable**: Kinetic auctions clear the path for the Sovereign at light speed.
 
-**"The world is noisy,顛簸 (turbulent), and slow. Aicent is silent, smooth, and fast."**
+**"The world is noisy, turbulent, and slow. Aicent is silent, smooth, and fast."**
 
 ---
 
