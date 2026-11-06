@@ -29,5 +29,5 @@ Active repositories: [`rttp`](https://github.com/Aicent-Stack/rttp) · [`iqa-org
 
 The **founding text** of the Aicent Stack (2026-04), preserved as written. It anticipated the protocol line that now lives as independent standards-track artifacts; it is unmaintained and makes no current claims.
 
-- The original README is preserved byte-exact in [`FROZEN-GENESIS-README.md`](FROZEN-GENESIS-README.md).
+- All pre-existing files and folders are preserved byte-exact under [`归档/`](归档/), including the original README ([`归档/FROZEN-GENESIS-README.md`](归档/FROZEN-GENESIS-README.md)).
 - The frozen founding narrative of the organization lives in [`.github/FROZEN-GENESIS-README.md`](https://github.com/Aicent-Stack/.github/blob/main/FROZEN-GENESIS-README.md).
