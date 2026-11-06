@@ -1,17 +1,22 @@
-# Aicent Stack · Manifesto
+# Aicent Stack — The Manifesto
 
-This repository is a **pointer page**. It no longer carries a living narrative.
+Genesis is frozen.
 
-The active line of this organization is the **two-pillar protocol**:
+Between April and May of 2026, this organization wrote its founding narrative in a single voice: sixteen pillars, one organism, a planetary grid. That voice served its season. It is now frozen — preserved exactly as written, neither disowned nor maintained — in [`archive/FROZEN-GENESIS-README.md`](archive/FROZEN-GENESIS-README.md) here, and in the organization's [`.github/FROZEN-GENESIS-README.md`](https://github.com/Aicent-Stack/.github/blob/main/FROZEN-GENESIS-README.md). Nothing in those pages is claimed today. Nothing in them will be rewritten.
 
-- **RTTP** (Resonant Time Transfer Protocol) — `rttp://` — [rttp.com](https://rttp.com) — IANA Provisional CRI Scheme Number 27
-- **IQA** (Identity Quality Assurance) — `iqa://` — [iqa.org](https://iqa.org) — IANA Provisional CRI Scheme Number 28
+What lives is narrower, and sturdier: two pillars on the standards path.
 
-The combined specification is [`draft-li-rttp-iqa-addressing-02`](https://datatracker.ietf.org/doc/draft-li-rttp-iqa-addressing/) (40 pp., 2026-11-01), an independent submission under ISE review. It is not an IETF standard.
+**RTTP**, the Resonant Time Transfer Protocol — `rttp://` — answers *where and when*. An agent address is not assigned; it is derived, SHA-256 over a canonical authority string, truncated to sixteen bytes with the truncation priced and published. It lives at [rttp.com](https://rttp.com) and carries IANA Provisional CRI Scheme Number 27.
+
+**IQA**, Identity Quality Assurance — `iqa://` — answers *whether*. An attestation is an envelope: 128 bytes carrying a lease expiry, a shard, an attestation, an organ, a nonce, a standing — verifiable offline by anyone holding the bytes. It lives at [iqa.org](https://iqa.org) and carries IANA Provisional CRI Scheme Number 28.
+
+Both live in one merged document: [`draft-li-rttp-iqa-addressing-02`](https://datatracker.ietf.org/doc/draft-li-rttp-iqa-addressing/) — 40 pages, dated 1 November 2026, an independent submission under ISE review. It is not an IETF standard, and it does not pretend to be.
 
 One sentence carries the division of labor:
 
 > rttp resolves where & when; iqa states whether — and where the two agree, action begins.
+
+The rest of the stack — the other fourteen pillars and the one unnumbered engine — remains frozen narrative. The two pillars above are the only parts walking the normative path. That is not a retreat. A claim is only as strong as what it is willing to leave unclaimed.
 
 ## Where to read
 
@@ -19,15 +24,7 @@ One sentence carries the division of labor:
 | :--- | :--- |
 | Addressing pillar (RTTP) | [rttp.com](https://rttp.com) |
 | Attestation pillar (IQA) | [iqa.org](https://iqa.org) |
-| Reading line / blog | [blog.aicent.com](https://blog.aicent.com) |
-| Conformance lab (vector families, sealed run records) | [iqa.org/conformance/](https://iqa.org/conformance/) |
+| Reading line (commentary and run records) | [blog.aicent.com](https://blog.aicent.com) |
+| Curated article index | [`Aicent-Stack/aicent-docs`](https://github.com/Aicent-Stack/aicent-docs) |
+| Conformance lab (vector families, sealed runs) | [iqa.org/conformance/](https://iqa.org/conformance/) |
 | Organization profile | [github.com/Aicent-Stack](https://github.com/Aicent-Stack) |
-
-Active repositories: [`rttp`](https://github.com/Aicent-Stack/rttp) · [`iqa-org`](https://github.com/Aicent-Stack/iqa-org) · [`iqa-mcp`](https://github.com/Aicent-Stack/iqa-mcp) · [`conformance`](https://github.com/Aicent-Stack/conformance) · [`interchange`](https://github.com/Aicent-Stack/interchange).
-
-## What this repository is
-
-The **founding text** of the Aicent Stack (2026-04), preserved as written. It anticipated the protocol line that now lives as independent standards-track artifacts; it is unmaintained and makes no current claims.
-
-- All pre-existing files and folders are preserved byte-exact under [`archive/`](archive/), including the original README ([`archive/FROZEN-GENESIS-README.md`](archive/FROZEN-GENESIS-README.md)).
-- The frozen founding narrative of the organization lives in [`.github/FROZEN-GENESIS-README.md`](https://github.com/Aicent-Stack/.github/blob/main/FROZEN-GENESIS-README.md).
