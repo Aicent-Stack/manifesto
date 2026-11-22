@@ -10,7 +10,7 @@ What lives is narrower, and sturdier: two pillars on the standards path.
 
 **IQA**, Identity Quality Assurance — `iqa://` — answers *whether*. An attestation is an envelope: 128 bytes carrying a lease expiry, a shard, an attestation, an organ, a nonce, a standing — verifiable offline by anyone holding the bytes. It lives at [iqa.org](https://iqa.org) and carries IANA Provisional CRI Scheme Number 28.
 
-Both live in one merged document: [`draft-li-rttp-iqa-addressing-02`](https://datatracker.ietf.org/doc/draft-li-rttp-iqa-addressing/) — 40 pages, dated 1 November 2026, an independent submission under ISE review. It is not an IETF standard, and it does not pretend to be.
+Both live in one merged document: [`draft-li-rttp-iqa-addressing-03`](https://datatracker.ietf.org/doc/draft-li-rttp-iqa-addressing/) — 44 pages, dated 21 November 2026, an independent submission under ISE review. It is not an IETF standard, and it does not pretend to be.
 
 One sentence carries the division of labor:
 
